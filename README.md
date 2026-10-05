@@ -2,7 +2,7 @@
 
 An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
-Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), with a sensitivity check on borderline scores. Pre-registration frozen (git tag `prereg-v1`). Incident register in progress: 96 incidents from 2011 to 2026 coded in `data/interim/incidents_working.csv` (35 kidnappings, 23 killings, 18 road crashes, 9 physical assaults, 3 robberies, 3 sexual-violence incidents and 5 other harms), from an archive search of 6,364 articles in three outlets and earlier targeted searches; 9 candidate incidents await verification.
+Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), with a sensitivity check on borderline scores. Pre-registration frozen (git tag `prereg-v1`). Incident register in progress: 96 incidents from 2011 to 2026 coded and published in `data/processed/incidents.csv` (35 kidnappings, 23 killings, 18 road crashes, 9 physical assaults, 3 robberies, 3 sexual-violence incidents and 5 other harms), from an archive search of 6,364 articles in Premium Times, Daily Trust and Channels Television and targeted searches of other outlets; 9 candidate incidents await verification.
 
 ## Questions
 
@@ -30,7 +30,7 @@ Full plan and limitations: [`docs/analysis_plan.md`](docs/analysis_plan.md).
 |------|----------|
 | `docs/` | Analysis plan, pre-registration, coding protocol, policy audit, source log, assumptions and data conflicts |
 | `data/raw/`, `data/interim/`, `data/processed/` | Downloads, working files and analysis-ready data |
-| `src/nysc_safety/` | Python package: coding scheme validation, rates, travel-window test, scorecard and its sensitivity check |
+| `src/nysc_safety/` | Python package: archive search, coding scheme validation, register build, rates, travel-window test, scorecard and its sensitivity check |
 | `tests/` | pytest tests |
 | `notebooks/` | Numbered analysis notebooks |
 | `reports/` | Figures and maps |
@@ -51,9 +51,11 @@ pip install -r requirements.txt
 pip install -e .
 pytest
 python -m nysc_safety.download
+python -m nysc_safety.news_search
+python -m nysc_safety.register
 ```
 
-The last command downloads the primary documents in the source log to `data/raw/pdfs/`.
+`download` saves the primary documents in the source log to `data/raw/pdfs/`. `news_search` runs the logged archive search and writes the article index to `data/interim/`; it takes about 30 minutes. `register` builds `data/processed/incidents.csv` from the working register and the screening files.
 
 ## Author
 

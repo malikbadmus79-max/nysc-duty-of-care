@@ -33,7 +33,11 @@ Documents in scope:
 
 The register lists every incident in which one or more prospective or serving corps members were kidnapped, killed, sexually assaulted, physically assaulted or robbed, as reported in Nigerian national news outlets from 1 January 2010 to 31 December 2026. Road crashes are recorded as a separate harm type because they are the main documented reason for the night-travel ban [S07]. Coding rules, including the lifecycle stage, are in `docs/coding_protocol.md`.
 
-Search procedure: keyword searches of the archives of Premium Times, Punch, Vanguard, The Guardian (Nigeria), Daily Trust, Channels Television, The Cable and Sahara Reporters, using combinations of "corps member", "corper", "NYSC" with "kidnapped", "abducted", "killed", "attacked", "raped", "robbed". Each search is logged with date, outlet, query and number of results in `data/interim/news_search_log.csv`.
+Search procedure: keyword searches of the archives of Premium Times, Punch, Vanguard, The Guardian (Nigeria), Daily Trust, Channels Television, The Cable and Sahara Reporters were planned, using combinations of "corps member", "corper", "NYSC" with "kidnapped", "abducted", "killed", "attacked", "raped", "robbed". The searches run by `nysc_safety.news_search` (17 phrases per outlet, through each outlet's WordPress search interface) are logged with date, outlet, query, HTTP status and number of results in `data/interim/news_search_log.csv`; two Daily Trust queries interrupted by a dropped connection were rerun on 5 October 2026 and are logged in `data/interim/news_search_rerun_log.csv`.
+
+The full archive search succeeded for Premium Times, Daily Trust and Channels Television (6,364 distinct articles). Punch, Vanguard, The Guardian (Nigeria) and The Cable refused automated requests (HTTP 403 or a bot-check page), and Sahara Reporters has no comparable search interface. Articles from these five outlets enter the register only through targeted web searches for specific incidents, so they confirm incidents but do not give a complete count of coverage.
+
+Screening: headlines in the article index that mention corps members (or NYSC) and a harm term were screened by hand (`data/interim/screening/headline_screening.csv`), grouped into candidate incidents (`candidates_kidnapping.csv`, `candidates_other.csv`) and verified against the article text. Every decision to include, exclude, merge or hold a candidate is recorded with its reason in `data/interim/screening/screening_decisions.csv`.
 
 Coding is AI-assisted: Claude (Anthropic) screens and codes articles under `docs/coding_protocol.md`, with one coder. Every row lists the article URLs used and a coding note explaining the lifecycle stage and harm type assigned, so that each coding decision can be checked against its sources.
 
@@ -73,6 +77,7 @@ NYSC allocations are taken from the Federal Government appropriation acts for 20
 
 ## 9. Limitations
 
+- Four of the eight planned outlets (Punch, Vanguard, The Guardian (Nigeria), The Cable) could not be searched systematically, and Sahara Reporters has no archive search interface. Incidents reported only in these outlets are found only through targeted web searches and may be missed.
 - News coverage is incomplete and uneven. Incidents in rural northern states, and incidents in which victims were released quickly, are less likely to be reported. The salience analysis (H1) measures this bias where it can, but unreported incidents cannot be counted.
 - Swearing-in figures are reported inconsistently across states and batches; rates depend on the exposure assumption [A02].
 - Nigeria Watch records only events with deaths [S10], and the coded news series depends on the same outlets as the NYSC register. Neither is equivalent to ACLED in coverage or method.
@@ -82,3 +87,7 @@ NYSC allocations are taken from the Federal Government appropriation acts for 20
 ## 10. Ethics and data protection
 
 The Nigeria Data Protection Act 2023 applies. Victim names are not stored in the repository. Incidents are identified by anonymous IDs and located at local government area level at the finest.
+
+## 11. Deviations from the pre-registration
+
+The pre-registration (git tag `prereg-v1`) defines articles per incident as the number of distinct articles in the eight searched outlets within 30 days of the event. Only three outlets could be searched in full (section 4). To keep the measure comparable across incidents, `n_articles` counts distinct articles in Premium Times, Daily Trust and Channels Television, found by the logged archive search, within 30 days of the event date. Articles found through targeted web searches are listed in `source_ids` but are not counted in `n_articles`. The same three outlets define the coded news series of general kidnapping used for H4.
