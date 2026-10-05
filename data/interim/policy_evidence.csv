@@ -1,0 +1,14 @@
+evidence_id,criterion_id,framework,document,provision,summary,source_ids
+E01,D1,current,NYSC Act Cap. N84,Section 8,Local Government Committees established in each local government area with a duty to ensure the security of corps members and to assist their integration in the host community.,S03
+E02,D1,current,NYSC Act Cap. N84,Section 6,"State Governing Boards arrange accommodation, boarding and transport for corps members and deploy them within the state.",S03
+E03,D1,current,NYSC Act Cap. N84,Section 4,"The Directorate draws up training programmes, assigns members and co-ordinates the work of State Governing Boards.",S03
+E04,D3,current,NYSC Act Cap. N84,Section 17,"The Directorate may exempt persons from service with approval, defer call-up for reasonable cause and adjust the service period.",S03
+E05,D5,current,NYSC Act Cap. N84,Section 6,State Governing Boards arrange transport for corps members within the state.,S03
+E06,D5,current,Director-General's address to corps members (2021 Batch B Stream One),Public directive,"No night travel, including on relocation; shelter at military barracks, NYSC offices, state secretariats or palaces after 6:00 pm; use of recognised motor parks only.",S08
+E07,D5,current,Director-General's directive reported in Sokoto (April 2022),Public directive,Journeys to end by 6:00 pm; corps members overtaken by darkness to stay at military barracks or other designated places.,S07
+E08,D7,current,NYSC Act Cap. N84,Section 18,"Employers provide basic accommodation or a cash substitute, welfare facilities and medical services comparable to those of regular staff.",S03
+E09,D8,current,Director-General's address to corps members (2021 Batch B Stream One),Public directive,Security consciousness and caution on social media delivered as part of the orientation course closing address.,S08
+E10,D1,reform_2026,Federal Executive Council reform package (June 2026),Announced reform,Civilian operational leadership of the scheme with the military continuing to provide security support.,S04;S05
+E11,D3,reform_2026,Federal Executive Council reform package (June 2026),Announced reform,"Risk-sensitive deployment framework limiting exposure to security flashpoints, especially for non-indigenes in high-risk areas; technology-driven deployment considering state of origin, residence and institution attended.",S04;S05
+E12,D6,reform_2026,Federal Executive Council reform package (June 2026),Announced reform,"National grading and certification system for camps covering accommodation, healthcare, safety and infrastructure, with a transition period for state governments.",S04;S05
+E13,D12,reform_2026,Federal Executive Council reform package (June 2026),Announced reform,Attorney-General of the Federation and Federal Ministry of Youth Development directed to amend the NYSC Act; executive bill in preparation as of July 2026.,S04;S06
