@@ -64,3 +64,4 @@ Coding is AI-assisted: Claude (Anthropic) screens articles, applies the rules ab
 |------|--------|
 | 2026-10-05 | First version. |
 | 2026-10-05 | Coding defined as AI-assisted with one coder; pre-analysis check of every row. `coding_note` column added. |
+| 2026-10-05 | Journeys leaving camp coded `travel_to_ppa` [A05]; election duty coded `ppa` [A06]. |

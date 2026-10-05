@@ -1,0 +1,33 @@
+candidate_id,decision,incident_candidate,reason
+K02,included,,
+K04,included,,
+K05,included,,
+K07,included,,
+K08,included,,
+K09,excluded,,Police stated that no corps member was among the abducted passengers (Sahara Reporters 2019-07-11); corps member status not confirmed.
+K10,included,,
+K11,included,,
+K12,included,,
+K13,merged,K12,Same abduction as K12 (two prospective corps members in Tsafe LGA in October 2021); reports the release.
+K14,included,,
+K15,included,,
+K16,included,,
+K17,included,,
+K18,included,,
+K19,included,,
+K20,included,,
+K22,merged,K19,Same attack as K19 (Ifon-Owo road, Ose LGA, July 2024).
+K23,included,,
+K24,included,,
+K25,included,,
+K26,included,,
+K27,pending,,Gusau abduction of September 2023: report mentions corps members abducted in Sokoto State released with the students but gives no number or date for them.
+K01,pending,,Premium Times article not readable on 2026-10-05 (archive rate limit); to be read before inclusion.
+K03,pending,,Premium Times article not readable on 2026-10-05.
+K06,pending,,Premium Times article not readable on 2026-10-05.
+K21,pending,,Premium Times article not readable on 2026-10-05.
+FIJ-2023-08-ondo,pending,,Reported by the Foundation for Investigative Journalism (2025-03-02) only; not yet found in a searched outlet.
+FIJ-2023-11-kaduna,pending,,Reported by the Foundation for Investigative Journalism only; not yet found in a searched outlet.
+FIJ-2023-11-kogi,pending,,Reported by the Foundation for Investigative Journalism only; not yet found in a searched outlet.
+FIJ-2024-08-nasarawa,pending,,Reported by the Foundation for Investigative Journalism only; not yet found in a searched outlet.
+FIJ-2025-03-oyo,pending,,Reported by the Foundation for Investigative Journalism only; not yet found in a searched outlet.
