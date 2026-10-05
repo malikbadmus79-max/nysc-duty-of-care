@@ -30,6 +30,39 @@ def cohens_kappa(coder_a: Sequence[object], coder_b: Sequence[object]) -> float:
     return (p_o - p_e) / (1 - p_e)
 
 
+def weighted_kappa(
+    coder_a: Sequence[int], coder_b: Sequence[int], categories: Sequence[int], power: int = 2
+) -> float:
+    """Weighted Cohen's kappa for ordinal scores such as the 0 to 3 scorecard scale.
+
+    Disagreement weights are |i - j| ** power divided by the largest such
+    distance; power 2 gives quadratic weights and power 1 linear weights.
+    kappa = 1 - sum(w * observed) / sum(w * expected).
+    """
+    a, b = _paired(coder_a, coder_b)
+    cats = list(categories)
+    index = {c: i for i, c in enumerate(cats)}
+    unknown = (set(a) | set(b)) - set(cats)
+    if unknown:
+        raise ValueError(f"Scores outside the categories: {sorted(unknown)}")
+    k = len(cats)
+    observed = [[0.0] * k for _ in range(k)]
+    for x, y in zip(a, b):
+        observed[index[x]][index[y]] += 1 / len(a)
+    row = [sum(r) for r in observed]
+    col = [sum(observed[i][j] for i in range(k)) for j in range(k)]
+    span = (k - 1) ** power
+    num = den = 0.0
+    for i in range(k):
+        for j in range(k):
+            w = abs(i - j) ** power / span
+            num += w * observed[i][j]
+            den += w * row[i] * col[j]
+    if den == 0:
+        return 1.0
+    return 1 - num / den
+
+
 def kappa_table(
     sample_a: pd.DataFrame, sample_b: pd.DataFrame, columns: Sequence[str], key: str = "incident_id"
 ) -> pd.DataFrame:

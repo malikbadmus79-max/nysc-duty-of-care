@@ -6,7 +6,7 @@ Pre-registered analysis plan for the study of duty of care to NYSC corps members
 |------|-------|
 | Status | Draft. Frozen by the git tag `prereg-v1` before the incident register is analysed. |
 | Draft date | 5 October 2026 |
-| Data collected at draft date | Policy documents only. No incident data have been collected or analysed. |
+| Data collected at draft date | Policy documents, and news reports cited as policy evidence, including reports of one incident on 26 August 2026 [S18, S19]. No incident register has been compiled and no outcome data have been analysed. |
 | Amendments | Any change after the tag is listed in section 8 with date, reason and whether it was made before or after outcome data were seen. |
 
 ## 1. Hypotheses

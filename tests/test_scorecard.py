@@ -42,3 +42,16 @@ def test_invalid_sheets_rejected(column: str, value: object) -> None:
     """Unknown criteria, out-of-range scores and missing sources raise ValueError."""
     with pytest.raises(ValueError):
         scorecard.validate_scores(sheet(**{column: value}))
+
+
+def test_committed_scorecard_is_valid() -> None:
+    """The committed scorecard covers D1 to D12 once per framework and cites existing evidence."""
+    from nysc_safety import paths
+
+    scores = pd.read_csv(paths.DATA_PROCESSED / "policy_scorecard.csv")
+    evidence = pd.read_csv(paths.DATA_INTERIM / "policy_evidence.csv")
+    scorecard.validate_scores(scores)
+    for _, group in scores.groupby("framework"):
+        assert sorted(group["criterion_id"], key=lambda c: int(c[1:])) == list(scorecard.CRITERIA)
+    cited = {e for ids in scores["evidence_ids"] for e in ids.split(";")}
+    assert cited <= set(evidence["evidence_id"])

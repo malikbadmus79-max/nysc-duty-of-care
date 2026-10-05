@@ -2,7 +2,7 @@
 
 An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
-Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit under way: the NYSC Act and the 1974 Bye-laws reviewed in full (25 evidence items). No incident data have been collected.
+Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: first-round duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), pending a second independent scoring. No incident register has been compiled.
 
 ## Questions
 

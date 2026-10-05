@@ -38,3 +38,29 @@ def test_kappa_table_joins_on_id() -> None:
     table = reliability.kappa_table(a, b, ["stage"])
     assert table.loc[0, "n"] == 3
     assert table.loc[0, "kappa"] == pytest.approx(1.0)
+
+
+def test_weighted_kappa_perfect_and_bounds() -> None:
+    """Identical ordinal scores give 1; reversed scores give a negative value."""
+    scores = [0, 1, 2, 3, 2, 1]
+    assert reliability.weighted_kappa(scores, scores, [0, 1, 2, 3]) == pytest.approx(1.0)
+    assert reliability.weighted_kappa(scores, [3 - s for s in scores], [0, 1, 2, 3]) < 0
+
+
+def test_weighted_kappa_known_value() -> None:
+    """Quadratic-weighted kappa matches a hand-computed value.
+
+    Coder A: 0, 1, 2, 3; coder B: 0, 1, 3, 3. Weights (i - j)^2 / 9.
+    Observed weighted disagreement = (1/9) / 4 = 1/36.
+    Marginals are A = (1/4, 1/4, 1/4, 1/4) and B = (1/4, 1/4, 0, 1/2), so
+    expected weighted disagreement = sum of w * p_a * p_b = 1/3.
+    kappa = 1 - (1/36) / (1/3) = 11/12.
+    """
+    value = reliability.weighted_kappa([0, 1, 2, 3], [0, 1, 3, 3], [0, 1, 2, 3])
+    assert value == pytest.approx(11 / 12)
+
+
+def test_weighted_kappa_rejects_unknown_scores() -> None:
+    """Scores outside the stated categories raise ValueError."""
+    with pytest.raises(ValueError):
+        reliability.weighted_kappa([0, 4], [0, 1], [0, 1, 2, 3])
