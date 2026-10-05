@@ -2,7 +2,7 @@
 
 An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
-Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted, policy audit under way. No incident data have been collected.
+Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit under way: the NYSC Act and the 1974 Bye-laws reviewed in full (25 evidence items). No incident data have been collected.
 
 ## Questions
 
@@ -50,7 +50,10 @@ python -m venv .venv
 pip install -r requirements.txt
 pip install -e .
 pytest
+python -m nysc_safety.download
 ```
+
+The last command downloads the primary documents in the source log to `data/raw/pdfs/`.
 
 ## Author
 

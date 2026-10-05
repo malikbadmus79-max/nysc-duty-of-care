@@ -31,7 +31,7 @@ The unit is the incident, defined in `docs/coding_protocol.md`. The register cov
 | Travel window | Days within 7 days either side of an official camp-opening or passing-out date | `nysc_safety.travel_window.window_days` |
 | Exposure | Corps members sworn in at the state's orientation camp in the year [A02] | `data/processed/exposure_by_state.csv` |
 | Incident rate | Incidents per 10,000 exposed, with exact Poisson 95% interval | `nysc_safety.rates.rate` |
-| General kidnapping rate | Kidnapping incidents per 100,000 population, from Nigeria Watch [S09] and from the coded news series | `data/processed/general_kidnapping_by_state.csv` |
+| General kidnapping rate | Kidnapping incidents per 100,000 population, from the coded news series (main) and from Nigeria Watch kidnapping events with at least one death (secondary) [S10] | `data/processed/general_kidnapping_by_state.csv` |
 | Real allocation per corps member | Security-related allocation in constant 2024 naira divided by corps members mobilised in the year | `data/processed/budget_lines.csv` |
 
 ## 4. Tests
@@ -41,7 +41,7 @@ The unit is the incident, defined in `docs/coding_protocol.md`. The register cov
 | H1 | Mann-Whitney U test of articles per incident, northern zones (North West and North East) against southern zones (South West, South East, South South); Spearman correlation of state shares of incidents and state shares of articles as a supporting measure | Supported if p < 0.05 and the median for the northern zones is lower |
 | H2 | One-sided exact binomial test of incidents inside windows against the share of calendar days covered (`nysc_safety.travel_window.travel_window_test`), 2010 to 2026 | Supported if p < 0.05 |
 | H3 | Poisson regression of state incident counts with log exposure as offset; likelihood-ratio test of the state terms against an intercept-only model; negative binomial model if the Pearson dispersion statistic exceeds 1.5 | Supported if p < 0.05 |
-| H4 | Spearman rank correlation of state incident rates with state general kidnapping rates, computed separately for each comparison series | Supported if rho > 0 and p < 0.05 in the coded news series; the Nigeria Watch result is reported alongside |
+| H4 | Spearman rank correlation of state incident rates with state general kidnapping rates, computed separately for each comparison series; the Nigeria Watch comparison uses only NYSC incidents with at least one death | Supported if rho > 0 and p < 0.05 in the coded news series; the Nigeria Watch result is reported alongside |
 | H5 | Year-by-year series and the change from 2018 to 2026 in constant 2024 naira | Reported descriptively; no significance test |
 
 All tests use alpha = 0.05. H1 to H4 are reported with effect sizes and confidence intervals. No correction for multiple testing is applied because each hypothesis addresses a separate question; all results are reported whether or not they are significant.

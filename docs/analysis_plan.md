@@ -49,7 +49,16 @@ Comparison with general kidnapping (H4): state-level rank correlation between co
 
 ## 6. Data sources for the general kidnapping comparison
 
-ACLED is not used, because its data access terms require an organisational account. Nigeria Watch is the main replacement [S09]. Nigeria Watch describes its scope as lethal violence; if kidnappings without deaths are not recorded, Nigeria Watch is used only for kidnappings involving deaths, and the coded news series becomes the main comparison. The Council on Foreign Relations Nigeria Security Tracker is used as a historical cross-check for the years it covers. The change from ACLED is reported as a limitation.
+ACLED is not used, because its data access terms require an organisational account. Nigeria Watch was considered as the main replacement [S09]. Its methodology states that the database only counts fatalities, and kidnapping is not one of its coded causes [S10]. A text search for "kidnapped" returned 1,258 events, each with at least one death [S10]. Nigeria Watch therefore covers kidnappings in which someone died, not kidnappings in general.
+
+The comparison uses two series:
+
+- The main series is general kidnapping reports from the same outlets, coded with the same procedure as the NYSC register, so that both series share the same reporting biases. This series is used for the H4 decision rule in `docs/preregistration.md`.
+- Nigeria Watch is a secondary series covering kidnapping events with at least one death, identified by text search and exported from the public interface [S10]. It is compared with the subset of NYSC incidents in which a corps member died.
+
+The Council on Foreign Relations Nigeria Security Tracker is used as a historical cross-check for the years it covers. The change from ACLED is reported as a limitation.
+
+Nigeria Watch also lists fatal events involving corps members (search terms "corper" and "NYSC" [S10]). These events are used as a cross-check on the completeness of the NYSC incident register for incidents with deaths.
 
 ## 7. Phase 4: budget audit, 2018 to 2026
 
@@ -66,7 +75,7 @@ NYSC allocations are taken from the Federal Government appropriation acts for 20
 
 - News coverage is incomplete and uneven. Incidents in rural northern states, and incidents in which victims were released quickly, are less likely to be reported. The salience analysis (H1) measures this bias where it can, but unreported incidents cannot be counted.
 - Swearing-in figures are reported inconsistently across states and batches; rates depend on the exposure assumption [A02].
-- Nigeria Watch and the coded news series are not equivalent to ACLED in coverage or method.
+- Nigeria Watch records only events with deaths [S10], and the coded news series depends on the same outlets as the NYSC register. Neither is equivalent to ACLED in coverage or method.
 - The policy audit covers published rules. Practice in individual states, and internal circulars not made public, are outside its reach. No survey of corps members and no freedom of information requests are used.
 - The 2026 reform is assessed as announced. Its legal text was not available as of 5 October 2026 [S06].
 
