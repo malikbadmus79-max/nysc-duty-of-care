@@ -22,10 +22,10 @@ K24,included,,
 K25,included,,
 K26,included,,
 K27,pending,,"The SaharaReporters article covers the 2023-09-22 Gusau student abduction and says only that unspecified corps members 'abducted in Sokoto State' were freed with the students. It gives no count, date or circumstances for the corps members, who may be the existing Zamfara 2023-08-17 prospective members travelling to Sokoto. A separate corps member incident cannot be verified."
-K01,pending,,"Premium Times article returned empty, and searches of the listed outlets found no report of a 2013 Rivers rescue of three abducted corps members (results were a 2010 Rivers abduction and a 2018 Imo abduction)."
+K01,included,,
 K03,included,,Split into two incidents: abductions at two locations in different LGAs on the same day.
 K06,included,,
-K21,pending,,"Premium Times article returned empty, and the readable reports found (Channels, Guardian) concern the existing Zamfara 2023-08-17 abduction of prospective members, not a March 2024 rescue of one corps member and eight others. The event could not be verified; it may be a rescue within the existing Zamfara 2023-08-17 incident."
+K21,included,,"Event is an abduction on the Patani-Ughelli road, Delta State, 29 March 2024, not part of the Zamfara 2023 abduction."
 FIJ-2023-08-ondo,pending,,Reported by the Foundation for Investigative Journalism (2025-03-02) only; not yet found in a searched outlet.
 FIJ-2023-11-kaduna,pending,,Reported by the Foundation for Investigative Journalism only; not yet found in a searched outlet.
 FIJ-2023-11-kogi,pending,,Reported by the Foundation for Investigative Journalism only; not yet found in a searched outlet.
@@ -36,15 +36,15 @@ H02,included,,
 H03,included,,
 H04,included,,
 H05,included,,
-H06,pending,,Only listed source (Premium Times 2013-03-04) returned an empty page; searches of the listed outlets found no readable report identifying corps member victims of the bomb blast (a Sahara Reporters report of the 2011 Suleja INEC office blast does not mention corps members).
+H06,included,,
 H07,included,,
 H08,included,,
 H09,excluded,,"Event (kidnap and killing) occurred on 2008-12-19, outside the 2010-2026 study period; article reports the 2014 court judgment."
-H10,pending,,"Only listed source (Premium Times 2014-03-24) returned an empty page; searches of the listed outlets found no report of the same event, so state, date and circumstances cannot be verified."
+H10,included,,
 H11,included,,
 H12,pending,,Only readable report says a corps member was 'feared killed' in a bank robbery but police had not confirmed casualties; searches found no follow-up confirming a corps member death (one Guardian report on an Ekiti bank robbery concerned a different event and mentioned no corps member).
 H13,included,,
-H14,pending,,Only listed source (Premium Times 2016-08-18) returned an empty page; searches of the listed outlets found no report of the same crash.
+H14,included,,
 H15,included,,
 H16,included,,
 H17,excluded,,"Illness/medical death with no external violent cause: corps member died in camp after an allergic reaction to an injection, with alleged medical negligence."
@@ -52,9 +52,9 @@ H18,included,,
 H19,included,,
 H20,included,,
 H21,included,,
-H22,pending,,Only listed source (Premium Times 2017-06-25) returned an empty page; searches of the listed outlets found no report identifying the same event.
+H22,excluded,,"NYSC and police stated that the man shot dead in Yenagoa on 24 June 2017 was not a corps member (Daily Trust and Premium Times, 2017-06-26)."
 H23,included,,
-H24,pending,,"Only listed source is Premium Times, which returned empty content via WebFetch; web searches did not locate another report of a January 2018 police shooting of a corps member, so the event could not be verified."
+H24,included,,
 H25,included,,
 H26,excluded,,"Aggregate statement with no single incident: NYSC blacklisting notice says corps members posted to a school in 2017 were attacked by suspected student cultists, with no date, count or specific incident described."
 H27,included,,
@@ -72,7 +72,7 @@ H38,included,,
 H39,included,,
 H40,included,,
 H41,included,,
-H42,pending,,"All listed sources are Premium Times pages, which returned empty content via WebFetch; web searches did not locate another report identifying the shooting incident, so it could not be verified or coded."
+H42,merged,H38,Survivor of the Bayelsa attack of 20 March 2019; same incident as H38.
 H43,included,,
 H44,included,,
 H45,included,,
@@ -85,7 +85,7 @@ H51,included,,
 H52,included,,
 H53,included,,
 H54,included,,
-H55,pending,,"Only listed source is Premium Times, which returned empty content; searches found no report of the same case in the listed outlets, so the event, date and place cannot be verified."
+H55,merged,H31,Panel hearing on the Abuja police killing of 4 July 2018; same incident as H31.
 H56,included,,
 H57,included,,
 H58,merged,H57,"Same killing as H57 (FCT, April 2022); reports the arrest of suspects."
@@ -95,15 +95,15 @@ H61,included,,
 H62,included,,
 H63,included,,
 H64,included,,
-H65,pending,,"Only listed source is Premium Times, which returned empty content; searches of the listed outlets found no readable report of the corps member shot at the April 2023 Akwa Ibom rerun (only non-listed outlets)."
+H65,included,,
 H66,included,,
 H67,included,,
 H68,included,,
 H69,included,,
 H70,included,,
-H71,pending,,"Premium Times article returned empty; no report in the listed outlets confirmed the event. A search result title from a non-listed outlet (Blueprint: 'LAUTECH shooting: Lawmaker tasks Reps on justice for slain corps member') suggests this may be the same event as H70, but this was not verified."
-H72,pending,,Premium Times article returned empty; searches did not find a report in the listed outlets of a July 2024 rape of a corps member in Akwa Ibom (results found only 2020 and 2022 Akwa Ibom incidents).
-H73,pending,,"Readable report (Guardian) describes a corps member serving in Ondo who went missing on 2024-05-09, with no reported abduction, ransom demand or other harm mechanism; external harm cannot be established from the article. If the register codes disappearances: Ondo, 2024-05-09, serving, harm other."
+H71,merged,H70,Petition on the Ogbomoso police shooting of April 2024; same incident as H70 (see C13).
+H72,included,,
+H73,excluded,,"Corps member reported missing in Akure South LGA, Ondo State, on 9 May 2024; no abduction, attack or other external harm is reported."
 H74,included,,
 H75,included,,
 H76,included,,
@@ -116,3 +116,4 @@ H82,included,,
 H83,included,,
 H84,included,,
 H85,included,,
+H86,pending,,"Serving corps member in Osun State allegedly raped by a traditional ruler in whose domain she served; trial began in March 2011 (Vanguard, October 2011), but no report gives the date or place of the offence."
