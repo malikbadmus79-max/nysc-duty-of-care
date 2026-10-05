@@ -1,6 +1,7 @@
 """Tests for nysc_safety.news_search. No network requests are made."""
 
 import pytest
+import requests
 
 from nysc_safety import news_search
 
@@ -8,12 +9,14 @@ from nysc_safety import news_search
 class FakeResponse:
     """Stand-in for a requests response from the WordPress search endpoint."""
 
-    def __init__(self, status: int, items: list[dict], total: int, pages: int) -> None:
+    def __init__(self, status: int, items: list[dict] | None, total: int, pages: int) -> None:
         self.status_code = status
         self._items = items
         self.headers = {"X-WP-Total": str(total), "X-WP-TotalPages": str(pages)}
 
     def json(self) -> list[dict]:
+        if self._items is None:
+            raise ValueError("not JSON")
         return self._items
 
 
@@ -58,3 +61,54 @@ def test_headlines_are_unescaped_and_dated() -> None:
     assert article.headline == "Gunmen abduct eight NYSC members – Police"
     assert article.published == "2023-08-21"
     assert article.queries == ["corps"]
+
+
+class DroppingSession:
+    """Drops the connection a set number of times, then answers normally."""
+
+    def __init__(self, failures: int) -> None:
+        self.failures = failures
+        self.calls = 0
+
+    def get(self, url: str, params: dict, timeout: int) -> FakeResponse:
+        self.calls += 1
+        if self.calls <= self.failures:
+            raise requests.ConnectionError("Remote end closed connection without response")
+        item = {"date": "2024-07-20T08:00:00", "link": "https://example.org/b", "title": {"rendered": "x"}}
+        return FakeResponse(200, [item], 1, 1)
+
+
+def test_dropped_connection_is_retried() -> None:
+    """A connection dropped fewer times than the retry limit is retried and succeeds."""
+    session = DroppingSession(failures=news_search.RETRIES - 1)
+    log, articles = news_search.search_outlet("Test", "https://example.org", ["corps"], session)
+    assert log[0]["http_status"] == 200 and len(articles) == 1
+
+
+def test_persistent_drops_are_logged_and_outlet_skipped() -> None:
+    """Persistent drops are logged as connection errors; later queries are skipped without requests."""
+    session = DroppingSession(failures=10_000)
+    queries = ["q1", "q2", "q3", "q4", "q5"]
+    log, articles = news_search.search_outlet("Test", "https://example.org", queries, session)
+    assert articles == {}
+    statuses = [row["http_status"] for row in log]
+    assert statuses == ["connection_error"] * 3 + ["skipped"] * 2
+    assert session.calls == news_search.RETRIES * news_search.MAX_FAILED_QUERIES
+
+
+def test_non_json_page_is_logged_as_blocked() -> None:
+    """A 200 response that is not JSON, such as a bot-check page, is logged as blocked."""
+
+    class CheckPageSession:
+        def get(self, url: str, params: dict, timeout: int) -> FakeResponse:
+            return FakeResponse(200, None, 0, 0)
+
+    log, articles = news_search.search_outlet("Test", "https://example.org", ["corps"], CheckPageSession())
+    assert log[0]["http_status"] == "blocked" and articles == {}
+
+
+def test_empty_index_is_written_with_header(tmp_path) -> None:
+    """An index with no articles is still written, with its header row."""
+    path = tmp_path / "index.csv"
+    news_search.write_csv(path, [], news_search.INDEX_FIELDS)
+    assert path.read_text(encoding="utf-8").strip() == "outlet,published,headline,url,queries"
