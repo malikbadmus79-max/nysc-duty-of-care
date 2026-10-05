@@ -21,6 +21,7 @@ def valid_record(**changes: object) -> dict[str, object]:
         "victims_killed": 0,
         "victims_abducted": 3,
         "source_ids": "S10;S11",
+        "coding_note": "Abducted on the highway while travelling to the orientation camp.",
     }
     record.update(changes)
     return record
@@ -64,6 +65,7 @@ def test_unknown_victim_counts_are_allowed() -> None:
         ("victims_total", -1),
         ("victims_total", 2.5),
         ("source_ids", "S10, S11"),
+        ("coding_note", "  "),
     ],
 )
 def test_invalid_field_is_reported(field: str, value: object) -> None:

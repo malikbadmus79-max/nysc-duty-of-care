@@ -91,6 +91,7 @@ REQUIRED_COLUMNS: tuple[str, ...] = (
     "victims_killed",
     "victims_abducted",
     "source_ids",
+    "coding_note",
 )
 
 
@@ -156,6 +157,10 @@ def validate_record(record: dict[str, object]) -> list[str]:
         part_value = counts.get(part)
         if total is not None and part_value is not None and part_value > total:
             errors.append(f"{part} ({part_value}) exceeds victims_total ({total})")
+
+    note = record["coding_note"]
+    if pd.isna(note) or not str(note).strip():
+        errors.append("coding_note: empty")
 
     if not re.fullmatch(r"S\d{2,3}(;S\d{2,3})*", str(record["source_ids"])):
         errors.append(f"source_ids: {record['source_ids']!r} is not a ;-separated list of S IDs")

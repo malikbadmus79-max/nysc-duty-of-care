@@ -18,7 +18,7 @@ Hypotheses H1 to H5 and their tests are fixed in [`docs/preregistration.md`](doc
 | Phase | Method | Main output |
 |-------|--------|-------------|
 | 1 | Policy audit: 12-criterion duty-of-care scorecard, scored for the framework before and after the June 2026 reform | `docs/policy_audit.md` |
-| 2 | Incident register, 2010 to 2026, coded from national news outlets, with double-coding of a sample and Cohen's kappa | `data/processed/incidents.csv` |
+| 2 | Incident register, 2010 to 2026, coded from national news outlets with AI assistance under a published coding protocol, with a coding note for each incident | `data/processed/incidents.csv` |
 | 3 | Salience gap, travel-window test, exposure-adjusted rates and comparison with general kidnapping (Nigeria Watch and a news series coded the same way) | Notebooks 02 and 03 |
 | 4 | Budget audit, 2018 to 2026, in constant 2024 naira | Notebook 04 |
 
@@ -30,7 +30,7 @@ Full plan and limitations: [`docs/analysis_plan.md`](docs/analysis_plan.md).
 |------|----------|
 | `docs/` | Analysis plan, pre-registration, coding protocol, policy audit, source log, assumptions and data conflicts |
 | `data/raw/`, `data/interim/`, `data/processed/` | Downloads, working files and analysis-ready data |
-| `src/nysc_safety/` | Python package: coding scheme validation, inter-coder reliability, rates, travel-window test, scorecard |
+| `src/nysc_safety/` | Python package: coding scheme validation, rates, travel-window test, scorecard and its sensitivity check |
 | `tests/` | pytest tests |
 | `notebooks/` | Numbered analysis notebooks |
 | `reports/` | Figures and maps |

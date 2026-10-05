@@ -33,7 +33,7 @@ The analysis plan is fixed in `docs/preregistration.md` and committed, with a gi
 | Path | Contents |
 |------|----------|
 | `data/raw/` | Untouched downloads. Never edited in place. |
-| `data/interim/` | Partly cleaned intermediate files, coding sheets and double-coding samples |
+| `data/interim/` | Partly cleaned intermediate files and coding sheets |
 | `data/processed/` | Analysis-ready CSVs |
 | `docs/analysis_plan.md` | Project plan, data sources, methods and limitations |
 | `docs/preregistration.md` | Pre-registered hypotheses, measures and tests |

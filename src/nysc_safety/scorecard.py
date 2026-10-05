@@ -56,3 +56,23 @@ def summarise(scores: pd.DataFrame, by: str = "framework") -> pd.DataFrame:
     grouped["max_possible"] = grouped["criteria"] * MAX_SCORE
     grouped["percent"] = 100 * grouped["total"] / grouped["max_possible"]
     return grouped
+
+
+def sensitivity(scores: pd.DataFrame, by: str = "framework") -> pd.DataFrame:
+    """Range of totals if every borderline score moved one point down or up.
+
+    Rows flagged in the `borderline` column are shifted by one point within
+    the 0 to 3 scale; other scores are held fixed.
+    """
+    validate_scores(scores)
+    flagged = scores["borderline"].astype(bool)
+    low = scores["score"].where(~flagged, (scores["score"] - 1).clip(lower=0))
+    high = scores["score"].where(~flagged, (scores["score"] + 1).clip(upper=MAX_SCORE))
+    frame = scores.assign(low=low, high=high)
+    result = frame.groupby(by).agg(
+        total=("score", "sum"), low=("low", "sum"), high=("high", "sum"), criteria=("score", "count")
+    )
+    result["max_possible"] = result["criteria"] * MAX_SCORE
+    for column in ("total", "low", "high"):
+        result[f"{column}_percent"] = 100 * result[column] / result["max_possible"]
+    return result.reset_index()

@@ -55,3 +55,15 @@ def test_committed_scorecard_is_valid() -> None:
         assert sorted(group["criterion_id"], key=lambda c: int(c[1:])) == list(scorecard.CRITERIA)
     cited = {e for ids in scores["evidence_ids"] for e in ids.split(";")}
     assert cited <= set(evidence["evidence_id"])
+
+
+def test_sensitivity_shifts_only_borderline_scores() -> None:
+    """Borderline scores move by one point within 0 to 3; others stay fixed."""
+    frame = sheet()
+    frame["borderline"] = [True, True, False, True]
+    result = scorecard.sensitivity(frame).set_index("framework")
+    assert result.loc["current", "total"] == 1
+    assert result.loc["current", "low"] == 0
+    assert result.loc["current", "high"] == 3
+    assert result.loc["reform_2026", "low"] == 4
+    assert result.loc["reform_2026", "high"] == 5

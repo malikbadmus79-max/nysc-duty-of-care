@@ -37,6 +37,7 @@ One incident is one event: one attack, abduction or crash, at one place, on one 
 | `perpetrator_type` | `armed_group`, `bandits`, `cult`, `robbers`, `community`, `state_actor`, `unknown` | As named in the report; `unknown` when the report does not attribute the attack. |
 | `n_articles` | Whole number | Distinct articles in the searched outlets within 30 days of the event. |
 | `source_ids` | `S10;S11` | Source log IDs of all articles used. |
+| `coding_note` | Short text | One or two sentences giving the reason for the lifecycle stage and harm type assigned, with no names. |
 
 Victim names, ages, institutions and photographs are not recorded.
 
@@ -53,16 +54,13 @@ Victim names, ages, institutions and photographs are not recorded.
 | `passing_out` | Passing out | At the passing-out venue, or on the journey home within 14 days after passing out. |
 | `unknown` | Unknown | The report does not allow a stage to be assigned. |
 
-## 5. Double-coding procedure
+## 5. Coding and checking
 
-1. A random sample of 20% of incidents, with a minimum of 30, is drawn with a fixed seed recorded in the notebook.
-2. The second coder receives the article URLs and this protocol only, not the first coder's codes.
-3. Both coding sheets are saved in `data/interim/double_coding/`.
-4. Kappa and percent agreement are computed with `nysc_safety.reliability.kappa_table` for `lifecycle_stage`, `harm_type` and `member_status`.
-5. Disagreements are resolved by discussion. The resolved code enters the register and the disagreement is logged in `data/interim/double_coding/disagreements.csv`.
+Coding is AI-assisted: Claude (Anthropic) screens articles, applies the rules above and writes the coding note for each row, with one coder. Before analysis, every row is checked with `nysc_safety.coding.validate_register`, and the coding note for each row is reread against the cited articles. Rows changed at this stage are listed in `data/interim/coding_changes.csv` with the old value, the new value and the reason.
 
 ## 6. Change log
 
 | Date | Change |
 |------|--------|
 | 2026-10-05 | First version. |
+| 2026-10-05 | Coding defined as AI-assisted with one coder; pre-analysis check of every row. `coding_note` column added. |

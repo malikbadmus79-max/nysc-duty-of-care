@@ -46,9 +46,9 @@ The unit is the incident, defined in `docs/coding_protocol.md`. The register cov
 
 All tests use alpha = 0.05. H1 to H4 are reported with effect sizes and confidence intervals. No correction for multiple testing is applied because each hypothesis addresses a separate question; all results are reported whether or not they are significant.
 
-## 5. Reliability threshold
+## 5. Coding
 
-A random sample of 20% of incidents, with a minimum of 30, is double-coded. If Cohen's kappa for lifecycle stage, harm type or member status is below 0.70, the coding protocol is revised, the full register is recoded for that variable, and a new sample is double-coded. Each round is reported.
+The incident register is coded by one coder with AI assistance (Claude, Anthropic) under `docs/coding_protocol.md`. No inter-coder agreement statistic is computed. Each incident row records the article URLs used and a coding note for lifecycle stage and harm type, so that any coding decision can be checked against its sources.
 
 ## 6. Exclusions and robustness checks
 

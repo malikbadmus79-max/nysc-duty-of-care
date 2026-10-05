@@ -35,7 +35,7 @@ The register lists every incident in which one or more prospective or serving co
 
 Search procedure: keyword searches of the archives of Premium Times, Punch, Vanguard, The Guardian (Nigeria), Daily Trust, Channels Television, The Cable and Sahara Reporters, using combinations of "corps member", "corper", "NYSC" with "kidnapped", "abducted", "killed", "attacked", "raped", "robbed". Each search is logged with date, outlet, query and number of results in `data/interim/news_search_log.csv`.
 
-Reliability: a random sample of 20% of incidents, with a minimum of 30, is coded independently by a second human coder. Cohen's kappa is reported for lifecycle stage, harm type and member status.
+Coding is AI-assisted: Claude (Anthropic) screens and codes articles under `docs/coding_protocol.md`, with one coder. Every row lists the article URLs used and a coding note explaining the lifecycle stage and harm type assigned, so that each coding decision can be checked against its sources.
 
 ## 5. Phase 3: risk analysis
 

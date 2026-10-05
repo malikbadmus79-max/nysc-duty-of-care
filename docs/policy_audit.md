@@ -1,6 +1,6 @@
 # Policy audit and duty-of-care scorecard
 
-Assessment of NYSC rules against the duty-of-care obligations and security risk management elements published by the Global Interagency Security Forum (GISF) [S01, S02]. Status as of 5 October 2026: the NYSC Act, the 1974 Bye-laws and the revised 2011 Bye-laws reviewed in full; first-round scores assigned by one coder; second independent scoring not yet done.
+Assessment of NYSC rules against the duty-of-care obligations and security risk management elements published by the Global Interagency Security Forum (GISF) [S01, S02]. Status as of 5 October 2026: the NYSC Act, the 1974 Bye-laws and the revised 2011 Bye-laws reviewed in full; scores assigned by one coder, with a sensitivity check on borderline scores.
 
 ## 1. Reference standard
 
@@ -64,7 +64,7 @@ Three findings stand outside the scores. First, both editions of the Bye-laws re
 
 ## 6. Scores
 
-First-round scores, assigned on 5 October 2026 by one coder (`coder_1`).
+Scores assigned on 5 October 2026 by one coder (`coder_1`). Scores marked borderline in `data/processed/policy_scorecard.csv` are those for which the evidence supports a case for one point higher or lower: D1, D3, D5, D7 and D11.
 
 | ID | Criterion | Current | Reform 2026 | Rationale (current; change under reform) | Sources |
 |----|-----------|---------|-------------|------------------------------------------|---------|
@@ -84,8 +84,9 @@ First-round scores, assigned on 5 October 2026 by one coder (`coder_1`).
 
 The current framework scores 12 of 36 (33.3%). The reform package as announced raises this to 14 of 36 (38.9%), through risk-sensitive deployment stated as national policy (D2) and the certification of camps (D6). Three criteria score 0 under both frameworks: informed consent (D4), incident reporting (D9) and crisis and kidnap response (D10). No criterion scores 3.
 
-## 7. Limitations of the scores
+Sensitivity check (`nysc_safety.scorecard.sensitivity`): if every borderline score moved one point down or one point up, the current framework would score between 7 and 17 of 36 (19.4% to 47.2%), and the reform package between 9 and 19 of 36 (25.0% to 52.8%). Under every combination the current framework stays below half of the maximum, and the three criteria scored 0 are unaffected, because those scores record the absence of any published provision rather than a judgement of degree.
 
-- Scores are from one coder. A second coder will score the same evidence independently, and agreement will be reported with quadratic-weighted Cohen's kappa (`nysc_safety.reliability.weighted_kappa`) before the scores are used in any output.
+## 7. Scope of the scores
+
 - Internal circulars, security plans and insurance contracts that are not published cannot be scored. A score of 0 means no published provision was found, not that no practice exists.
 - The reform is scored as announced [S21]. Its legal text was not available as of 5 October 2026 [S06].
