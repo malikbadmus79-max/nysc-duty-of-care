@@ -2,7 +2,7 @@
 
 An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
-Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), with a sensitivity check on borderline scores. Pre-registration frozen (git tag `prereg-v1`). No incident register has been compiled.
+Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), with a sensitivity check on borderline scores. Pre-registration frozen (git tag `prereg-v1`). Incident register in progress: 88 incidents from 2011 to 2026 coded in `data/interim/incidents_working.csv` (33 kidnappings, 22 killings, 17 road crashes, 7 physical assaults, 3 robberies, 2 sexual-violence incidents and 4 other harms), from an archive search of 6,364 articles in three outlets and earlier targeted searches; 21 candidate incidents await verification.
 
 ## Questions
 

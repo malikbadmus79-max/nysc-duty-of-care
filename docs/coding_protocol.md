@@ -65,3 +65,4 @@ Coding is AI-assisted: Claude (Anthropic) screens articles, applies the rules ab
 | 2026-10-05 | First version. |
 | 2026-10-05 | Coding defined as AI-assisted with one coder; pre-analysis check of every row. `coding_note` column added. |
 | 2026-10-05 | Journeys leaving camp coded `travel_to_ppa` [A05]; election duty coded `ppa` [A06]. |
+| 2026-10-05 | Weekday-only dates resolved by publication date [A07]; duty-linked return journeys to the posting coded `ppa` [A08]. Incidents at separate locations on the same day are recorded separately even when one report covers both. |

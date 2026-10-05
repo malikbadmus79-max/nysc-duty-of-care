@@ -1,0 +1,120 @@
+outlet,query,method,http_status,results_reported,pages_read,searched_on
+Premium Times,corps members kidnapped,WordPress REST API search,200,221,3,2026-10-05
+Premium Times,corps member kidnapped,WordPress REST API search,200,277,3,2026-10-05
+Premium Times,corps members abducted,WordPress REST API search,200,258,3,2026-10-05
+Premium Times,corps member abducted,WordPress REST API search,200,311,4,2026-10-05
+Premium Times,NYSC members kidnapped,WordPress REST API search,200,43,1,2026-10-05
+Premium Times,NYSC member abducted,WordPress REST API search,200,76,1,2026-10-05
+Premium Times,corper kidnapped,WordPress REST API search,200,6,1,2026-10-05
+Premium Times,corps member killed,WordPress REST API search,200,1206,13,2026-10-05
+Premium Times,corps members killed,WordPress REST API search,200,959,10,2026-10-05
+Premium Times,NYSC member killed,WordPress REST API search,200,134,2,2026-10-05
+Premium Times,corper killed,WordPress REST API search,200,19,1,2026-10-05
+Premium Times,corps member shot,WordPress REST API search,200,625,7,2026-10-05
+Premium Times,corps member raped,WordPress REST API search,200,67,1,2026-10-05
+Premium Times,corps members attacked,WordPress REST API search,200,438,5,2026-10-05
+Premium Times,corps members robbed,WordPress REST API search,200,25,1,2026-10-05
+Premium Times,corps members accident,WordPress REST API search,200,238,3,2026-10-05
+Premium Times,corps member murdered,WordPress REST API search,200,168,2,2026-10-05
+Daily Trust,corps members kidnapped,WordPress REST API search,200,428,5,2026-10-05
+Daily Trust,corps member kidnapped,WordPress REST API search,200,543,6,2026-10-05
+Daily Trust,corps members abducted,WordPress REST API search,200,485,5,2026-10-05
+Daily Trust,corps member abducted,WordPress REST API search,200,614,7,2026-10-05
+Daily Trust,NYSC members kidnapped,WordPress REST API search,200,116,2,2026-10-05
+Daily Trust,NYSC member abducted,WordPress REST API search,200,144,2,2026-10-05
+Daily Trust,corper kidnapped,WordPress REST API search,200,15,1,2026-10-05
+Daily Trust,corps member killed,WordPress REST API search,200,2284,20,2026-10-05
+Daily Trust,corps members killed,WordPress REST API search,200,1793,18,2026-10-05
+Daily Trust,NYSC member killed,WordPress REST API search,200,372,4,2026-10-05
+Daily Trust,corper killed,WordPress REST API search,200,53,1,2026-10-05
+Daily Trust,corps member shot,WordPress REST API search,connection_error,1059,9,2026-10-05
+Daily Trust,corps member raped,WordPress REST API search,connection_error,,0,2026-10-05
+Daily Trust,corps members attacked,WordPress REST API search,200,717,8,2026-10-05
+Daily Trust,corps members robbed,WordPress REST API search,200,83,1,2026-10-05
+Daily Trust,corps members accident,WordPress REST API search,200,557,6,2026-10-05
+Daily Trust,corps member murdered,WordPress REST API search,200,323,4,2026-10-05
+Channels Television,corps members kidnapped,WordPress REST API search,200,97,1,2026-10-05
+Channels Television,corps member kidnapped,WordPress REST API search,200,120,2,2026-10-05
+Channels Television,corps members abducted,WordPress REST API search,200,98,1,2026-10-05
+Channels Television,corps member abducted,WordPress REST API search,200,124,2,2026-10-05
+Channels Television,NYSC members kidnapped,WordPress REST API search,200,32,1,2026-10-05
+Channels Television,NYSC member abducted,WordPress REST API search,200,38,1,2026-10-05
+Channels Television,corper kidnapped,WordPress REST API search,200,0,1,2026-10-05
+Channels Television,corps member killed,WordPress REST API search,200,473,5,2026-10-05
+Channels Television,corps members killed,WordPress REST API search,200,371,4,2026-10-05
+Channels Television,NYSC member killed,WordPress REST API search,200,232,3,2026-10-05
+Channels Television,corper killed,WordPress REST API search,200,10,1,2026-10-05
+Channels Television,corps member shot,WordPress REST API search,200,207,3,2026-10-05
+Channels Television,corps member raped,WordPress REST API search,200,20,1,2026-10-05
+Channels Television,corps members attacked,WordPress REST API search,200,136,2,2026-10-05
+Channels Television,corps members robbed,WordPress REST API search,200,11,1,2026-10-05
+Channels Television,corps members accident,WordPress REST API search,200,93,1,2026-10-05
+Channels Television,corps member murdered,WordPress REST API search,200,44,1,2026-10-05
+Punch,corps members kidnapped,WordPress REST API search,403,,0,2026-10-05
+Punch,corps member kidnapped,WordPress REST API search,403,,0,2026-10-05
+Punch,corps members abducted,WordPress REST API search,403,,0,2026-10-05
+Punch,corps member abducted,WordPress REST API search,skipped,,0,2026-10-05
+Punch,NYSC members kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+Punch,NYSC member abducted,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corper kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps member killed,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps members killed,WordPress REST API search,skipped,,0,2026-10-05
+Punch,NYSC member killed,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corper killed,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps member shot,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps member raped,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps members attacked,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps members robbed,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps members accident,WordPress REST API search,skipped,,0,2026-10-05
+Punch,corps member murdered,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps members kidnapped,WordPress REST API search,403,,0,2026-10-05
+Vanguard,corps member kidnapped,WordPress REST API search,403,,0,2026-10-05
+Vanguard,corps members abducted,WordPress REST API search,403,,0,2026-10-05
+Vanguard,corps member abducted,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,NYSC members kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,NYSC member abducted,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corper kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps member killed,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps members killed,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,NYSC member killed,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corper killed,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps member shot,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps member raped,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps members attacked,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps members robbed,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps members accident,WordPress REST API search,skipped,,0,2026-10-05
+Vanguard,corps member murdered,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps members kidnapped,WordPress REST API search,403,,0,2026-10-05
+The Guardian (Nigeria),corps member kidnapped,WordPress REST API search,403,,0,2026-10-05
+The Guardian (Nigeria),corps members abducted,WordPress REST API search,403,,0,2026-10-05
+The Guardian (Nigeria),corps member abducted,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),NYSC members kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),NYSC member abducted,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corper kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps member killed,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps members killed,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),NYSC member killed,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corper killed,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps member shot,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps member raped,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps members attacked,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps members robbed,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps members accident,WordPress REST API search,skipped,,0,2026-10-05
+The Guardian (Nigeria),corps member murdered,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps members kidnapped,WordPress REST API search,403,,0,2026-10-05
+The Cable,corps member kidnapped,WordPress REST API search,403,,0,2026-10-05
+The Cable,corps members abducted,WordPress REST API search,403,,0,2026-10-05
+The Cable,corps member abducted,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,NYSC members kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,NYSC member abducted,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corper kidnapped,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps member killed,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps members killed,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,NYSC member killed,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corper killed,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps member shot,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps member raped,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps members attacked,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps members robbed,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps members accident,WordPress REST API search,skipped,,0,2026-10-05
+The Cable,corps member murdered,WordPress REST API search,skipped,,0,2026-10-05
