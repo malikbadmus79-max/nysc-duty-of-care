@@ -73,9 +73,10 @@ def download(document: Document, folder: Path = PDF_DIR, timeout: int = 60) -> P
         if total:
             print()
     with partial.open("rb") as handle:
-        if handle.read(4) != b"%PDF":
-            partial.unlink()
-            raise ValueError(f"{document.url} did not return a PDF")
+        is_pdf = handle.read(4) == b"%PDF"
+    if not is_pdf:
+        partial.unlink()
+        raise ValueError(f"{document.url} did not return a PDF")
     partial.replace(target)
     return target
 
