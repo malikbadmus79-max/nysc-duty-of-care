@@ -64,4 +64,7 @@ Any analysis not listed above, including breakdowns by sex, by batch and by year
 
 ## 8. Amendments
 
-No amendments as of the draft date.
+| Date | Amendment | Reason | Outcome data seen? |
+|------|-----------|--------|--------------------|
+| 2026-10-05 | Articles per incident (`n_articles`) counts articles in Premium Times, Daily Trust and Channels Television only, instead of the eight planned outlets. | Punch, Vanguard, The Guardian (Nigeria) and The Cable refused automated archive searches, and Sahara Reporters has no archive search interface (`docs/analysis_plan.md`, sections 4 and 11). Counting only fully searched outlets keeps the measure comparable across incidents. | Incidents had been coded; no test had been run. |
+| 2026-10-07 | Exposure is modelled as each state's share of corps members, from the median reported orientation-course size, multiplied by the national annual total, instead of the number sworn in at the state's camp in each year [A09, A10]. | No published series gives corps members sworn in by state and year; news reports give course sizes for some states and batches only. | Incidents had been coded; no test had been run. |

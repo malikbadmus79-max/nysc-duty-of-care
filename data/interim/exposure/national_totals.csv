@@ -1,0 +1,25 @@
+year,batch,stream,count,count_type,use,source_id,evidence,notes
+2010,,,222224,deployed,yes,S155,"222,224 corps members were deployed in 2010","Figure: male 119,189 + female 103,035 = 222,224 (consistent with text)."
+2011,,,275704,deployed,yes,S155,"it rose in 2011 to 275,704","Report text figure. Figure 6.10 M/F for 2011 sums to 249,119 instead."
+2012,,,249119,deployed,yes,S155,"dropped in 2012 and 2013 to 249,119 and 218,701","Report text figure for 2012. Figure 6.10 M/F for 2012 sums to 218,701 instead."
+2013,,,218701,deployed,yes,S155,"dropped in 2012 and 2013 to 249,119 and 218,701","Report text figure for 2013. Figure 6.10 shows identical M/F for 2013 and 2014 (128,096/136,268 = 264,364), likely a figure error."
+2014,,,264364,deployed,yes,S155,"a rise in 2014 to 264,364","Text and figure agree: male 128,096, female 136,268."
+2014,,,229016,mobilised,no,S156,"annual enrolment ... increased from 2,364 at inception ... to 229,016 in 2014","Attributed to Federal Ministry of Youth Development, August 2015; 'annual enrolment'. Conflicts with NBS 264,364 deployed."
+2016,B,,86000,mobilised,no,S157,"only 86,000 would be mobilised for the 2016 Batch B Orientation",Recession-constrained batch; NYSC spokesperson Abosede Aderebigbe (as spelled in source).
+2016,,,260000,mobilised,yes,S157,"bring to 260,000, the total number of corps members mobilised this service year","Service-year total (cumulative including 2016 Batch B), not necessarily calendar year."
+2017,,,297293,mobilised,yes,S156,"In 2017, NYSC stated it mobilised 297,293 corps members nationwide","Secondary report of NYSC statement; allowances N67,383,359,602."
+2018,,,350000,mobilised,no,S156,"N105 billion was budgeted for the allowance of 350,000 corps members","Budgeted figure for 2018 allowances, not an actual mobilisation count."
+2024,A,II,103000,registered,no,S158,"103,000 Prospective Corps Members (PCMs)",Registered for 2024 Batch A Stream II orientation starting 17 April 2024.
+2024,,,430000,mobilised,no,S159,"projected figure of 430,000 Corps Members to be mobilized","Projection for 2024, not an outturn. Report also: 5,523,763 mobilised cumulatively as at Dec 2023."
+2025,,,400000,mobilised,yes,S160,"now mobilises an average of 400,000 corps members annually nationwide","Approximate annual average stated in 2025, not a year-specific count."
+2026,,,418000,mobilised,no,S161,"418,000 corps members will be mobilised in 2026","Planned figure including 50,000 additional slots approved by President Tinubu; not an outturn."
+2016,,,210000,mobilised,no,S162,"provision was made for the mobilization of a total of 210,000 corps members","2016 budget provision (planned), stated by DG Brig.-Gen. Sule Kazaure; not an outturn."
+2016,,,420000,registered,no,S162,"special intervention grant to cater of over 420, 000 corp members","DG Kazaure: figure for 2016 Batch A and Batch B combined, 'more than doubled the original projection'. Eligible/awaiting mobilisation, not confirmed mobilised; conflicts with Guardian 260,000 mobilised in service year."
+2018,,,350000,mobilised,no,S163,"increased the number of corps members by 53,000 graduates, bringing the new figure to 350,000","Same article: 2017 was 297,293. Likely budgeted intake rather than outturn."
+2019,,,350000,mobilised,no,S163,"feeding for 350,000 corps members. It was the same in 2019","Budget provision basis (feeding for 350,000) for 2018 and 2019; not an actual mobilised count."
+2018,,,350000,mobilised,no,S164,"In 2018, however, the 250,000 intakes rose to 350,000","'Intakes'; same as other 2018 sources, likely budgeted."
+2020,A,II,60000,registered,no,S164,"at least 60,000 graduates due to be mobilised by NYSC for Batch A, Stream Two",Graduates due for mobilisation (COVID-19 suspension context); not a confirmed mobilised count.
+2020,B,,66000,mobilised,no,S165,"a total of 66,000 eligible graduates had been mobilized","DG Brig.-Gen. Shuaibu Ibrahim, as at 5 Nov 2020. Nairametrics (2021-01-06) reported 35,419 Batch B members tested in camp via RDTs."
+2023,,,350000,mobilised,yes,S166,"receives an average of 350,000 corps members into its scheme yearly","DG Brig.-Gen. Dogara Ahmed (delivered by Ladan Baba). Annual average, not a 2023-specific count."
+2025,,,333000,mobilised,no,S167,"bringing the total annual mobilisation to 333,000","Journalist's estimate (55,500 per batch/stream average); not an official count, year not explicit. Same estimate in GistReel same date."
+2025,,,400000,mobilised,no,S168,"about 400,000 being mobilised annually at the moment","DG Brig.-Gen. Olakunle Nafiu; approximate annual figure, not year-specific count."

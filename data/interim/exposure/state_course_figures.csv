@@ -1,0 +1,209 @@
+state,batch_year,batch,stream,count,count_type,source_id,evidence,notes
+Abia,2017.0,B,I,2182,sworn_in,S169,"swearing ceremony of 2,182 corps members deployed to Abia State for the 2017 Batch 'B' Stream I","Published date from PressReader print-edition URL; Dec print date is late for Batch B Stream I, batch label as stated in article"
+Abia,2020.0,A,I,1902,sworn_in,S170,"A total of 1,902 members of the 2020 Batch A Stream One ... sworn in",
+Abia,2021.0,B,II,1185,sworn_in,S171,The 1185 Corps Members comprising of 513 males and females 672 were sworn in,"513 male, 672 female"
+Abia,2021.0,C,I,1354,sworn_in,S172,sworn in a total of 1354 Corps Members ... 609 males and 745 females,"609 male, 745 female"
+Abia,2022.0,B,I,1343,sworn_in,S173,A total of 1343 Corps Members comprising of 615 males and 728 females were sworn-in,"615 male, 728 female"
+Abia,2023.0,B,I,753,registered,S174,"753 corps members, comprising 373 males and 380 females, were registered","Publication date not shown on page (article says 'Friday'); 373 male, 380 female"
+Abia,2026.0,A,I,1820,sworn_in,S175,"A total of 1,820 corps members-804 males and 1,016 females-were sworn in","804 male, 1,016 female; camp in January 2026 per article date"
+Abia,2026.0,A,II,1743,sworn_in,S176,"administered the oath of allegiance to the 1,743 corps members",2026 Batch A Stream 2
+Bauchi,2026.0,A,I,2050,deployed,S177,"has deployed 2,050 corps members to Bauchi State for the 2026 Batch 'A' Stream 1",
+Bauchi,2026.0,B,,1700,sworn_in,S178,"1,700 Corps Members Deployed to Bauchi Take Oaths of Allegiance",HEADLINE ONLY - body not read (WebFetch limit); date from URL; stream likely I (June) but not confirmed; verify
+Adamawa,2018.0,B,,2030,deployed,S179,"The 2,030 National Youth Service Corps (NYSC) members deployed to Adamawa under batch ""B""","Began three-week orientation at Damare, Girei LGA; search-result title mentioned 2017 Batch A swearing-in (likely photo caption), article text says batch B"
+Adamawa,2020.0,B,I,698,registered,S180,698 corps members were registered at the camp comprising 358 males and 340 females,Article says 2020 Batch 'B' Stream 1A (post-COVID split sub-stream)
+Adamawa,2023.0,A,II,1110,sworn_in,S181,"no fewer than 1,110 corps members were sworn in by the Chief Judge",
+Adamawa,,,,1700,sworn_in,S182,"Addressing 1,700 corps members during their swearing-in ceremony at Damare Orientation Camp",Batch not stated; Feb 2024 camp (2023 Batch C Stream II or 2024 Batch A Stream I - not inferred). Figure is number addressed at swearing-in
+Adamawa,2024.0,B,I,1023,deployed,S183,"welcomed 1,023 Batch B Stream 1 Corps members mobilized to Adamawa State",Mobilized-to-state figure given at camp welcome
+Bayelsa,2023.0,B,II,2136,deployed,S184,"the 2,136 corps members deployed to the state are being registered",State coordinator's figure
+Bayelsa,2023.0,C,I,1301,sworn_in,S185,"The 1,301 corps members were sworn-in by the state chief judge",Publication date not visible on page (relative '3 years ago'); camp likely Nov 2023
+Bayelsa,2024.0,B,II,1861,deployed,S186,"welcomed the 1,861 corps members deployed to the state for the 2024 Batch B","Camp at Boro Town, Kolokuma/Opokuma LGA"
+Bayelsa,2026.0,A,I,1350,sworn_in,S187,"A total of 1,350 corps members have been sworn in",Article labels it 2026 Batch 'A' Stream 1 despite January date
+Benue,2026.0,B,II,1800,registered,S188,"registered a total of 1,800 prospective Corps Members comprising 906 males and 894 females",
+Benue,2018.0,C,I,2300,sworn_in,S189,At least 2300 corp members on Thursday took oath of allegiance,'At least'
+Benue,2024.0,B,I,1450,sworn_in,S190,"1,450 corps members were on Tuesday inducted in Benue State",inducted = sworn in
+FCT,2024.0,A,II,4556,registered,S191,a total number of 4556 corps members were duly registered for the orientation course,"1831 males, 2725 females"
+FCT,2019.0,B,I,2759,sworn_in,S192,"A total of 2,759 corps members were Thursday sworn-in","Kubwa camp; 1,728 females, 1,031 males"
+Kaduna,2024.0,B,II,1979,sworn_in,S193,"A total of 1,979 corps members of the 2024 Batch 'B' (Stream II)",
+Kaduna,2021.0,A,II,1340,sworn_in,S194,"About 1,340 batch 'A' stream II corps members deployed to Kaduna State",'About'; took oath at Sabon Gaya camp
+Kaduna,2022.0,C,I,1200,registered,S195,"1,200 Corps members out of 1,500 posted to the state reported",reported for orientation course
+Kaduna,2022.0,C,I,1500,deployed,S195,"1,200 Corps members out of 1,500 posted to the state reported","same batch as 1,200 registered row"
+Kogi,2016.0,,,1949,deployed,S196,A total of 1949 corps members made up of 973 males and 976 females,batch not stated; published end of April 2016 (likely 2016 Batch A); date from URL
+Kogi,2017.0,A,II,1700,deployed,S197,1700 corps members deployed to the state for the 2017 Batch 'A' Stream 11,article writes 'Stream 11' (= II)
+Kogi,2019.0,B,II,1400,sworn_in,S198,"1,400 corps members took oath",multi-state roundup; Kabba (Asaya) camp
+Kogi,2024.0,A,I,1383,deployed,S199,"1,383 corps members (712 males and 671 females) were deployed to Kogi","Asaya camp, Kabba"
+Akwa Ibom,2019.0,B,II,1427,sworn_in,S198,"1,427 corps members deplored to the state were taking oath",multi-state roundup; 'deplored' sic
+Niger,2026.0,A,II,2205,registered,S200,"2,205 corps members ... have been registered for the orientation course",includes corps members dislodged from FCT; publication date not shown on page
+Niger,2023.0,B,I,1100,registered,S201,"1,100 corps members had been registered, including those dislodged from the FCT",includes corps members dislodged from FCT
+Niger,2020.0,A,I,2000,deployed,S202,"over 2,000 youth corps members deployed in the state in the Batch A stream 1","'over 2,000' (lower bound); camp closed early for COVID-19"
+Ebonyi,2026.0,B,I,1160,registered,S203,"A total of 1,160 corps members ... duly registered","registered and ready to take oath; 561 males, 599 females"
+Ebonyi,2023.0,C,I,1360,registered,S204,"a total of 1,360 corps members had been deployed to Ebonyi State","1,360 deployed, of which 688 males + 672 females (=1,360) reported and registered; publication date not shown"
+Ebonyi,2023.0,C,II,1820,registered,S205,"2,050 corps members have been deployed ... 1820 have reported and have been registered",publication date not shown
+Ebonyi,2023.0,C,II,2050,deployed,S205,"a total of 2,050 corps members have been deployed to Ebonyi state","same batch as 1,820 registered row; publication date not shown"
+Ebonyi,2024.0,C,I,968,registered,S206,"968 Prospective Corps Members were deployed to Ebonyi State, and have been duly registered","460 males, 508 females; publication date not shown"
+Taraba,2016.0,B,,2707,deployed,S207,"the 2,707 corps members posted to the state",stream not stated
+Anambra,2026.0,A,I,1500,sworn_in,S208,"1,500 corps members of the 2026 Batch 'A' Stream 1 set","616 males, 884 females. VON (2026-01-25, https://von.gov.ng/anambra-governor-urges-nysc-corps-members-to-drive-nation-building/) reports same 1,500 registered/sworn in."
+Anambra,2026.0,B,I,1500,deployed,S209,"1,500 members of the 2026 Batch 'B' Stream I ... deployed",Evidence phrase via page extraction; wording 'deployed to the state'.
+Anambra,2025.0,B,II,1679,registered,S210,"1,679 corps members had registered for the orientation course",
+Anambra,2025.0,B,I,1433,sworn_in,S211,"The swearing-in of the 1,433 Corps members, comprising 658 males and 775 females",Publication date as extracted from page.
+Anambra,2024.0,C,I,1200,sworn_in,S212,"official swearing-in of 1,200 prospective corps members",Publication date not visible in fetched page (ceremony on a Friday); likely Nov 2024.
+Anambra,2023.0,C,II,2005,registered,S213,"a total number of 2,005 corps members ... have been registered","1,029 males, 976 females. Exact publication date not visible (a Tuesday); Batch C Stream II camps typically open Jan of following year (2024)."
+Anambra,2023.0,A,I,1300,registered,S214,We have registered a total of 1300 Prospective Corps Members,"601 males, 699 females; formed up for swearing-in."
+Anambra,2022.0,C,I,1600,sworn_in,S215,"swearing-in ceremony of 1,600 corps members for the 2022 batch C stream I",Publication date not visible in fetched page; likely Nov 2022.
+Anambra,2019.0,C,I,1851,registered,S216,a total of 1851 registered prospective corps members,"1,072 females, 779 males; first batch at new permanent camp."
+Bauchi,2015.0,A,,3000,deployed,S217,"the over 3,000 prospective corps members deployed to the state","Reported as 'over 3,000'; orientation 5-25 May 2015; date from PressReader edition"
+Bauchi,2019.0,C,II,939,registered,S218,a total of 939 corps members including 498 males and 441 females were registered,Registered at close of registration; swearing-in ceremony
+Bauchi,2022.0,C,II,1250,deployed,S219,"A total of 1,250 corps members were posted to the state",Posted to state
+Bauchi,2023.0,A,I,1570,deployed,S220,"has deployed 1,570 corps members to Bauchi State for the 2023 Batch A Stream 1",Official state govt site
+Bauchi,2023.0,C,I,1325,registered,S221,"a total of 1,325 corps members comprising 593 female and 732 male were registered",Wailo camp; swearing-in report
+Bauchi,2023.0,C,II,1689,deployed,S222,"The National Youth Service Corps has deployed 1,689 corps members to Bauchi State",NAN copy on Peoples Gazette
+Bauchi,2024.0,A,I,1276,registered,S223,"a total number of 1,276 corps members have been registered",Wailo camp; swearing-in report
+Bauchi,2024.0,C,I,979,registered,S224,a total of 979 corps members comprising 492 females and 487 males were successfully registered,"Article says 1,600 were posted to the state; 979 registered before swearing-in"
+Bauchi,2026.0,B,I,1700,sworn_in,S178,"A total of 1,700 Corps members deployed to Bauchi State","Body confirms 1,700 sworn in; body specifies Stream I. Confirms existing headline-only row"
+Cross River,2017.0,A,I,1900,deployed,S225,"over 1,900 corps members posted to the state","Reported as 'over 1,900'; stated at camp closing ceremony, posted to state"
+Cross River,2019.0,C,I,1644,registered,S226,"a total of 1,644 Corps Members, comprising 839 males and 805 females, were dully registered",Obubra camp
+Cross River,2025.0,A,II,1588,registered,S227,"a total of 1,588 corps members had been registered, comprising 704 males and 884 females","Obubra camp; differs from VON/Tribune sworn-in figure 1,455 for same stream"
+Cross River,2025.0,A,II,1455,sworn_in,S228,"1,455 Corps Members consisting of 675 males and 780 females took the Oath of Allegiance",Same figure in VON https://von.gov.ng/?p=443923 (2025-06-22)
+Ekiti,2013.0,A,,2000,sworn_in,S229,"administering of oath on the over 2,000 corps members by the State Chief Judge","Reported as 'over 2,000'"
+Ekiti,2013.0,C,,2700,deployed,S230,"2700 corps members were deployed to the state but only 2,350","Deployed figure; 2,350 reported/registered (separate row)"
+Ekiti,2013.0,C,,2350,registered,S230,"only 2,350 comprising 1005 males and 1345 females have reported",Reported and registered for orientation
+Ekiti,2014.0,A,,1400,deployed,S231,"1,400 corps members comprising 704 males and 696 females were deployed in Ekiti",
+Ekiti,2014.0,B,,2500,deployed,S232,"2,500 corps members comprising 1,192 female and 1308 males were deployed to the state",
+Ekiti,2018.0,A,,2300,deployed,S233,"told the 2,300 corps members deployed to Ekiti during their swearing in ceremony","Stated at swearing-in; April camp (likely Stream II, not stated)"
+Ekiti,2018.0,C,II,1854,registered,S234,"1, 854 corps members made up of 941 males and 913 females had registered",Year inferred from publication date
+Ekiti,2019.0,A,,1833,registered,S235,1833 corps members deployed to the state were registered,Registered by midnight 28 March 2019
+Ekiti,2019.0,B,I,2019,sworn_in,S236,"he urged the 2,019 corps members to project peace and unity",Number addressed at swearing-in at Ise/Orun/Emure camp; type inferred
+Ekiti,2026.0,B,I,2437,registered,S237,"a total of 2,437 corps members had registered for the orientation exercise","666 males, 1,771 females; swearing-in report"
+Imo,2016.0,B,,1545,sworn_in,S238,"A total of 1,545 corps members took the oath of allegiance",Batch from TheCable same day (2016 Batch B)
+Imo,2016.0,B,,1545,deployed,S239,"1,545 corps members comprising 855 males and 690 females were posted to Imo",
+Imo,2017.0,A,II,1515,deployed,S240,"1,515 corps members were posted to the state comprising 777 males and 738 females",
+Imo,2020.0,B,I,650,deployed,S241,a total of 650 corps members comprising 332 male and 318 female,Coordinator figure 650; headline/lede says 640. COVID-era Stream 1A
+Imo,2026.0,B,I,1157,sworn_in,S242,"the one thousand, one hundred and fifty seven (1,157) corps members","Oath administered. Note: identical figure 1,157 in WithinNigeria 2022-11-08 (2022 C-I) not confirmed by an established outlet; not recorded"
+Katsina,2024.0,A,I,1343,registered,S243,"a total of 1,343 corps members comprising 677 males and 666 females were duly registered",Also Channels 2024-02-20 and Peoples Gazette/NAN 2024-02-20
+Katsina,2026.0,A,I,945,registered,S244,a total of 945 corps members have so far been registered,"Interim count 'so far'; 517 male, 428 female"
+Katsina,2026.0,B,I,1130,deployed,S245,"warned the 1,130 NYSC members deployed to the state",Governor's swearing-in remarks; ThisDay original via AllAfrica
+Katsina,2026.0,B,II,1132,registered,S246,"a total of 1,132 corps members had so far been registered for the exercise","658 male, 474 female; swearing-in report"
+Lagos,2015.0,A,,2300,sworn_in,S247,"the swearing-in of 2,300 representing the 2015 Batch 'A' corps members","575 male, 1,725 female"
+Lagos,2017.0,A,II,2722,registered,S248,"a total of 2,722 corps members, comprising of 757 males and 1,965 females, registered",Iyana-Ipaja temporary camp
+Lagos,2020.0,B,I,805,sworn_in,S249,during the swearing-in of 805 corps members for the 2020 Batch B Steam 1A,COVID-era Stream 1A (reduced)
+Lagos,2024.0,A,I,4360,deployed,S250,"A total of 4,360 members were deployed to Lagos","Only 2,239 lodged at Iyana-Ipaja camp; rest camped in other states"
+Lagos,2024.0,A,II,4450,deployed,S251,"a total of 4,450 corps members (1,785 males and 2,665 females) were posted",Some camped in Ogun and Osun
+Lagos,2025.0,B,I,5005,deployed,S252,"5,005 prospective corps members were deployed to Lagos","Only 2,329 camped in Lagos; rest in Ogun, Osun, Ondo, Ekiti. Date from URL"
+Lagos,2025.0,B,II,5183,deployed,S253,"5,183 prospective corps members were deployed to Lagos State and 2,710 were camped","2,710 camped in Lagos"
+Lagos,2026.0,A,I,6648,registered,S254,"the corps members who are 6,648 in number, have been fully registered",Registered and accommodated; Iyana-Ipaja swearing-in
+Ondo,2024.0,B,I,1432,registered,S255,about 1432 registered so far,"Coordinator's interim figure ('so far') at opening; City People reported 1,423 registered for same stream"
+Ondo,2024.0,C,II,1291,deployed,S256,hosted 1291 corps members deployed to Ondo State and 781 dislodged from Lagos,"Camp also hosted 781 corps members dislodged from Lagos camp (total ~2,072 in camp)"
+Ondo,2026.0,B,II,2145,registered,S257,"a total of 2,145 corps members had successfully registered",Smaller online outlet (not a major paper); corps members then took oath; figure from coordinator Kuburat Bakare
+Rivers,2019.0,B,I,2626,registered,S258,"a total of 2,626 corps members have reported to the camp","Batch B swearing-in; stream not stated, inferred I from late-June camp; date from PressReader edition"
+Rivers,2024.0,B,I,1800,registered,S259,a total of 1800 Corps Members were registered,Publication date taken from URL path
+Rivers,2025.0,A,I,2018,sworn_in,S260,a total of 2018 Corps Members comprising were sworn in,Caution: URL slug says 2018 batch while headline/body say 2025; count '2018' coincides with slug year - verify
+Rivers,2025.0,B,I,2002,sworn_in,S261,A total of 2002 Corps Members were sworn in at the occasion,
+Rivers,2025.0,B,II,2100,deployed,S262,"A total of two thousand, one hundred corps members deployed to Rivers State",
+Rivers,2025.0,C,,2586,registered,S263,"the 2,586 Corps members of the 2025 Batch 'C' undergoing Orientation Course","In-camp figure during orientation; stream not stated (likely Stream I, November)"
+Rivers,2026.0,A,I,2638,registered,S264,"two thousand, six hundred and thirty-eight Corp Members were registered",Number written in words in source
+Zamfara,2018.0,B,,2100,deployed,S265,"the 2,100 new corps members posted to Zamfara State under 2018 Batch 'B'",Stream not stated
+Zamfara,2021.0,B,I,1800,deployed,S266,"has posted 1,800 corps members to bandits-plagued Zamfara under the 2021 Batch B, Stream 1",
+Zamfara,2024.0,C,I,400,registered,S267,"At the end of call-up registration, 400 corp members","320 males, 80 females; camp reopened after one-year closure (2023 C-I members were redeployed); date from URL"
+Zamfara,2025.0,B,I,554,sworn_in,S268,A total of 554 corps members were sworn in,Also reported by Peoples Gazette 2025-08-01 (gazettengr.com/zamfara-resumes-payment-of-allowances-to-corps-members/)
+Delta,2023.0,B,I,1230,sworn_in,S269,"a total of 1,230 prospective corps members ... were sworn in","540 males, 690 females; The Sun same day says 1,230 'had been registered'. NAN 2023-08-02 reports 1,905 participated by camp close"
+Delta,2023.0,B,II,2227,sworn_in,S270,"has sworn in 2,227 corps members in the 2023 Batch B Stream II","Also The Sun 2023-08-18 '2,227 corps members take oath in Delta' (thesun.ng/2227-corps-members-take-oath-in-delta/)"
+Delta,2026.0,B,II,2028,registered,S271,"a total of 2,028 prospective corps members ... were duly registered","949 males, 1,079 females; batch year inferred from publication date"
+Enugu,2017.0,A,I,2060,registered,S272,"of a total number of 2,060 participants","Enugu section of Ebonyi story; 1,139 females, 921 males at close of registration"
+Enugu,2017.0,A,II,2000,deployed,S273,"A total of 2,000 prospective corps members have been deployed to serve in Enugu",
+Enugu,2023.0,C,I,1544,sworn_in,S274,"NYSC swore in 1,544 corps members of the 2023 Batch 'C', Stream one",
+Enugu,2026.0,C,I,2101,sworn_in,S275,"has sworn-in 2,101 corps members of the 2026 Batch C Stream",Stream One per The Sun 2026-10-03 (thesun.ng/mbah-announces-new-allowance-as-nysc-swears-in-2101-corps-members)
+Jigawa,2021.0,A,II,1559,registered,S276,"has deployed 1,559 corps members for the 2021 Batch 'A' stream II","Figure recorded from start to end of registration (737 males, 822 females)"
+Jigawa,2025.0,A,I,1900,sworn_in,S277,"The total number of corps members sworn in was 1,900","Article says '2024 Batch A Stream I' but April 2025 camp is 2025 Batch A Stream I (Rivers held 2025 A-I same week); 1,160 present in camp"
+Jigawa,2026.0,A,I,1990,sworn_in,S278,"swearing-in of 1,990 corps members of the 2026 Batch 'A' Stream I",
+Kebbi,2018.0,A,,2261,deployed,S279,"the 2,261 Batch 'A' 2018 corps members deployed in Kebbi State","1,156 male, 1,105 female; reported as registered by midnight Friday; sworn in at Dakingari camp"
+Kebbi,2023.0,A,II,1230,sworn_in,S280,"administered the pledge and oath of allegiance to 1,230 corps members",
+Kebbi,2024.0,A,II,1739,deployed,S281,"a total of 1,739 corp members were deployed to Kebbi State","Includes 451 Zamfara corps members camped in Kebbi; 1,288 for Kebbi itself"
+Kebbi,2025.0,B,I,983,sworn_in,S282,A total of 983 Corps Members of the 2025 Batch 'B' Stream I,
+Kebbi,2025.0,C,,556,sworn_in,S283,administration of the Oath of Allegiance to 556 Corps Members,Stream not stated
+Kebbi,2026.0,B,I,492,registered,S284,"492 Corps members had duly registered, comprising 307 males and 185 females","Headline says 492 took oath; 307 M, 185 F. Peoples Gazette 2026-06-17 also cites 492 now posted to Kebbi"
+Nasarawa,2017.0,B,I,1988,sworn_in,S285,"screened, registered and sworn in 1,988 Batch B Stream I corps members","1,001 M, 987 F"
+Nasarawa,2018.0,A,,2175,registered,S286,2175 corps members were duly registered for the 2018 Batch A exercise,
+Nasarawa,2018.0,C,II,2104,registered,S287,"a total of 2104 corps members were deployed from the three states, screened and registered",'from the three states' may mean camp includes members posted to other states; date from PressReader URL
+Nasarawa,2023.0,C,I,1895,sworn_in,S288,"has sworn in 1895 Corps members of the 2023 Batch C, Stream I",Also Blueprint 2023-11-07 same figure
+Nasarawa,2025.0,,,2358,registered,S289,"a total of 2,358 Corps Members ... were successfully registered","Batch not stated; camp in June 2025 (likely 2025 Batch A Stream II). 1,150 M, 1,208 F. Blueprint 2025-06-18 same figure. Leads of 2,200 and 2,583 not found"
+Osun,2016.0,B,,2276,registered,S290,"a total of 2,276 Corps members comprising 1,238 males and 1,038 females were registered",Article says 2016 Batch B despite December date
+Osun,2018.0,,,2100,deployed,S291,"drill 2,100 corps members called up for service in Osun State","Batch not stated (camp in Sept/Oct 2018); gender breakdown 788 F + 1,322 M sums to 2,110"
+Osun,2019.0,B,I,2600,deployed,S236,"2, 600 corps members were deployed to the state","Batch inferred from June 2019 camp (same article: Ekiti Batch B Stream 1); 1,430 M, 1,170 F"
+Osun,2019.0,C,I,2350,deployed,S292,"2,350 corps members were posted to the state","1,100 M, 1,250 F"
+Osun,2025.0,A,II,1390,registered,S293,"612 male and 778 female Corps Members, totalling 1,390, were registered","Plus 1,643 corps members dislodged from Lagos to Osun camp (not included)"
+Osun,2026.0,A,I,2000,deployed,S294,"a total of 2,000 corps members, comprising 1,120 males and 880 females, were deployed",
+Osun,2026.0,A,II,2600,deployed,S295,"Two thousand, six hundred corps members ... were deployed to Osun","1,400 F, 1,200 M"
+Sokoto,2017.0,A,II,2300,deployed,S296,"has deployed 2,300 corps members to Sokoto State",Article writes 'Stream 11' = Stream II
+Sokoto,2018.0,A,,2200,deployed,S297,"said 2,200 corps members were posted to the state",
+Sokoto,2019.0,B,II,1064,registered,S298,"1, 064 corps members had been registered in the camp by midnight","Registered by midnight; ThisDay 2019-09-09 cites 1,069 posted at closing"
+Sokoto,2019.0,B,II,1500,deployed,S298,"out of the 1, 500 posted to the state",
+Sokoto,2023.0,C,I,1430,sworn_in,S299,"swore in the 1,430, corps members","Includes 400 Zamfara corps members; 1,030 for Sokoto"
+Sokoto,2024.0,A,II,1734,sworn_in,S300,"administered the oath of allegiance on 1, 734 NYSC members",Includes corps members deployed to Zamfara (camped in Sokoto)
+Oyo,2017.0,A,II,2040,deployed,S301,"2,040 corps members posted to the state participated in the orientation course",Reported at end of orientation camp
+Oyo,2018.0,A,,2412,registered,S302,"2,412 corps members were registered, comprising 1143 males and 1269 females",
+Oyo,2018.0,C,I,2182,registered,S303,"2,182 prospective corps member were registered","1,062 M, 1,120 F; PM News 2018-11-12 says over 2,000 posted"
+Oyo,2019.0,B,II,1595,registered,S304,"a total of 1,595 prospective corps members were registered","872 M, 723 F; registered by midnight 2019-08-21"
+Oyo,2023.0,B,II,2444,sworn_in,S305,"the 2,444 corps members comprising 771 males and 1,673 females",Oath administered by Oyo Chief Judge
+Oyo,2025.0,A,II,3502,registered,S293,"a total of 3,502 Corps Members ... had been registered in the state","1,380 M, 2,122 F"
+Oyo,2025.0,C,,3598,registered,S306,"3,598 prospective corps members, comprising 1,036 males and 2,562 females",Stream not stated
+Akwa Ibom,2019.0,A,,2091,registered,S307,"2, 091 corps members have been registered during the 2019 Batch A orientation exercise","1,064 M, 1,027 F"
+Akwa Ibom,2019.0,B,I,2094,registered,S308,"2,094 corps members registered for the batch b orientation exercise","1,013 M, 1,081 F"
+Akwa Ibom,2023.0,C,II,2339,deployed,S309,"the 2,339 National Youth Service Corps (NYSC) members, posted to the state",Exact publication date not shown on page (approx. Jan-Feb 2024)
+Akwa Ibom,2025.0,A,II,1576,sworn_in,S310,One thousand five hundred and seventy six corps members ... took the oat of allegiance,"826 F, 750 M"
+Akwa Ibom,2025.0,B,I,1078,sworn_in,S311,1078 were administered the oath of national services,"518 M, 560 F"
+Akwa Ibom,2026.0,B,II,1579,sworn_in,S312,"A total of 1,579 corps members, comprising 713 males and 866 females",Oath administered by Chief Judge's representative
+Borno,2015.0,C,,2200,deployed,S313,2200 corps members have been deployed to Borno State,"Camp 25 Nov-14 Dec 2015 (batch inferred C); Borno camp closed ~2011-2023, these members oriented in Benue, Gombe and Nasarawa camps"
+Borno,2023.0,B,II,1125,registered,S314,"a total of 1,125 Prospective Corps Members were registered","First Borno camp since suspension in 2011 (closed ~2011-2023); temporary camp Arabic Teachers College Maiduguri. VON page undated; date from Channels report same event (https://www.channelstv.com/2023/08/22/nysc-orientation-camp-resumes-in-borno-after-13-years/, 629 males + 496 females)"
+Borno,2023.0,C,I,824,registered,S315,a total 824 corps members ... were deployed to the state and registered,"489 males, 335 females"
+Borno,2024.0,A,II,1162,registered,S316,"1,162 corps members: 612 males and 550 females, were registered in the camp",Article writes 'Stream 11' (read as Stream II)
+Borno,2024.0,C,II,991,registered,S317,991 corps members from 2024 Batch C Stream 2 are currently undergoing orientation,"Count is members 'undergoing orientation' in camp (no explicit registered/sworn wording); VON reports same 991 as registered (577 males, 414 females)"
+Borno,2025.0,A,II,820,registered,S318,commended the 820 corps members in camp,"Count is members in camp, not explicitly registered/sworn in"
+Edo,2017.0,A,II,1837,registered,S319,"presenting the 1,837 Corps members to Obaseki",Count presented at closing ceremony of camp orientation course (temporary camp Okada); type approximated as registered
+Edo,2019.0,B,I,2500,deployed,S320,"has deployed 2,500 corps members to Edo state",
+Edo,2024.0,C,I,1187,registered,S321,"commenced the orientation course with 1,187 registered corps members","505 males, 682 females"
+Edo,2024.0,C,II,1658,registered,S322,"1,658 registered corps members, comprising 720 males and 938 females",Camp opened January 2025
+Edo,2025.0,A,I,1900,deployed,S323,"has deployed 1,900 prospective corps members to Edo",
+Edo,2025.0,A,I,1344,registered,S324,a total 0f 1344 prospective Corps members comprising of 579 males and 765 female,"Same batch as 1,900 deployed row"
+Edo,2025.0,B,I,1033,registered,S325,a total of 1033 prospective Corps members ... had been duly registered,"464 males, 569 females"
+Edo,2025.0,B,II,1086,registered,S326,"a total of 1,086 prospective corps members ... had been duly registered","465 males, 621 females"
+Edo,2026.0,B,I,1537,sworn_in,S327,"the state had registered 1,537 prospective corps members","Same 1,537 also registered; 648 men, 899 women"
+Gombe,2016.0,A,,1706,deployed,S328,"1,706 batch 'A' Corps members deployed to the state",Gombe camp suspended ~2014-2016 (insecurity); Sahara Reporters carries same figure
+Gombe,2016.0,A,,1736,deployed,S329,"1,736 Corps members deployed to the state had successfully completed their orientation","At camp closing; differs from 1,706 reported at camp opening for same batch"
+Gombe,2019.0,B,I,1654,registered,S330,"a total of 1,654 corps members made up of 901 males and 753 females",Reported at swearing-in ceremony
+Gombe,2019.0,B,II,1400,deployed,S331,"has deployed 1,400 corps members to Gombe State",
+Gombe,2022.0,C,I,932,registered,S332,The 932 Batch C Stream I corps members comprised 493 males and 439 females,Count of members in camp; not explicitly registered/sworn
+Gombe,2024.0,B,II,1850,deployed,S333,"a total number of 1,850 prospective corps members are deployed to the state",
+Kano,2019.0,A,,2163,sworn_in,S334,"2,163 corps members took an oath of allegiance",Same figure given as registered so far
+Kano,2019.0,B,,1592,registered,S335,"out of the 1,700 corps members posted to the state ... 1,592 were registered","1,700 posted to the state; stream not stated"
+Kano,2019.0,B,,1700,deployed,S335,"out of the 1,700 corps members posted to the state","Published Sept 2019, likely Batch B Stream II but not stated"
+Kano,2020.0,B,I,826,deployed,S336,two new corps members out of the 826 posted to the state,"Article says 'Batch B Stream A'; Nov 2020 camp = Batch B Stream I. 439 males, 387 females"
+Kano,2021.0,B,I,1900,deployed,S337,"About 1,900 corps members had been deployed to Kano",Approximate ('about')
+Kano,2024.0,A,II,1683,registered,S338,"all the registered 1,683 corps members, comprising 776 females and 907 males",
+Kano,2026.0,B,II,2428,registered,S339,"2,428 corps members, comprising 1,024 males and 1,404 females, had been registered","Kano camp also hosted corps members deployed to FCT (overflow), so count may include FCT postings"
+Kwara,2018.0,B,,2150,deployed,S340,"A total of 2, 150 prospective corps members are expected to take part",Expected participants before camp opened
+Kwara,2020.0,A,,2100,deployed,S341,"A total of 2, 100 prospective corps members have been deployed to Kwara",Camp shut early due to COVID-19 (March 2020)
+Kwara,2024.0,A,I,1900,sworn_in,S342,"1, 900 corps members comprising 1,050 females and 850 males were sworn-in",VON reports same figure
+Kwara,2025.0,A,II,2500,sworn_in,S343,"A total of 2,500 corps members, comprising 1,206 males and 1,294 females",Sworn in at Yikpata camp
+Kwara,2025.0,B,I,1600,sworn_in,S344,"1,600 corps members—700 males and 900 females—were officially sworn in",
+Taraba,2018.0,B,,1807,registered,S345,"the 1,807 Batch B corps members in the camp","Count of members in camp, Jalingo"
+Taraba,2022.0,B,II,764,registered,S346,764 corps members comprising 639 males and 125 females,"Publication date not shown on page (camp ~Sept 2022); registered at time of DG visit, Sibre camp"
+Taraba,2026.0,B,II,1166,deployed,S347,"1,166 corps members deployed to Taraba State",Lower-tier outlet (image from Daily Post; Daily Post original blocked); figure tied to swearing-in ceremony
+Ogun,2016.0,B,,2642,registered,S348,"2,642 prospective corps members ... deployed to Ogun State have been registered","1,409 male, 1,233 female; page shows 2016-12-11, metadata 2016-12-10; Sagamu camp"
+Ogun,2017.0,B,,2442,registered,S349,"a total of 2,442 corps members registered for the orientation exercise","Article says 2017 Batch B; orientation began Nov 21 and closed on a Monday, so this may be a later Batch B stream"
+Ogun,2018.0,B,I,2411,registered,S350,"a total of 2, 411 corps members registered for and completed the orientation exercise",Closing ceremony; camp began July 24; 387 redeployed on marital/health grounds
+Ogun,2025.0,A,II,2602,registered,S351,"2,602 Corps Members—1,148 males and 1,454 females—had been registered","Multi-state report (Osun, Oyo, Ogun); Sagamu camp"
+Ogun,2026.0,A,I,3341,registered,S352,"3,341 corps members, including 975 originally deployed in Lagos state, were registered",Includes 975 corps members originally deployed to Lagos and dislodged to Ogun camp
+Plateau,2019.0,B,II,1485,sworn_in,S198,"no fewer than 1,485 corps members deployed to the state were sworn in",Multi-state report; Mangu camp
+Plateau,2020.0,A,,2300,deployed,S353,"has mobilised 2, 300 graduates for the 2020 Batch 'A' orientation course in Plateau",Pre-camp mobilisation figure (graduates mobilised for orientation in Plateau); swearing-in scheduled March 12; likely Stream I
+Plateau,2024.0,C,II,2603,sworn_in,S354,"2,603 corps members were sworn in, consisting of 1,386 females and 1,217 males",Camp opened January 2025
+Plateau,2025.0,A,II,1500,registered,S355,"1,500 corps members were registered at the close of registration",NAN report carried by Vanguard
+Yobe,2018.0,B,,1396,sworn_in,S356,"1,396 corps members under the 2018 Batch 'B' deployed to Yobe have taken oath",Article does not state camp location; Yobe corps members were oriented in other states in some insurgency-era batches
+Yobe,2018.0,C,II,361,deployed,S357,"773, 295 and 361 posted to Gombe, Borno and Yobe states respectively","Yobe-posted corps members oriented at Gombe camp (Amada), not in Yobe; 1,429 registered across the three states"
+Yobe,2023.0,B,I,1300,registered,S358,"1, 300 corps members were registered at the orientation",Exact publish date not shown (page says '2 years ago' as of 2025-08-26); 2023 Batch B Stream I camp ran ~July 2023
+Yobe,2024.0,A,II,1545,sworn_in,S359,"a total of 1,545 corps members took the oath of allegiance","Dazigau permanent orientation camp, Nangere LGA"
+FCT,2016.0,A,I,2303,registered,S360,"No fewer than 2,303 graduates ... began the orientation course","Number starting orientation while registration still ongoing; coordinator expected up to 2,500; Kubwa camp"
+FCT,2019.0,B,II,1800,sworn_in,S361,1800 corps members consisting of 977 male and 913 females were sworn in,"Gender breakdown sums to 1,890 (inconsistent). FCMINO 2019-09-07 gives 1,804 for same batch (889 M, 915 F)"
+FCT,2019.0,C,II,1694,sworn_in,S362,"swore in 1,694 corps members for the 2019 Batch 'C' Stream II","1,004 females and 690 males"
+FCT,2020.0,A,I,3323,registered,S363,"a total number of 3,323 corps members were registered on camp","Breakdown 1,038 males and 1,285 females sums to 2,323; total may be a typo"
+FCT,2021.0,B,II,1340,sworn_in,S364,"a total of 1,340 corps members ... were registered and sworn-in","679 males, 661 females; figure is both registered and sworn in"
+FCT,2023.0,A,II,2144,registered,S365,"a total of 2,144 youth corps members had been duly registered",Kubwa camp
+FCT,2026.0,B,II,5629,registered,S366,"5,629 corps members had been successfully registered for the orientation exercise","As of August 6; 2,271 males, 3,358 females; some FCT-deployed members transferred to other camps"

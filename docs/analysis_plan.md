@@ -47,7 +47,7 @@ Salience gap (H1): articles per incident by geopolitical zone, and the correlati
 
 Travel window (H2): share of incidents within 7 days of official camp-opening and passing-out dates, compared with the share of calendar days those windows cover. Official dates come from NYSC mobilisation timetables reported for each batch.
 
-Exposure-adjusted rates (H3): incidents per 10,000 corps members sworn in, by state and period, with exact Poisson confidence intervals [A02].
+Exposure-adjusted rates (H3): incidents per 10,000 corps members sworn in, by state and period, with exact Poisson confidence intervals [A02]. No published series gives corps members sworn in by state and year, so exposure is modelled (`nysc_safety.exposure`): each state's share is its median reported orientation-course size (208 figures from news reports and official statements, at least 3 per state, in `data/interim/exposure/state_course_figures.csv`) divided by the sum across states, multiplied by the national total for the year (`data/interim/exposure/national_totals.csv`; National Bureau of Statistics series for 2010 to 2014, Director-General statements for 2016, 2017, 2023 and 2025, interpolated between) [A09, A10]. Few course figures predate 2016, so the shares mainly reflect camp sizes from 2016 onwards.
 
 Comparison with general kidnapping (H4): state-level rank correlation between corps member incident rates and general kidnapping rates per 100,000 population. Two comparison series are used. The first is Nigeria Watch [S09]. The second is a news-based series of general kidnapping reports, coded with the same procedure and outlets as the NYSC register so that the two series share the same reporting biases.
 
