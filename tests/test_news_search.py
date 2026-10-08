@@ -118,9 +118,10 @@ def test_general_series_writes_its_own_files(tmp_path, monkeypatch) -> None:
     """The general series searches only the three full-archive outlets and writes separately named files."""
     seen: list[str] = []
 
-    def fake_search(outlet, base_url, queries, session, max_pages):
+    def fake_search(outlet, base_url, queries, session, max_pages, retries):
         seen.append(outlet)
         assert queries == news_search.GENERAL_QUERIES and max_pages == news_search.GENERAL_MAX_PAGES
+        assert retries == news_search.GENERAL_RETRIES
         return [news_search._log_row(outlet, "kidnapped", 200, 0, 0)], {}
 
     monkeypatch.setattr(news_search, "search_outlet", fake_search)
@@ -135,7 +136,7 @@ def test_general_series_writes_its_own_files(tmp_path, monkeypatch) -> None:
 def _counting_search(seen: list[str]):
     """A stand-in for search_outlet that records each outlet searched and returns one article."""
 
-    def fake_search(outlet, base_url, queries, session, max_pages):
+    def fake_search(outlet, base_url, queries, session, max_pages, retries):
         seen.append(outlet)
         article = news_search.Article(outlet, f"{base_url}/x", "2024-01-02", "Gunmen kidnap two", ["kidnapped"])
         return [news_search._log_row(outlet, "kidnapped", 200, 1, 1)], {article.url: article}
@@ -191,3 +192,51 @@ def test_outlet_with_only_an_index_is_not_treated_as_finished(tmp_path) -> None:
     _, index_path = news_search.part_paths(tmp_path, "Daily Trust")
     news_search.write_csv(index_path, [], news_search.INDEX_FIELDS)
     assert news_search.load_outlet(tmp_path, "Daily Trust") is None
+
+
+class RateLimitedSession:
+    """Answers 429 a set number of times, then answers normally."""
+
+    def __init__(self, refusals: int) -> None:
+        self.refusals = refusals
+        self.calls = 0
+
+    def get(self, url: str, params: dict, timeout: int) -> FakeResponse:
+        self.calls += 1
+        if self.calls <= self.refusals:
+            return FakeResponse(429, [], 0, 0)
+        item = {"date": "2024-07-20T08:00:00", "link": "https://example.org/c", "title": {"rendered": "y"}}
+        return FakeResponse(200, [item], 1, 1)
+
+
+def test_rate_limit_is_retried() -> None:
+    """A 429 refusal is retried and the query succeeds once the outlet answers."""
+    session = RateLimitedSession(refusals=2)
+    log, articles = news_search.search_outlet("Test", "https://example.org", ["corps"], session)
+    assert log[0]["http_status"] == 200 and len(articles) == 1 and session.calls == 3
+
+
+def test_persistent_rate_limit_is_logged_with_its_status() -> None:
+    """A refusal that lasts beyond the retry limit is logged with its status code."""
+    session = RateLimitedSession(refusals=10_000)
+    log, _ = news_search.search_outlet("Test", "https://example.org", ["corps"], session, retries=5)
+    assert log[0]["http_status"] == 429 and session.calls == 5
+
+
+def test_pages_read_before_a_drop_are_kept() -> None:
+    """Articles from pages read before a persistent drop are kept, and pages read are logged."""
+
+    class DropAfterFirstPage:
+        def __init__(self) -> None:
+            self.calls = 0
+
+        def get(self, url: str, params: dict, timeout: int) -> FakeResponse:
+            self.calls += 1
+            if params["page"] > 1:
+                raise requests.ConnectionError("dropped")
+            item = {"date": "2024-07-20T08:00:00", "link": "https://example.org/d", "title": {"rendered": "z"}}
+            return FakeResponse(200, [item], 300, 3)
+
+    log, articles = news_search.search_outlet("Test", "https://example.org", ["corps"], DropAfterFirstPage())
+    assert len(articles) == 1
+    assert log[0]["http_status"] == "connection_error" and log[0]["pages_read"] == 1

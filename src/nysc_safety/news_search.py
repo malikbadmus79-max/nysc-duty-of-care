@@ -46,6 +46,8 @@ PER_PAGE = 100
 MAX_PAGES = 20
 RETRIES = 3
 """Attempts per request before a dropped connection is logged as `connection_error`."""
+RETRY_STATUSES: frozenset[int] = frozenset({429, 500, 502, 503, 504})
+"""Temporary refusals (rate limit, server error) that are retried like a dropped connection."""
 MAX_FAILED_QUERIES = 3
 """Consecutive failed queries after which the remaining queries for an outlet are skipped."""
 
@@ -90,6 +92,9 @@ GENERAL_QUERIES: tuple[str, ...] = ("kidnapped", "abducted", "kidnappers", "kidn
 GENERAL_MAX_PAGES = 400
 """Page limit per query for the general series (40,000 results)."""
 
+GENERAL_RETRIES = 8
+"""Attempts per request for the general series, whose queries run to hundreds of pages."""
+
 
 @dataclass
 class Article:
@@ -103,10 +108,16 @@ class Article:
 
 
 def fetch_page(
-    session: requests.Session, base_url: str, query: str, page: int
+    session: requests.Session, base_url: str, query: str, page: int, retries: int = RETRIES
 ) -> tuple[str | int, requests.Response | None]:
-    """Request one result page; return the status and the response, or `connection_error`."""
-    for attempt in range(1, RETRIES + 1):
+    """Request one result page; return the status and the response, or `connection_error`.
+
+    Dropped connections and temporary refusals (`RETRY_STATUSES`) are retried
+    up to `retries` attempts, with a pause that grows with each attempt.
+    """
+    status: str | int = "connection_error"
+    response: requests.Response | None = None
+    for attempt in range(1, retries + 1):
         try:
             response = session.get(
                 f"{base_url}/wp-json/wp/v2/posts",
@@ -114,10 +125,14 @@ def fetch_page(
                 timeout=60,
             )
         except requests.RequestException:
+            status, response = "connection_error", None
+        else:
+            status = response.status_code
+            if status not in RETRY_STATUSES:
+                return status, response
+        if attempt < retries:
             time.sleep(DELAY_SECONDS * 5 * attempt)
-            continue
-        return response.status_code, response
-    return "connection_error", None
+    return status, response
 
 
 def search_outlet(
@@ -126,6 +141,7 @@ def search_outlet(
     queries: Iterable[str],
     session: requests.Session,
     max_pages: int = MAX_PAGES,
+    retries: int = RETRIES,
 ) -> tuple[list[dict[str, object]], dict[str, Article]]:
     """Run every query against one outlet; return log rows and articles keyed by URL."""
     log: list[dict[str, object]] = []
@@ -137,7 +153,7 @@ def search_outlet(
             continue
         page, pages, total, status = 1, 1, None, None
         while page <= min(pages, max_pages):
-            status, response = fetch_page(session, base_url, query, page)
+            status, response = fetch_page(session, base_url, query, page, retries)
             if response is None or status != 200:
                 break
             try:
@@ -241,9 +257,9 @@ def main(argv: list[str] | None = None) -> None:
     args = parser.parse_args(argv)
     if args.series == "general":
         outlets = {name: OUTLETS[name] for name in GENERAL_OUTLETS}
-        queries, max_pages, prefix = GENERAL_QUERIES, GENERAL_MAX_PAGES, "general_kidnapping_"
+        queries, max_pages, retries, prefix = GENERAL_QUERIES, GENERAL_MAX_PAGES, GENERAL_RETRIES, "general_kidnapping_"
     else:
-        outlets, queries, max_pages, prefix = OUTLETS, QUERIES, MAX_PAGES, "news_"
+        outlets, queries, max_pages, retries, prefix = OUTLETS, QUERIES, MAX_PAGES, RETRIES, "news_"
     parts_dir = paths.DATA_INTERIM / f"{prefix}parts"
 
     session = requests.Session()
@@ -256,7 +272,7 @@ def main(argv: list[str] | None = None) -> None:
             log, rows = saved
             print(f"{outlet}: {len(rows):,} articles loaded from saved results")
         else:
-            log, articles = search_outlet(outlet, base_url, queries, session, max_pages)
+            log, articles = search_outlet(outlet, base_url, queries, session, max_pages, retries)
             rows = index_rows(articles.values())
             save_outlet(parts_dir, outlet, log, rows)
             statuses = sorted({str(row["http_status"]) for row in log})
