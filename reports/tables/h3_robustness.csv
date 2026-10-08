@@ -1,0 +1,6 @@
+,model,n_obs,n_states,incidents,dispersion_poisson,nb_alpha,lr_statistic,df,p_value,states_left_out
+Main,poisson,629,37,96,0.8444773392028238,,90.20537366666417,36,1.5121766923174957e-06,
+Two-year exposure window,poisson,629,37,96,0.82928006572572,,90.20537757504582,36,1.5121748152010184e-06,
+Without five states with most incidents,poisson,544,32,57,0.8160345879865782,,45.6967181608814,31,0.043161258918356475,FCT; Rivers; Akwa Ibom; Bayelsa; Katsina
+A09: sworn-in figures only,poisson,476,28,79,0.8657158601455824,,78.27448567595184,27,6.876559838289924e-07,Borno; Ebonyi; Gombe; Katsina; Niger; Ogun; Ondo; Osun; Taraba
+A09: figures for 2019 onwards only,poisson,629,37,96,0.8444668444812325,,95.40082730051256,36,2.831775623331455e-07,
