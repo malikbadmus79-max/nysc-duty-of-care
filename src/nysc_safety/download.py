@@ -45,6 +45,18 @@ DOCUMENTS: tuple[Document, ...] = (
         "S03_nysc_act_cap_n84_lfn_2004.pdf",
         "https://placng.org/lawsofnigeria/laws/NATIONAL%20YOUTH%20SERVICE%20CORPS%20ACT.pdf",
     ),
+    Document(
+        "S551",
+        "S551_npc_population_projections_2022.pdf",
+        "https://s3-eu-west-1.amazonaws.com/cfa-openafrica/resources/ebe9dbbb-43de-42dd-8733-297aac5fda15/"
+        "national-population-commission-projection_2022.pdf",
+    ),
+    Document(
+        "S552",
+        "S552_nbs_population_forecasts_2016.pdf",
+        "https://s3-eu-west-1.amazonaws.com/cfa-openafrica/resources/091db6c5-fdb4-4bce-bdd1-36790ff5269b/"
+        "population-forecasts.pdf",
+    ),
 )
 
 

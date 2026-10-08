@@ -112,3 +112,82 @@ def test_empty_index_is_written_with_header(tmp_path) -> None:
     path = tmp_path / "index.csv"
     news_search.write_csv(path, [], news_search.INDEX_FIELDS)
     assert path.read_text(encoding="utf-8").strip() == "outlet,published,headline,url,queries"
+
+
+def test_general_series_writes_its_own_files(tmp_path, monkeypatch) -> None:
+    """The general series searches only the three full-archive outlets and writes separately named files."""
+    seen: list[str] = []
+
+    def fake_search(outlet, base_url, queries, session, max_pages):
+        seen.append(outlet)
+        assert queries == news_search.GENERAL_QUERIES and max_pages == news_search.GENERAL_MAX_PAGES
+        return [news_search._log_row(outlet, "kidnapped", 200, 0, 0)], {}
+
+    monkeypatch.setattr(news_search, "search_outlet", fake_search)
+    monkeypatch.setattr(news_search.paths, "DATA_INTERIM", tmp_path)
+    news_search.main(["--series", "general"])
+    assert seen == list(news_search.GENERAL_OUTLETS)
+    assert (tmp_path / "general_kidnapping_index.csv").exists()
+    assert (tmp_path / "general_kidnapping_search_log.csv").exists()
+    assert not (tmp_path / "news_index.csv").exists()
+
+
+def _counting_search(seen: list[str]):
+    """A stand-in for search_outlet that records each outlet searched and returns one article."""
+
+    def fake_search(outlet, base_url, queries, session, max_pages):
+        seen.append(outlet)
+        article = news_search.Article(outlet, f"{base_url}/x", "2024-01-02", "Gunmen kidnap two", ["kidnapped"])
+        return [news_search._log_row(outlet, "kidnapped", 200, 1, 1)], {article.url: article}
+
+    return fake_search
+
+
+def test_each_outlet_is_saved_when_finished(tmp_path, monkeypatch) -> None:
+    """Each outlet's log and index are saved under the parts folder of the series."""
+    seen: list[str] = []
+    monkeypatch.setattr(news_search, "search_outlet", _counting_search(seen))
+    monkeypatch.setattr(news_search.paths, "DATA_INTERIM", tmp_path)
+    news_search.main(["--series", "general"])
+    parts = tmp_path / "general_kidnapping_parts"
+    for outlet in news_search.GENERAL_OUTLETS:
+        log_path, index_path = news_search.part_paths(parts, outlet)
+        assert log_path.exists() and index_path.exists()
+    assert news_search.part_paths(parts, "Premium Times")[0].name == "premium_times_search_log.csv"
+
+
+def test_rerun_skips_saved_outlets_and_rebuilds_combined_files(tmp_path, monkeypatch) -> None:
+    """A rerun searches only outlets without saved results; the combined index still lists all outlets."""
+    monkeypatch.setattr(news_search.paths, "DATA_INTERIM", tmp_path)
+    parts = tmp_path / "general_kidnapping_parts"
+    news_search.save_outlet(
+        parts,
+        "Premium Times",
+        [news_search._log_row("Premium Times", "kidnapped", 200, 1, 1)],
+        [{"outlet": "Premium Times", "published": "2020-05-01", "headline": "h", "url": "u", "queries": "kidnapped"}],
+    )
+    seen: list[str] = []
+    monkeypatch.setattr(news_search, "search_outlet", _counting_search(seen))
+    news_search.main(["--series", "general"])
+    assert seen == ["Daily Trust", "Channels Television"]
+    index = (tmp_path / "general_kidnapping_index.csv").read_text(encoding="utf-8").splitlines()
+    assert len(index) == 4 and index[1].startswith("Premium Times,2020-05-01")
+    log = (tmp_path / "general_kidnapping_search_log.csv").read_text(encoding="utf-8").splitlines()
+    assert len(log) == 4
+
+
+def test_force_searches_saved_outlets_again(tmp_path, monkeypatch) -> None:
+    """With --force, outlets with saved results are searched again."""
+    monkeypatch.setattr(news_search.paths, "DATA_INTERIM", tmp_path)
+    seen: list[str] = []
+    monkeypatch.setattr(news_search, "search_outlet", _counting_search(seen))
+    news_search.main(["--series", "general"])
+    news_search.main(["--series", "general", "--force"])
+    assert seen == list(news_search.GENERAL_OUTLETS) * 2
+
+
+def test_outlet_with_only_an_index_is_not_treated_as_finished(tmp_path) -> None:
+    """An outlet whose log was not written (interrupted save) counts as not finished."""
+    _, index_path = news_search.part_paths(tmp_path, "Daily Trust")
+    news_search.write_csv(index_path, [], news_search.INDEX_FIELDS)
+    assert news_search.load_outlet(tmp_path, "Daily Trust") is None
