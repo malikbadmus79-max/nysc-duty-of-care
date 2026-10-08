@@ -1,0 +1,828 @@
+place,state,origin,source_ids
+Aba,Abia,lga;town,S553;S554
+Aba North,Abia,lga,S553
+Aba South,Abia,lga,S553
+Abadam,Borno,lga,S553
+Abaji,FCT,lga,S553
+Abak,Akwa Ibom,lga,S553
+Abakaliki,Ebonyi,lga;town,S553;S554
+Abeokuta,Ogun,lga;town,S553;S554
+Abeokuta North,Ogun,lga,S553
+Abeokuta South,Ogun,lga,S553
+Aboh Mbaise,Imo,lga,S553
+Abua-Odual,Rivers,lga,S553
+Abuja,FCT,town,S554
+Abuja Municipal Area Council,FCT,lga,S553
+Adavi,Kogi,lga,S553
+Ado Ekiti,Ekiti,lga;town,S553;S554
+Ado-Odo,Ogun,lga,S553
+Ado-Odo/Ota,Ogun,lga,S553
+Afijio,Oyo,lga,S553
+Afikpo,Ebonyi,lga,S553
+Agaie,Niger,lga,S553
+Agatu,Benue,lga,S553
+Agege,Lagos,lga,S553
+Aguata,Anambra,lga,S553
+Agwara,Niger,lga,S553
+Ahiazu Mbaise,Imo,lga,S553
+Ahoada,Rivers,lga,S553
+Ahoada East,Rivers,lga,S553
+Ahoada West,Rivers,lga,S553
+Aiyedaade,Osun,lga,S553
+Aiyedire,Osun,lga,S553
+Ajaokuta,Kogi,lga,S553
+Ajeromi-Ifelodun,Lagos,lga,S553
+Ajingi,Kano,lga,S553
+Akamkpa,Cross River,lga,S553
+Akinyele,Oyo,lga,S553
+Akko,Gombe,lga,S553
+Akoko,Ondo,lga,S553
+Akoko North-East,Ondo,lga,S553
+Akoko North-West,Ondo,lga,S553
+Akoko South-East,Ondo,lga,S553
+Akoko South-West,Ondo,lga,S553
+Akoko-Edo,Edo,lga,S553
+Akpabuyo,Cross River,lga,S553
+Akuku Toru,Rivers,lga,S553
+Akure,Ondo,lga;town,S553;S554
+Akure North,Ondo,lga,S553
+Akure South,Ondo,lga,S553
+Akwanga,Nasarawa,lga,S553
+Albasu,Kano,lga,S553
+Aleiro,Kebbi,lga,S553
+Alimosho,Lagos,lga,S553
+Alkaleri,Bauchi,lga,S553
+Amuwo-Odofin,Lagos,lga,S553
+Anambra East,Anambra,lga,S553
+Anambra West,Anambra,lga,S553
+Anaocha,Anambra,lga,S553
+Andoni,Rivers,lga,S553
+Aninri,Enugu,lga,S553
+Aniocha,Delta,lga,S553
+Aniocha North,Delta,lga,S553
+Aniocha South,Delta,lga,S553
+Anka,Zamfara,lga,S553
+Ankpa,Kogi,lga,S553
+Apa,Benue,lga,S553
+Apapa,Lagos,lga,S553
+Ardo Kola,Taraba,lga,S553
+Arewa-Dandi,Kebbi,lga,S553
+Argungu,Kebbi,lga,S553
+Arochukwu,Abia,lga,S553
+Asa,Kwara,lga,S553
+Asaba,Delta,town,S554
+Asari Toru,Rivers,lga,S553
+Askira,Borno,lga,S553
+Askira/Uba,Borno,lga,S553
+Atakunmosa,Osun,lga,S553
+Atakunmosa East,Osun,lga,S553
+Atakunmosa West,Osun,lga,S553
+Atiba,Oyo,lga,S553
+Atisbo,Oyo,lga,S553
+Augie,Kebbi,lga,S553
+Auyo,Jigawa,lga,S553
+Awe,Nasarawa,lga,S553
+Awgu,Enugu,lga,S553
+Awka,Anambra,lga;town,S553;S554
+Awka North,Anambra,lga,S553
+Awka South,Anambra,lga,S553
+Ayamelum,Anambra,lga,S553
+Babura,Jigawa,lga,S553
+Badagry,Lagos,lga;town,S553;S554
+Bagudo,Kebbi,lga,S553
+Bagwai,Kano,lga,S553
+Bakassi,Cross River,lga,S553
+Bakori,Katsina,lga,S553
+Bakuka,Zamfara,lga,S553
+Balanga,Gombe,lga,S553
+Balge,Borno,lga,S553
+Bama,Borno,lga;town,S553;S554
+Barkin Ladi,Plateau,lga,S553
+Baruten,Kwara,lga,S553
+Batagarawa,Katsina,lga,S553
+Batsari,Katsina,lga,S553
+Baure,Katsina,lga,S553
+Bebeji,Kano,lga,S553
+Bekwarra,Cross River,lga,S553
+Bende,Abia,lga,S553
+Benin City,Edo,town,S554
+Besse,Kebbi,lga,S553
+Biase,Cross River,lga,S553
+Bichi,Kano,lga,S553
+Bida,Niger,lga;town,S553;S554
+Billiri,Gombe,lga,S553
+Bindawa,Katsina,lga,S553
+Binji,Sokoto,lga,S553
+Birnin Gwari,Kaduna,lga,S553
+Birnin Kebbi,Kebbi,lga,S553
+Birnin Kudu,Jigawa,lga,S553
+Birnin Magaji,Zamfara,lga,S553
+Birnin Magaji/Kiyaw,Zamfara,lga,S553
+Birniwa,Jigawa,lga,S553
+Biu,Borno,lga,S553
+Bodinga,Sokoto,lga,S553
+Bogoro,Bauchi,lga,S553
+Boki,Cross River,lga,S553
+Bokkos,Plateau,lga,S553
+Boluwaduro,Osun,lga,S553
+Bomadi,Delta,lga,S553
+Bonny,Rivers,lga,S553
+Borgu,Niger,lga,S553
+Boripe,Osun,lga,S553
+Bosso,Niger,lga,S553
+Buguma,Rivers,town,S554
+Buji,Jigawa,lga,S553
+Bukkuyum,Zamfara,lga,S553
+Bungudu,Zamfara,lga,S553
+Bunkure,Kano,lga,S553
+Bunu,Kogi,lga,S553
+Bunza,Kebbi,lga,S553
+Bursali,Yobe,lga,S553
+Buruku,Benue,lga,S553
+Burutu,Delta,lga,S553
+Bwari,FCT,lga,S553
+Calabar,Cross River,lga;town,S553;S554
+Calabar Municipal,Cross River,lga,S553
+Calabar South,Cross River,lga,S553
+Chanchaga,Niger,lga,S553
+Charanchi,Katsina,lga,S553
+Chibok,Borno,lga,S553
+Chikun,Kaduna,lga,S553
+Dala,Kano,lga,S553
+Damaturu,Yobe,lga,S553
+Dambam,Bauchi,lga,S553
+Dambatta,Kano,lga,S553
+Damboa,Borno,lga,S553
+Dan Musa,Katsina,lga,S553
+Dandi,Kebbi,lga,S553
+Dandume,Katsina,lga,S553
+Dange Shuni,Sokoto,lga,S553
+Danja,Katsina,lga,S553
+Danko,Kebbi,lga,S553
+Darazo,Bauchi,lga,S553
+Dass,Bauchi,lga,S553
+Daura,Katsina,lga,S553
+Dawakin Kudu,Kano,lga,S553
+Dawakin Tofa,Kano,lga,S553
+Deba,Gombe,lga,S553
+Degema,Rivers,lga,S553
+Dekina,Kogi,lga,S553
+Demsa,Adamawa,lga,S553
+Dikwa,Borno,lga,S553
+Doguwa,Kano,lga,S553
+Doma,Nasarawa,lga,S553
+Donga,Taraba,lga,S553
+Dukku,Gombe,lga,S553
+Dunukofia,Anambra,lga,S553
+Dutse,Jigawa,lga,S553
+Dutsi,Katsina,lga,S553
+Dutsin Ma,Katsina,lga,S553
+Eastern Obolo,Akwa Ibom,lga,S553
+Edati,Niger,lga,S553
+Edda,Ebonyi,lga,S553
+Ede,Osun,lga,S553
+Ede North,Osun,lga,S553
+Ede South,Osun,lga,S553
+Efon,Ekiti,lga,S553
+Egbeda,Oyo,lga,S553
+Egbedore,Osun,lga,S553
+Egbema,Imo,lga,S553
+Egor,Edo,lga,S553
+Ehime Mbano,Imo,lga,S553
+Ejigbo,Osun,lga,S553
+Ekeremor,Bayelsa,lga,S553
+Eket,Akwa Ibom,lga,S553
+Ekiti East,Ekiti,lga,S553
+Ekiti South-West,Ekiti,lga,S553
+Ekiti West,Ekiti,lga,S553
+Ekwusigo,Anambra,lga,S553
+Eleme,Rivers,lga,S553
+Emohua,Rivers,lga,S553
+Emure,Ekiti,lga,S553
+Enugu East,Enugu,lga,S553
+Enugu North,Enugu,lga,S553
+Enugu South,Enugu,lga,S553
+Epe,Lagos,lga;town,S553;S554
+Esan,Edo,lga,S553
+Esan Central,Edo,lga,S553
+Esan North-East,Edo,lga,S553
+Esan South-East,Edo,lga,S553
+Esan West,Edo,lga,S553
+Ese Odo,Ondo,lga,S553
+Esit Eket,Akwa Ibom,lga,S553
+Essien Udim,Akwa Ibom,lga,S553
+Etche,Rivers,lga,S553
+Ethiope,Delta,lga,S553
+Ethiope East,Delta,lga,S553
+Ethiope West,Delta,lga,S553
+Eti Osa,Lagos,lga,S553
+Etim Ekpo,Akwa Ibom,lga,S553
+Etinan,Akwa Ibom,lga,S553
+Etsako,Edo,lga,S553
+Etsako Central,Edo,lga,S553
+Etsako East,Edo,lga,S553
+Etsako West,Edo,lga,S553
+Etung,Cross River,lga,S553
+Ewekoro,Ogun,lga,S553
+Ezeagu,Enugu,lga,S553
+Ezinihitte,Imo,lga,S553
+Ezza,Ebonyi,lga,S553
+Ezza North,Ebonyi,lga,S553
+Ezza South,Ebonyi,lga,S553
+Fagge,Kano,lga,S553
+Fakai,Kebbi,lga,S553
+Faskari,Katsina,lga,S553
+Fika,Yobe,lga,S553
+Fufure,Adamawa,lga,S553
+Funakaye,Gombe,lga,S553
+Fune,Yobe,lga,S553
+Funtua,Katsina,lga;town,S553;S554
+Gabasawa,Kano,lga,S553
+Gada,Sokoto,lga,S553
+Gadau,Bauchi,lga,S553
+Gagarawa,Jigawa,lga,S553
+Gamawa,Bauchi,lga,S553
+Ganjuwa,Bauchi,lga,S553
+Ganye,Adamawa,lga,S553
+Garko,Kano,lga,S553
+Garun Mallam,Kano,lga,S553
+Gashaka,Taraba,lga,S553
+Gashua,Yobe,town,S554
+Gassol,Taraba,lga,S553
+Gbako,Niger,lga,S553
+Gboko,Benue,lga;town,S553;S554
+Gbongan,Osun,town,S554
+Gbonyin,Ekiti,lga,S553
+Geidam,Yobe,lga,S553
+Gezawa,Kano,lga,S553
+Ghari,Kano,lga,S553
+Giade,Bauchi,lga,S553
+Girei,Adamawa,lga,S553
+Giwa,Kaduna,lga,S553
+Gokana,Rivers,lga,S553
+Gombi,Adamawa,lga,S553
+Goronyo,Sokoto,lga,S553
+Gubio,Borno,lga,S553
+Gudu,Sokoto,lga,S553
+Gujba,Yobe,lga,S553
+Gulani,Yobe,lga,S553
+Guma,Benue,lga,S553
+Gumel,Jigawa,lga,S553
+Gummi,Zamfara,lga,S553
+Gurara,Niger,lga,S553
+Guri,Jigawa,lga,S553
+Gusau,Zamfara,lga;town,S553;S554
+Guyuk,Adamawa,lga,S553
+Guzamala,Borno,lga,S553
+Gwadabawa,Sokoto,lga,S553
+Gwagwalada,FCT,lga,S553
+Gwale,Kano,lga,S553
+Gwandu,Kebbi,lga,S553
+Gwaram,Jigawa,lga,S553
+Gwarzo,Kano,lga,S553
+Gwer,Benue,lga,S553
+Gwer East,Benue,lga,S553
+Gwer West,Benue,lga,S553
+Gwiwa,Jigawa,lga,S553
+Gwoza,Borno,lga,S553
+Hadejia,Jigawa,lga,S553
+Hawul,Borno,lga,S553
+Ibadan,Oyo,lga;town,S553;S554
+Ibadan North,Oyo,lga,S553
+Ibadan North-East,Oyo,lga,S553
+Ibadan North-West,Oyo,lga,S553
+Ibadan South-East,Oyo,lga,S553
+Ibadan South-West,Oyo,lga,S553
+Ibaji,Kogi,lga,S553
+Ibarapa,Oyo,lga,S553
+Ibarapa Central,Oyo,lga,S553
+Ibarapa East,Oyo,lga,S553
+Ibarapa North,Oyo,lga,S553
+Ibeju-Lekki,Lagos,lga,S553
+Ibeno,Akwa Ibom,lga,S553
+Ibesikpo Asutan,Akwa Ibom,lga,S553
+Ibi,Taraba,lga,S553
+Ibiono-Ibom,Akwa Ibom,lga,S553
+Idah,Kogi,lga,S553
+Idanre,Ondo,lga,S553
+Ideato,Imo,lga,S553
+Ideato North,Imo,lga,S553
+Ideato South,Imo,lga,S553
+Idemili,Anambra,lga,S553
+Idemili North,Anambra,lga,S553
+Idemili South,Anambra,lga,S553
+Ido,Oyo,lga,S553
+Ido Osi,Ekiti,lga,S553
+Ifako-Ijaiye,Lagos,lga,S553
+Ife,Osun,lga;town,S553;S554
+Ife Central,Osun,lga,S553
+Ife East,Osun,lga,S553
+Ife North,Osun,lga,S553
+Ife South,Osun,lga,S553
+Ifedayo,Osun,lga,S553
+Ifedore,Ondo,lga,S553
+Ifo,Ogun,lga,S553
+Igabi,Kaduna,lga,S553
+Igalamela-Odolu,Kogi,lga,S553
+Igbo Etiti,Enugu,lga,S553
+Igbo Eze,Enugu,lga,S553
+Igbo Eze North,Enugu,lga,S553
+Igbo Eze South,Enugu,lga,S553
+Igboho,Oyo,town,S554
+Igueben,Edo,lga,S553
+Ihiala,Anambra,lga,S553
+Ihitte,Imo,lga,S553
+Ihitte/Uboma,Imo,lga,S553
+Ijebu,Ogun,lga,S553
+Ijebu East,Ogun,lga,S553
+Ijebu North,Ogun,lga,S553
+Ijebu North East,Ogun,lga,S553
+Ijebu Ode,Ogun,lga;town,S553;S554
+Ijero,Ekiti,lga;town,S553;S554
+Ijumu,Kogi,lga,S553
+Ika North East,Delta,lga,S553
+Ika South,Delta,lga,S553
+Ikara,Kaduna,lga,S553
+Ikare,Ondo,town,S554
+Ikeduru,Imo,lga,S553
+Ikeja,Lagos,lga;town,S553;S554
+Ikenne,Ogun,lga,S553
+Ikere,Ekiti,lga,S553
+Ikole,Ekiti,lga,S553
+Ikom,Cross River,lga,S553
+Ikono,Akwa Ibom,lga,S553
+Ikorodu,Lagos,lga;town,S553;S554
+Ikot Abasi,Akwa Ibom,lga,S553
+Ikot Ekpene,Akwa Ibom,lga;town,S553;S554
+Ikpoba Okha,Edo,lga,S553
+Ikwerre,Rivers,lga,S553
+Ikwo,Ebonyi,lga,S553
+Ikwuano,Abia,lga,S553
+Ilaje,Ondo,lga,S553
+Ilawe Ekiti,Ekiti,town,S554
+Ile-Oluji,Ondo,lga,S553
+Ilejemeje,Ekiti,lga,S553
+Ilesa,Osun,lga;town,S553;S554
+Ilesa East,Osun,lga,S553
+Ilesa West,Osun,lga,S553
+Ilishan-Remo,Ogun,lga,S553
+Illela,Sokoto,lga,S553
+Ilorin,Kwara,lga;town,S553;S554
+Ilorin East,Kwara,lga,S553
+Ilorin South,Kwara,lga,S553
+Ilorin West,Kwara,lga,S553
+Imeko Afon,Ogun,lga,S553
+Ingawa,Katsina,lga,S553
+Ini,Akwa Ibom,lga,S553
+Ipokia,Ogun,lga,S553
+Irele,Ondo,lga,S553
+Irepo,Oyo,lga,S553
+Irepodun/Ifelodun,Ekiti,lga,S553
+Irewole,Osun,lga,S553
+Isara,Ogun,lga,S553
+Ise,Ekiti,lga,S553
+Ise Ekiti,Ekiti,town,S554
+Ise/Orun,Ekiti,lga,S553
+Iseyin,Oyo,lga;town,S553;S554
+Ishielu,Ebonyi,lga,S553
+Isi Uzo,Enugu,lga,S553
+Isiala Mbano,Imo,lga,S553
+Isiala Ngwa,Abia,lga,S553
+Isiala Ngwa North,Abia,lga,S553
+Isiala Ngwa South,Abia,lga,S553
+Isin,Kwara,lga,S553
+Isokan,Osun,lga,S553
+Isoko,Delta,lga,S553
+Isoko North,Delta,lga,S553
+Isoko South,Delta,lga,S553
+Isu,Imo,lga,S553
+Isuikwuato,Abia,lga,S553
+Itas,Bauchi,lga,S553
+Itas/Gadau,Bauchi,lga,S553
+Itesiwaju,Oyo,lga,S553
+Itu,Akwa Ibom,lga,S553
+Ivo,Ebonyi,lga,S553
+Iwajowa,Oyo,lga,S553
+Iwo,Osun,lga;town,S553;S554
+Izzi,Ebonyi,lga,S553
+Jaba,Kaduna,lga,S553
+Jada,Adamawa,lga,S553
+Jahun,Jigawa,lga,S553
+Jakusko,Yobe,lga,S553
+Jalingo,Taraba,lga;town,S553;S554
+Jama'are,Bauchi,lga,S553
+Jega,Kebbi,lga,S553
+Jema'a,Kaduna,lga,S553
+Jere,Borno,lga,S553
+Jibia,Katsina,lga,S553
+Jos,Plateau,lga;town,S553;S554
+Jos East,Plateau,lga,S553
+Jos North,Plateau,lga,S553
+Jos South,Plateau,lga,S553
+Kabba,Kogi,lga,S553
+Kabba/Bunu,Kogi,lga,S553
+Kabo,Kano,lga,S553
+Kachia,Kaduna,lga,S553
+Kaduna North,Kaduna,lga,S553
+Kaduna South,Kaduna,lga,S553
+Kafin Hausa,Jigawa,lga,S553
+Kafur,Katsina,lga,S553
+Kaga,Borno,lga,S553
+Kagarko,Kaduna,lga,S553
+Kaiama,Kwara,lga,S553
+Kaita,Katsina,lga,S553
+Kajuru,Kaduna,lga,S553
+Kala,Borno,lga,S553
+Kala/Balge,Borno,lga,S553
+Kalgo,Kebbi,lga,S553
+Kaltungo,Gombe,lga,S553
+Kanam,Plateau,lga,S553
+Kankara,Katsina,lga,S553
+Kanke,Plateau,lga,S553
+Kankia,Katsina,lga,S553
+Kano Municipal,Kano,lga,S553
+Karasuwa,Yobe,lga,S553
+Karaye,Kano,lga,S553
+Karim Lamido,Taraba,lga,S553
+Karu,Nasarawa,lga,S553
+Katagum,Bauchi,lga,S553
+Katcha,Niger,lga,S553
+Katsina-Ala,Benue,lga,S553
+Kaugama,Jigawa,lga,S553
+Kaura,Kaduna,lga,S553
+Kaura-Namoda,Zamfara,lga,S553
+Kauru,Kaduna,lga,S553
+Kazaure,Jigawa,lga,S553
+Keffi,Nasarawa,lga,S553
+Khana,Rivers,lga,S553
+Kibiya,Kano,lga,S553
+Kirfi,Bauchi,lga,S553
+Kiri Kasama,Jigawa,lga,S553
+Kiru,Kano,lga,S553
+Kiyaw,Zamfara,lga,S553
+Kiyawa,Jigawa,lga,S553
+Koko/Besse,Kebbi,lga,S553
+Kokona,Nasarawa,lga,S553
+Kolokuma,Bayelsa,lga,S553
+Kolokuma/Opokuma,Bayelsa,lga,S553
+Konduga,Borno,lga,S553
+Konshisha,Benue,lga,S553
+Kontagora,Niger,lga,S553
+Kosofe,Lagos,lga,S553
+Kubau,Kaduna,lga,S553
+Kudan,Kaduna,lga,S553
+Kuje,FCT,lga,S553
+Kukawa,Borno,lga;town,S553;S554
+Kumbotso,Kano,lga,S553
+Kura,Kano,lga,S553
+Kurfi,Katsina,lga,S553
+Kurmi,Taraba,lga,S553
+Kusada,Katsina,lga,S553
+Kwali,FCT,lga,S553
+Kwami,Gombe,lga,S553
+Kwande,Benue,lga,S553
+Kware,Sokoto,lga,S553
+Kwaya Kusar,Borno,lga,S553
+Lafia,Nasarawa,lga;town,S553;S554
+Lagelu,Oyo,lga,S553
+Lagos Island,Lagos,lga,S553
+Lagos Mainland,Lagos,lga,S553
+Lamurde,Adamawa,lga,S553
+Langtang,Plateau,lga,S553
+Langtang North,Plateau,lga,S553
+Langtang South,Plateau,lga,S553
+Lapai,Niger,lga,S553
+Lau,Taraba,lga,S553
+Lavun,Niger,lga;town,S553;S554
+Lere,Kaduna,lga,S553
+Lokoja,Kogi,lga,S553
+Machina,Yobe,lga,S553
+Madagali,Adamawa,lga,S553
+Madobi,Kano,lga,S553
+Mafa,Borno,lga,S553
+Magama,Niger,lga,S553
+Magongo,Kogi,lga,S553
+Magumeri,Borno,lga,S553
+Mai'Adua,Katsina,lga,S553
+Maiduguri,Borno,lga;town,S553;S554
+Maigatari,Jigawa,lga,S553
+Maiha,Adamawa,lga,S553
+Maiyama,Kebbi,lga,S553
+Makarfi,Kaduna,lga,S553
+Makoda,Kano,lga,S553
+Makurdi,Benue,lga;town,S553;S554
+Malam Madori,Jigawa,lga,S553
+Malumfashi,Katsina,lga,S553
+Mangu,Plateau,lga,S553
+Maradun,Zamfara,lga,S553
+Mariga,Niger,lga,S553
+Marte,Borno,lga,S553
+Maru,Zamfara,lga,S553
+Mashegu,Niger,lga,S553
+Mashi,Katsina,lga,S553
+Matazu,Katsina,lga,S553
+Mayo Belwa,Adamawa,lga,S553
+Mbaitoli,Imo,lga,S553
+Mbo,Akwa Ibom,lga,S553
+Michika,Adamawa,lga,S553
+Miga,Jigawa,lga,S553
+Mikang,Plateau,lga,S553
+Minjibir,Kano,lga,S553
+Minna,Niger,town,S554
+Misau,Bauchi,lga,S553
+Mkpat-Enin,Akwa Ibom,lga,S553
+Moba,Ekiti,lga,S553
+Mobbar,Borno,lga,S553
+Mokwa,Niger,lga;town,S553;S554
+Monguno,Borno,lga,S553
+Mopa-Muro,Kogi,lga,S553
+Moro,Kwara,lga,S553
+Mubi,Adamawa,lga;town,S553;S554
+Mubi North,Adamawa,lga,S553
+Mubi South,Adamawa,lga,S553
+Munya,Niger,lga,S553
+Musawa,Katsina,lga,S553
+Mushin,Lagos,lga,S553
+Nafada,Gombe,lga,S553
+Nangere,Yobe,lga,S553
+Nasarawa Eggon,Nasarawa,lga,S553
+Ndokwa,Delta,lga,S553
+Ndokwa East,Delta,lga,S553
+Ndokwa West,Delta,lga,S553
+Nembe,Bayelsa,lga,S553
+Ngala,Borno,lga,S553
+Nganzai,Borno,lga,S553
+Ngaski,Kebbi,lga,S553
+Ngor Okpala,Imo,lga,S553
+Nguru,Yobe,lga,S553
+Ningi,Bauchi,lga,S553
+Njaba,Imo,lga,S553
+Njikoka,Anambra,lga,S553
+Nkanu,Enugu,lga,S553
+Nkanu East,Enugu,lga,S553
+Nkanu West,Enugu,lga,S553
+Nkwerre,Imo,lga,S553
+Nnewi,Anambra,lga,S553
+Nnewi North,Anambra,lga,S553
+Nnewi South,Anambra,lga,S553
+Nsit-Atai,Akwa Ibom,lga,S553
+Nsit-Ibom,Akwa Ibom,lga,S553
+Nsit-Ubium,Akwa Ibom,lga,S553
+Nsukka,Enugu,lga;town,S553;S554
+Numan,Adamawa,lga,S553
+Nwangele,Imo,lga,S553
+Obafemi Owode,Ogun,lga;town,S553;S554
+Obanliku,Cross River,lga,S553
+Obi Ngwa,Abia,lga,S553
+Obio-Akpor,Rivers,lga,S553
+Obokun,Osun,lga,S553
+Obot Akara,Akwa Ibom,lga,S553
+Obowo,Imo,lga,S553
+Obubra,Cross River,lga,S553
+Obudu,Cross River,lga,S553
+Odeda,Ogun,lga,S553
+Odigbo,Ondo,lga,S553
+Odo-Otin,Osun,lga,S553
+Odogbolu,Ogun,lga,S553
+Odukpani,Cross River,lga,S553
+Offa,Kwara,lga,S553
+Ofu,Kogi,lga,S553
+Ogba-Egbema-Ndoni,Rivers,lga,S553
+Ogbadibo,Benue,lga,S553
+Ogbaru,Anambra,lga,S553
+Ogbia,Bayelsa,lga,S553
+Ogbomosho,Oyo,lga;town,S553;S554
+Ogbomosho North,Oyo,lga,S553
+Ogbomosho South,Oyo,lga,S553
+Ogo Oluwa,Oyo,lga,S553
+Ogoja,Cross River,lga,S553
+Ogori,Kogi,lga,S553
+Ogori/Magongo,Kogi,lga,S553
+Ogu-Bolo,Rivers,lga,S553
+Ogun Waterside,Ogun,lga,S553
+Oguta,Imo,lga,S553
+Ohafia,Abia,lga,S553
+Ohaji,Imo,lga,S553
+Ohaji/Egbema,Imo,lga,S553
+Ohaozara,Ebonyi,lga,S553
+Ohaukwu,Ebonyi,lga,S553
+Ohimini,Benue,lga,S553
+Oji River,Enugu,lga,S553
+Oju,Benue,lga,S553
+Oke Ero,Kwara,lga,S553
+Okehi,Kogi,lga,S553
+Okene,Kogi,lga;town,S553;S554
+Okigwe,Imo,lga;town,S553;S554
+Okirika,Rivers,lga,S553
+Okitipupa,Ondo,lga,S553
+Okobo,Akwa Ibom,lga,S553
+Okpe,Delta,lga,S553
+Okpoko,Anambra,town,S554
+Okpokwu,Benue,lga,S553
+Ola-Oluwa,Osun,lga,S553
+Olamaboro,Kogi,lga,S553
+Olorunda,Osun,lga,S553
+Olorunsogo,Oyo,lga,S553
+Oluyole,Oyo,lga,S553
+Omala,Kogi,lga,S553
+Omuma,Rivers,lga,S553
+Ona Ara,Oyo,lga,S553
+Ondo East,Ondo,lga,S553
+Ondo West,Ondo,lga,S553
+Onicha,Ebonyi,lga,S553
+Onitsha,Anambra,lga;town,S553;S554
+Onitsha North,Anambra,lga,S553
+Onitsha South,Anambra,lga,S553
+Onna,Akwa Ibom,lga,S553
+Onuimo,Imo,lga,S553
+Opobo-Nkoro,Rivers,lga,S553
+Opokuma,Bayelsa,lga,S553
+Oredo,Edo,lga,S553
+Orelope,Oyo,lga,S553
+Orhionmwon,Edo,lga,S553
+Oriade,Osun,lga,S553
+Orire,Oyo,lga,S553
+Orlu,Imo,lga,S553
+Orolu,Osun,lga,S553
+Oron,Akwa Ibom,lga,S553
+Orsu,Imo,lga,S553
+Oru,Imo,lga,S553
+Oru East,Imo,lga,S553
+Oru West,Imo,lga,S553
+Oruk Anam,Akwa Ibom,lga,S553
+Oruko,Akwa Ibom,lga,S553
+Orumba,Anambra,lga,S553
+Orumba North,Anambra,lga,S553
+Orumba South,Anambra,lga,S553
+Orun,Ekiti,lga,S553
+Ose,Ondo,lga,S553
+Oshimili,Delta,lga,S553
+Oshimili North,Delta,lga,S553
+Oshimili South,Delta,lga,S553
+Oshodi-Isolo,Lagos,lga,S553
+Osisioma Ngwa,Abia,lga,S553
+Osogbo,Osun,lga;town,S553;S554
+Ota,Ogun,lga,S553
+Otukpo,Benue,town,S554
+Oturkpo,Benue,lga,S553
+Ovia,Edo,lga,S553
+Ovia North-East,Edo,lga,S553
+Ovia South-West,Edo,lga,S553
+Owan,Edo,lga,S553
+Owan East,Edo,lga,S553
+Owan West,Edo,lga,S553
+Owerri,Imo,lga;town,S553;S554
+Owerri Municipal,Imo,lga,S553
+Owerri North,Imo,lga,S553
+Owerri West,Imo,lga,S553
+Owo,Ondo,lga;town,S553;S554
+Oye,Ekiti,lga,S553
+Oyi,Anambra,lga,S553
+Oyigbo,Rivers,lga,S553
+Oyo East,Oyo,lga,S553
+Oyo West,Oyo,lga,S553
+Oyun,Kwara,lga,S553
+Paikoro,Niger,lga,S553
+Pankshin,Plateau,lga,S553
+Patani,Delta,lga,S553
+Pategi,Kwara,lga,S553
+Port Harcourt,Rivers,lga;town,S553;S554
+Potiskum,Yobe,lga;town,S553;S554
+Qua'an-Pan,Plateau,lga,S553
+Rabah,Sokoto,lga,S553
+Rafi,Niger,lga,S553
+Rano,Kano,lga,S553
+Remo,Ogun,lga,S553
+Remo North,Ogun,lga,S553
+Rijau,Niger,lga,S553
+Rimin Gado,Kano,lga,S553
+Ringim,Jigawa,lga,S553
+Riyom,Plateau,lga,S553
+Rogo,Kano,lga,S553
+Roni,Jigawa,lga,S553
+Sabon Birni,Sokoto,lga,S553
+Sabon Gari,Kaduna,lga,S553
+Sabuwa,Katsina,lga,S553
+Safana,Katsina,lga,S553
+Sagamu,Ogun,town,S554
+Sagbama,Bayelsa,lga,S553
+Sakaba,Kebbi,lga,S553
+Saki,Oyo,lga,S553
+Saki East,Oyo,lga,S553
+Saki West,Oyo,lga,S553
+Sandamu,Katsina,lga,S553
+Sanga,Kaduna,lga,S553
+Sapele,Delta,lga;town,S553;S554
+Sardauna,Taraba,lga,S553
+Shagamu,Ogun,lga,S553
+Shaki,Oyo,town,S554
+Shanga,Kebbi,lga,S553
+Shani,Borno,lga,S553
+Shanono,Kano,lga,S553
+Shelleng,Adamawa,lga,S553
+Shendam,Plateau,lga,S553
+Shinkafi,Zamfara,lga,S553
+Shira,Bauchi,lga,S553
+Shiroro,Niger,lga,S553
+Shomolu,Lagos,lga,S553
+Shongom,Gombe,lga,S553
+Silame,Sokoto,lga,S553
+Soba,Kaduna,lga,S553
+Sokoto North,Sokoto,lga,S553
+Sokoto South,Sokoto,lga,S553
+Southern Ijaw,Bayelsa,lga,S553
+Sule Tankarkar,Jigawa,lga,S553
+Suleja,Niger,lga;town,S553;S554
+Sumaila,Kano,lga,S553
+Suru,Kebbi,lga,S553
+Surulere,Lagos,lga,S553
+Tafa,Niger,lga,S553
+Takai,Kano,lga,S553
+Takum,Taraba,lga,S553
+Talata-Mafara,Zamfara,lga,S553
+Tambuwal,Sokoto,lga,S553
+Tangaza,Sokoto,lga,S553
+Tarauni,Kano,lga,S553
+Tarka,Benue,lga,S553
+Tarmuwa,Yobe,lga,S553
+Taura,Jigawa,lga,S553
+Tofa,Kano,lga,S553
+Toto,Nasarawa,lga,S553
+Toungo,Adamawa,lga,S553
+Tsafe,Zamfara,lga,S553
+Tsanyawa,Kano,lga,S553
+Tudun Wada,Kano,lga,S553
+Tureta,Sokoto,lga,S553
+Uboma,Imo,lga,S553
+Udenu,Enugu,lga,S553
+Udi,Enugu,lga,S553
+Udu,Delta,lga,S553
+Udung-Uko,Akwa Ibom,lga,S553
+Ugep,Cross River,town,S554
+Ughelli,Delta,lga,S553
+Ughelli North,Delta,lga,S553
+Ughelli South,Delta,lga,S553
+Ugwunagbo,Abia,lga,S553
+Uhunmwonde,Edo,lga,S553
+Ukanafun,Akwa Ibom,lga,S553
+Ukum,Benue,lga,S553
+Ukwa,Abia,lga,S553
+Ukwa East,Abia,lga,S553
+Ukwa West,Abia,lga,S553
+Ukwuani,Delta,lga,S553
+Umu Nneochi,Abia,lga,S553
+Umuahia,Abia,lga;town,S553;S554
+Umuahia North,Abia,lga,S553
+Umuahia South,Abia,lga,S553
+Ungogo,Kano,lga,S553
+Uromi,Edo,town,S554
+Uruan,Akwa Ibom,lga,S553
+Urue-Offong,Akwa Ibom,lga,S553
+Urue-Offong/Oruko,Akwa Ibom,lga,S553
+Ushongo,Benue,lga,S553
+Ussa,Taraba,lga,S553
+Uvwie,Delta,lga,S553
+Uyo,Akwa Ibom,lga;town,S553;S554
+Uzo-Uwani,Enugu,lga,S553
+Vandeikya,Benue,lga,S553
+Wamakko,Sokoto,lga,S553
+Wamba,Nasarawa,lga,S553
+Warawa,Kano,lga,S553
+Warji,Bauchi,lga,S553
+Warri,Delta,lga;town,S553;S554
+Warri North,Delta,lga,S553
+Warri South,Delta,lga,S553
+Warri South West,Delta,lga,S553
+Wasagu,Kebbi,lga,S553
+Wasagu/Danko,Kebbi,lga,S553
+Wase,Plateau,lga,S553
+Wudil,Kano,lga,S553
+Wukari,Taraba,lga,S553
+Wurno,Sokoto,lga,S553
+Wushishi,Niger,lga,S553
+Yagba,Kogi,lga,S553
+Yagba East,Kogi,lga,S553
+Yagba West,Kogi,lga,S553
+Yakurr,Cross River,lga,S553
+Yala,Cross River,lga,S553
+Yamaltu,Gombe,lga,S553
+Yamaltu/Deba,Gombe,lga,S553
+Yankwashi,Jigawa,lga,S553
+Yauri,Kebbi,lga,S553
+Yenagoa,Bayelsa,lga,S553
+Yewa,Ogun,lga,S553
+Yewa North,Ogun,lga,S553
+Yewa South,Ogun,lga,S553
+Yola,Adamawa,lga;town,S553;S554
+Yola North,Adamawa,lga,S553
+Yola South,Adamawa,lga,S553
+Yorro,Taraba,lga,S553
+Yunusari,Yobe,lga,S553
+Yusufari,Yobe,lga,S553
+Zango,Katsina,lga,S553
+Zangon Kataf,Kaduna,lga,S553
+Zaria,Kaduna,lga;town,S553;S554
+Zing,Taraba,lga,S553
+Zurmi,Zamfara,lga,S553
+Zuru,Kebbi,lga,S553
+keana,Nasarawa,lga,S553

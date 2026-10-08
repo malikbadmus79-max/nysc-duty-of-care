@@ -1,0 +1,787 @@
+{{Short description|none}}
+{{Use Nigerian English|date=June 2026}}
+[[File:Nigeria sm02.gif|thumb|Map of major cities in Nigeria]]
+[[File:Lagos Island.jpg|thumb|right|250px|1. [[Lagos]]]]
+[[File:Kano, Nigeria neighborhood (taken in 1995).jpg|thumb|right|250px|2. [[Kano (city)|Kano]]]]
+[[File:Aerial view of the National Museum of Unity, Aleshinloye, Ibadan 2024-06-02.jpg|thumb|right|250px|3. [[Ibadan]]]]
+The following are lists of the most populous fully defined incorporated settlements in [[Nigeria]] by population. This page consists of three different tables, with different kinds of settlements; a list for "[[City proper|defined cities]]", listing the population, strictly within the defined city limits, a list for "[[urban area]]" population, and another list for the population within [[metropolitan area]]s.
+
+==Lists==
+
+===Defined cities/towns===
+Nigerian cities are categorized into three types; there is the "Metropolis", which is characterized by having more than one [[Local government areas of Nigeria|Local Government Areas]] (LGAs). These types of cities are usually formed when large municipalities are split into smaller LGAs, to aid efficient administration and management, when small towns grow and merge into existing large cities, or both; some are also formed when urban areas of multiple LGAs merge as a result of growth and are now fully defined as a single settlement,  Another type of settlement is the "Municipality", which is basically an LGA that is fully defined as its own city or town. These types of cities are usually mid-sized, although some large cities also exist as a single LGA. The third type of settlement is the "village", which is basically grouped together with several other villages into one sizeable LGA.
+
+The following table lists fully defined incorporated cities in Nigeria, with a population of at least 100,000, as declared by the Nigerian National Population Commission after the 2006 National census.<ref>{{cite web|url=http://www.nigerianstat.gov.ng/nbsapps/Connections/Pop2006.pdf |format=PDF |title=FEDERAL REPUBLIC OF NIGERIA: 2006 Population Census |publisher=Web.archive.org |accessdate=25 July 2016 |url-status=dead|archive-url=https://web.archive.org/web/20120305101910/http://www.nigerianstat.gov.ng/nbsapps/Connections/Pop2006.pdf |archive-date=5 March 2012 }}</ref> This list refers only to the population of individual cities within their [[City limits|defined limits]], which does not include other distinct communities or extended [[suburban]] areas within [[urban agglomerations]]. A city is displayed in '''bold''' if it is a state or federal capital, and in ''italics'' if it is the most populous city in the state.
+
+{| class="wikitable sortable"
+!rowspan=2 | Rank 
+!rowspan=2 | City 
+!rowspan=2 | State
+!rowspan=2 | 2006 census<!--Only include the population of cities, according to the 2006 official census, no media speculations or estimates-->
+!colspan=2 | Total <br /> area
+!colspan=2 | Population <br /> density
+|-
+! {{nowrap|km<sup>2</sup>}}
+! {{nowrap|sq mi}}
+! per {{nowrap|km<sup>2</sup>}}
+! per {{nowrap|sq mi}}
+|-
+| 1
+| ''[[Lagos]]''{{refn |group=lower-alpha|Metropolitan Lagos consists of 16 out of Lagos State's 20 LGA, which excludes: [[Badagry]], [[Epe, Lagos State|Epe]], [[Ibeju-Lekki]] and [[Ikorodu]]}}
+| [[Lagos State|Lagos]]
+| <!--Only include the population of the city and not the entire state-->7,099,490 
+| {{convert|1,151.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|6,871|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 2
+| '''''[[Kano (city)|Kano]]'''''{{refn |group=lower-alpha |summing the 8 LGAs in Kano, which includes: [[Kano Municipal]], [[Fagge]], [[Dala, Nigeria|Dala]], [[Gwale]], [[Tarauni]], [[Nasarawa, Kano State|Nasarawa]], [[Ungogo]] and [[Kumbotso]]}}
+| [[Kano State|Kano]]
+| 2,828,861
+| {{convert|523.6|km2|sqmi|disp=table|sortable=on}}
+| {{convert|6,300|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 3
+| '''''[[Ibadan]]'''''{{refn |group=lower-alpha |Summing the [[Ibadan#Local government areas|11 LGAs]] of Ibadan}}
+| [[Oyo State|Oyo]]
+| 2,559,853
+| {{convert|563.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|985.13|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 4
+| '''''[[Benin City]]'''''{{refn |group=lower-alpha |Benin City consists of 3 LGAs, which includes: [[Egor]], [[Oredo]] and [[Ikpoba-Okha]]}}
+| [[Edo State|Edo]]
+| 1,147,188
+| {{convert|344.8|km2|sqmi|disp=table|sortable=on}}
+| {{convert|953|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 5
+| '''''[[Port Harcourt]]'''''{{refn |group=lower-alpha|summing [[Obio-Akpor]] and [[Port Harcourt (local government area)|Port Harcourt LGA]], which both make up the city}}
+| [[Rivers State|Rivers]]
+| 1,005,904
+| {{convert|394.5|km2|sqmi|disp=table|sortable=on}}
+| {{convert|2,726|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 6
+| ''[[Aba, Abia|Aba]]''{{refn |group=lower-alpha | [[Aba North]]  [[Aba South]], [[Osisioma Ngwa]], [[Ugwunagbo]] and [[Obingwa]] LGAs}}
+| [[Abia State|Abia]]
+| 1,002,265
+| {{convert|163.7|km2|sqmi|disp=table|sortable=on}}
+| {{convert|7,400|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 7
+| '''''[[Jos]]'''''{{refn |group=lower-alpha|Jos consists of 3 LGAs, which includes: [[Jos North]], [[Jos South]] and some parts of [[Jos East]]}}
+| [[Plateau State|Plateau]]
+| 821,618
+| {{convert|336.7|km2|sqmi|disp=table|sortable=on}}
+| {{convert|451|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 8
+| '''''[[Ilorin]]'''''{{refn |group=lower-alpha|Ilorin consists of 3 LGAs, which includes: [[Ilorin East]], [[Ilorin South]] and [[Ilorin West]]}}
+| [[Kwara]]
+| 777,667
+| {{convert|149.3|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,016|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 9
+|| '''''[[Abuja]]'''''
+| [[Federal Capital Territory, Nigeria|FCT]]
+| 776,298
+| {{convert|865.6|km2|sqmi|disp=table|sortable=on}}
+| {{convert|439|/km2|/sqmi|disp=table|sortable=on}}
+|-
+|10
+|'''''[[Kaduna (city)|Kaduna]]'''''{{refn |group=lower-alpha|Kaduna consists of 2 LGAs, which includes: [[Kaduna North]] and [[Kaduna South]]}}
+| [[Kaduna State|Kaduna]]
+| 760,084
+| {{convert|488.9|km2|sqmi|disp=table|sortable=on}}
+| {{convert|5,802|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 11
+| '''''[[Enugu (city)|Enugu]]'''''{{refn |group=lower-alpha | [[Enugu East]], [[Enugu North]] and [[Enugu South]] LGAs}}
+| [[Enugu State|Enugu]]
+| 722,664
+| {{convert|186.8|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1300|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 12
+| [[Zaria]]{{refn |group=lower-alpha|Zaria consists of 2 LGAs, which includes: [[Zaria]] and [[Sabon Gari, Kaduna State|Sabon Gari]]}}
+| [[Kaduna State|Kaduna]]
+| 695,089
+| {{convert|132.3|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,234.6|/km2|/sqmi|disp=table|sortable=on}}
+|- 
+| 13
+| [[Ogbomosho]]{{refn |group=lower-alpha | [[Ogbomosho North]] and [[Ogbomosho South]] LGAs}}
+| [[Oyo State|Oyo]]
+| 602,690
+| {{convert|119.9|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 14
+| ''[[Warri]]''{{refn |group=lower-alpha | [[Warri North]], [[Warri South]] and [[Warri South West]] LGAs}}
+| [[Delta State|Delta]]
+| 557,398
+| {{convert|214.8|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 15
+| [[Ikorodu]]
+| [[Lagos State|Lagos]]
+| 535,619
+| {{convert|37.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,553|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 16
+| '''''[[Maiduguri]]'''''
+| [[Borno State|Borno]]
+| 521,492
+| {{convert|194.7|km2|sqmi|disp=table|sortable=on}}
+| {{convert|3,807|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 17
+| ''[[Ifẹ|Ife]]''{{refn |group=lower-alpha | [[Ife North]], [[Ife Central]] and [[Ife East]] LGAs}}
+| [[Osun State|Osun]]
+| 509,035
+| {{convert|56.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|291|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 18
+| '''''[[Bauchi (city)|Bauchi]]'''''
+| [[Bauchi State|Bauchi]]
+| 493,810
+| {{convert|187.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|134|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 19
+| '''''[[Akure]]'''''
+| [[Ondo State|Ondo]]
+| 484,798
+| {{convert|196.4|km2|sqmi|disp=table|sortable=on}}
+| {{convert|489|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 20
+| '''''[[Abeokuta]]'''''
+| [[Ogun State|Ogun]]
+| 451,607
+| {{convert|242.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|510|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 21
+| '''''[[Uyo]]'''''{{refn |group=lower-alpha | [[Itu, Akwa Ibom|Itu]] and [[Uyo]] LGAs}}
+| [[Akwa Ibom State|Akwa Ibom]]
+| 436,606
+| {{convert|209.7|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,206|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 22
+| [[Oyo, Oyo|Oyo]]{{refn |group=lower-alpha | [[Atiba]], [[Oyo East]] and [[Oyo West]] LGAs}}
+| [[Oyo State|Oyo]]
+| 428,798
+| {{convert|42|km2|sqmi|disp=table|sortable=on}}
+| {{convert|177|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 23
+| '''''[[Sokoto (city)|Sokoto]]'''''
+| [[Sokoto State|Sokoto]]
+| 427,760
+| {{convert|138|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 24
+| '''''[[Owerri]]'''''
+| [[Imo State|Imo]]
+| 401,873
+| {{convert|201.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|729|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 25
+| '''''[[Yola, Adamawa|Yola]]'''''{{refn |group=lower-alpha | [[Yola North]] and [[Yola South]] LGAs}}
+| [[Adamawa State|Adamawa]]
+| 392,854
+| {{convert|119.8|km2|sqmi|disp=table|sortable=on}}
+| {{convert|473|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 26
+| '''''[[Calabar]]'''''
+| [[Cross River State|Cross River]]
+| 371,022
+| {{convert|118.8|km2|sqmi|disp=table|sortable=on}}
+| {{convert|910|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 27
+| '''[[Umuahia]]'''{{refn |group=lower-alpha | [[Umuahia North]] and [[Umuahia South]] LGAs}}
+| [[Abia State|Abia]]
+| 359,230
+| {{convert|121.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|933|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 28
+| [[Ondo City|Ondo]]
+| [[Ondo State|Ondo]]
+| 358,430
+| {{convert|32.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 29
+| '''''[[Minna]]'''''{{refn |group=lower-alpha | [[Bosso, Nigeria|Bosso]] and [[Chanchaga]] LGAs}}
+| [[Niger State|Niger]]
+| 348,788
+| {{convert|112.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|209|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 30
+| '''''[[Lafia]]'''''
+| [[Nasarawa State|Nasarawa]]
+| 330,712
+| {{convert|89.8|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 31
+| [[Okene]]
+| [[Kogi State|Kogi]]
+| 320,260
+| {{convert|32.7|km2|sqmi|disp=table|sortable=on}}
+| {{convert|976.4|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 32
+| '''''[[Katsina (city)|Katsina]]'''''
+| [[Katsina State|Katsina]]
+| 318,459
+| {{convert|142.6|km2|sqmi|disp=table|sortable=on}}
+| {{convert|2,243|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| -
+| '''[[Ikeja]]'''
+| [[Lagos State|Lagos]]
+| 313,196
+| {{convert|49.92|km2|sqmi|disp=table|sortable=on}}
+| {{convert|6,274|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 33
+| [[Nsukka]]
+| [[Enugu State|Enugu]]
+| 309,633
+| {{convert|45.38|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 34
+| '''''[[Ado Ekiti]]'''''
+| [[Ekiti State|Ekiti]]
+| 308,621
+| {{convert|114.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,053|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 35
+| '''''[[Awka]]'''''
+| [[Anambra State|Anambra]]
+| 301,657
+| {{convert|95.6|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 36
+| [[Iseyin]]
+| [[Oyo State|Oyo]]
+| 286,700
+| {{convert|45.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 37
+| [[Mubi (town)|Mubi]]{{refn |group=lower-alpha|summing [[Mubi North]] and [[Mubi South]]}}
+| [[Adamawa State|Adamawa]]
+| 280,009
+| {{convert|63.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 38
+| [[Onitsha]]{{refn |group=lower-alpha |consists of 2 LGAs: [[Onitsha North]] and [[Onitsha South]]}}
+| [[Anambra State|Anambra]]
+| 261,604
+| {{convert|121.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|5,030.8|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 39
+| [[Sagamu]]
+| [[Ogun State|Ogun]]
+| 253,412
+| {{convert|28.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 40
+| '''''[[Makurdi]]'''''
+| [[Benue State|Benue]]
+| 249,000
+| {{convert|73.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+|41
+| [[Mokwa]]
+| [[Niger State|Niger]]
+| 244,937
+| {{convert|25.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|56.4|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 42
+| [[Badagry]]
+| [[Lagos State|Lagos]]
+| 241,093
+| {{convert|28.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|547|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 43
+| [[Ilesa]]
+| [[Osun State|Osun]]
+| 233,900
+| {{convert|30.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 44
+| '''''[[Gombe, Gombe|Gombe]]'''''
+| [[Gombe State|Gombe]]
+| 230,900
+| {{convert|72.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 45
+| [[Obafemi Owode]]
+| [[Ogun State|Ogun]]
+| 228,851
+| {{convert|34.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|162|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 46
+| [[Owo]]
+| [[Ondo State|Ondo]]
+| 218,886
+| {{convert|27.3|km2|sqmi|disp=table|sortable=on}}
+| {{convert|213|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 47
+| [[Suleja]]
+| [[Niger State|Niger]]
+| 216,578
+| {{convert|35.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,820|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 48
+| [[Lavun]]
+| [[Niger State|Niger]]
+| 209,917
+| {{convert|35.1|km2|sqmi|disp=table|sortable=on}}
+| {{convert|74|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 49
+| [[Potiskum]]
+| [[Yobe State|Yobe]]
+| 205,876
+| {{convert|51.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|368|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 50
+| [[Kukawa]]
+| [[Borno State|Borno]]
+| 203,864
+| {{convert|24.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|41.6|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 51
+| '''''[[Gusau]]'''''
+| [[Zamfara State|Zamfara]]
+| 201,200
+| {{convert|81.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 52
+| [[Iwo, Osun|Iwo]]
+| [[Osun State|Osun]]
+| 191,377
+| {{convert|21.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|894|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 53
+| [[Bida]]
+| [[Niger State|Niger]]
+| 188,181
+| {{convert|51.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|3,689|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 54
+| [[Ugep]]
+| [[Cross River State|Cross River]]
+| 187,000
+| {{convert|34.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 55
+| [[Ijebu Ode]]
+| [[Ogun State|Ogun]]
+| 186,700
+| {{convert|43.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 56
+| [[Epe, Lagos|Epe]]
+| [[Lagos State|Lagos]]
+| 181,409
+| {{convert|33.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|188|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 57
+| [[Ise Ekiti]]
+| [[Ekiti State|Ekiti]]
+| 167,100
+| {{convert|35.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 58
+| [[Gboko]]
+| [[Benue State|Benue]]
+| 166,400
+| {{convert|22.8|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 59
+| [[Ilawe Ekiti]]
+| [[Ekiti State|Ekiti]]
+| 160,700
+| {{convert|23.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 60
+| [[Ikare]]
+| [[Ondo State|Ondo]]
+| 160,600
+| {{convert|24.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 61
+| '''[[Osogbo]]'''{{refn |group=lower-alpha | Osogbo and [[Olorunda]] LGAs}}
+| [[Osun State|Osun]]
+| 156,694
+| {{convert|47.2|km2|sqmi|disp=table|sortable=on}}
+| {{convert|3,334|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 62
+| [[Okpoko]]
+| [[Anambra State|Anambra]]
+| 152,900
+| {{convert|38.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 63
+| [[Garki, Jigawa|Garki]]
+| [[Jigawa State|Jigawa]]
+| 152,233
+| {{convert|38.4|km2|sqmi|disp=table|sortable=on}}
+| {{convert|108.12|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 64
+| [[Sapele, Delta|Sapele]]
+| [[Delta State|Delta]]
+| 151,000
+| {{convert|38.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 65
+| [[Ila, Osun|Ila]]
+| [[Osun State|Osun]]
+| 150,700
+| {{convert|29.3|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 66
+| [[Shaki, Oyo|Shaki]]
+| [[Oyo State|Oyo]]
+| 150,300
+| {{convert|34.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 67
+| [[Ijero]]
+| [[Ekiti State|Ekiti]]
+| 147,300
+| {{convert|26.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 68
+| [[Ikot Ekpene]]
+| [[Akwa Ibom State|Akwa Ibom]]
+| 143,077
+| {{convert|22.3|km2|sqmi|disp=table|sortable=on}}
+| {{convert|1,233|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 69
+| '''''[[Jalingo]]'''''
+| [[Taraba State|Taraba]]
+| 139,845
+| {{convert|56.4|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 70
+| [[Otukpo]]
+| [[Benue State|Benue]]
+| 136,800
+| {{convert|24.3|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 71
+| [[Okigwe]]
+| [[Imo State|Imo]]
+| 132,237
+| {{convert|20.3|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 72
+| [[Kisi, Oyo State|Kisi]]
+| [[Oyo State|Oyo]]
+| 130,800
+| {{convert|19.3|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 73
+| [[Buguma]]
+| [[Rivers State|Rivers]]
+| 124,200
+| {{convert|21.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 74
+| [[Funtua]]
+| [[Katsina State|Katsina]]
+| 122,500
+| {{convert|27.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 75
+| '''''[[Abakaliki]]'''''
+| [[Ebonyi State|Ebonyi]]
+| 151,723
+| {{convert|57.7|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 76
+| '''[[Asaba City|Asaba]]'''{{refn |group=lower-alpha | [[Oshimili South]] LGA}}
+| [[Delta State|Delta]]
+| 149,603
+| {{convert|24.8|km2|sqmi|disp=table|sortable=on}}
+| {{convert|558|/km2|/sqmi|disp=table|sortable=on}}
+|-
+| 77
+| [[Gbongan]]
+| [[Osun State|Osun]]
+| 117,300
+| {{convert|20.4|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 78
+| [[Igboho]]
+| [[Oyo State|Oyo]]
+| 115,000
+| {{convert|19.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 79
+| [[Gashua]]
+| [[Yobe State|Yobe]]
+| 109,600
+| {{convert|37.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+| 80
+| [[Bama, Borno|Bama]]
+| [[Borno State|Borno]]
+| 102,800
+| {{convert|24.1|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+|81
+|[[Uromi]]
+|[[Edo State|Edo]]
+|101,400
+| {{convert|23.2|km2|sqmi|disp=table|sortable=on}}
+| ||<!--placeholder: remove "||" when adding a value-->
+|-
+|}
+
+<gallery>
+File:2014 Victoria Island Lagos Nigeria 15006436297.jpg|[[Lagos]], Lagos
+File:Kano City Aerial.jpg|[[Kano (city)|Kano]], Kano
+File:Ibadan with Oluyole statue, Nigeria.jpg|[[Ibadan]], Oyo
+File:Areal view of the ancient city of Benin.jpg|[[Benin City]], Edo
+File:PortHacourt1.jpg|[[Port Harcourt]], Rivers
+File:Jos, looking south from Anglo-Jos.jpg|[[Jos]], Plateau
+File:Ahmadu Bello Way, Ilorin6.jpg|[[Ilorin]], Kwara
+File:Abuja night time.jpg|[[Abuja]], FCT
+File:Enugu.jpg|[[Enugu (city)|Enugu]], Enugu
+File:Kanogate2.jpg|[[Zaria]], Kaduna
+File:The_Heart_of_Ikorodu_City.jpg|[[Ikorodu]], Lagos
+File:Maiduguri City Gate Borno State Nigeria.jpg|[[Maiduguri]], Borno
+</gallery>
+
+== Population ==
+According to the 2006 Nigerian national census, Kabba/Bunu Local Government Area, with headquarters in Kabba, had a population of 145,446 people.<ref>{{Cite web
+|title=Kabba/Bunu Local Government Area
+|url=https://www.citypopulation.de/en/nigeria/admin/kogi/NGA023003__kabbabunu/
+|website=City Population
+|access-date=26 May 2026
+}}</ref>
+
+===Urban areas===
+An urban area is a continuously built-up land mass of urban development that is within a labor market, without regard for administrative or city boundaries. An urban area is a human settlement with high population density and infrastructure of a built environment.
+
+This section lists contiguous [[urban area]]s in Nigeria, with a population of at least 500,000. The figures here have been taken from [[Demographia]]'s "World Urban Areas" study in 2016. Demographia uses maps, satellite photographs to estimate continuous urbanization.<ref name=Demographia>{{cite book|author1=Demographia|title=Demographia World Urban Areas|date=April 2016|edition=12th|url=http://www.demographia.com/db-worldua.pdf|access-date=November 17, 2016}}</ref>
+
+{| class="wikitable sortable"
+!rowspan=2 |Rank
+!rowspan=2 |City
+!rowspan=2 |State
+!rowspan=2 |Population
+!colspan=2 |Area
+!colspan=2 |Density
+|-
+!{{nowrap|km<sup>2</sup>}}
+!{{nowrap|sq mi}}
+!per {{nowrap|km<sup>2</sup>}}
+!per {{nowrap|sq mi}}
+|-
+||1||[[Lagos]]||[[Lagos State|Lagos]]||12,830,000|| {{convert|1,425|km2|sqmi|disp=table|sortable=on}} || {{convert|9000|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||2||[[Onitsha]]||[[Anambra State|Anambra]]||7,910,000|| {{convert|832|km2|sqmi|disp=table|sortable=on}} || {{convert|14,300|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||3||[[Kano (city)|Kano]]||[[Kano State|Kano]]||3,680,000|| {{convert|251|km2|sqmi|disp=table|sortable=on}} || {{convert|14,600|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||4||[[Ibadan]]||[[Oyo State|Oyo]]||2,910,000|| {{convert|466|km2|sqmi|disp=table|sortable=on}} || {{convert|6,200|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||5||[[Port Harcourt]]||[[Rivers State|Rivers]]||1,865,000|| {{convert|158|km2|sqmi|disp=table|sortable=on}} || {{convert|11,800|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||6||[[Jos]]||[[Plateau State|Plateau]]||1,580,000|| {{convert|225|km2|sqmi|disp=table|sortable=on}} || {{convert|7,000|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||7||[[Benin City]]||[[Edo State|Edo]]||1,355,000|| {{convert|228|km2|sqmi|disp=table|sortable=on}} || {{convert|5,900|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||8||[[Aba, Abia|Aba]]||[[Abia State|Abia]]||1,215,000|| {{convert|901|km2|sqmi|disp=table|sortable=on}} || {{convert|13,400|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||9||[[Kaduna (city)|Kaduna]]||[[Kaduna State|Kaduna]]||1,100,000|| {{convert|153|km2|sqmi|disp=table|sortable=on}} || {{convert|7,200|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||10||[[Abuja]]||[[Federal Capital Territory (Nigeria)|FCT]]||890,000|| {{convert|83|km2|sqmi|disp=table|sortable=on}} || {{convert|10,700|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||11||[[Enugu (city)|Enugu]]||[[Enugu State|Enugu]]||810,000|| {{convert|682|km2|sqmi|disp=table|sortable=on}} || {{convert|1,200|/km2|/sqmi|disp=table|sortable=on}}
+|-
+||12||[[Ilorin]]||[[Kwara]]||790,000|| {{convert|70|km2|sqmi|disp=table|sortable=on}} || {{convert|11,300|/km2|/sqmi|disp=table|sortable=on}}
+|-
+|}
+
+==Cities and Towns by population==
+=== 2025 population estimates ===
+
+# [[Lagos]]  17,803,700
+# [[Kano (city)|Kano]]  4,810,800
+# [[Abuja]] 4,392,360 
+# [[Ibadan]]  4,293,160
+# [[Port Harcourt]]  3,951,670
+# [[Benin City]]  2,120,460
+# [[Onitsha]] 1,839,880
+# [[Uyo]]  1,520,020
+# [[Aba, Nigeria|Aba]]  1,428,069
+# [[Nnewi]] 1,421,790
+# [[Kaduna]] 1,302,330
+# [[Ilorin]]  1,282,219
+# [[Ikorodu]] 1,248,110 
+# [[Warri]] 1,120,980
+# [[Enugu (city)|Enugu]]  1,115,303 
+# [[Owerri]]  1,105,500
+# [[Jos]]  1,071,590 
+# [[Umuahia]] 1,033,090
+# [[Lokoja]] 974,767
+# [[Maiduguri]]  929,408
+# [[Bauchi (city)|Bauchi]] 881,600
+# [[Zaria]]  835,966
+# [[Akure]]  834,009
+# [[Abeokuta]]  800,000 
+# [[Oyo, Oyo State|Oyo]] 793,241
+# [[Sokoto (city)|Sokoto]] 789,726 *
+# [[Yola, Nigeria|Yola]] 758,153
+# [[Ogbomosho]]  744,835
+# [[Gusau]] 682,700
+# [[Calabar]] 673,427
+# [[Osogbo]] 645,000
+# [[Yenagoa]] 586,393
+# [[Katsina (city)|Katsina]] 565,000
+# [[Minna]] 552,407
+# [[Okene]] 546,000
+# [[Makurdi]] 517,342
+# [[Ondo Town|Ondo]] 510,000
+# [[Lafia]] 509,300
+# [[Okpoko]] 506,000
+# [[Ifẹ]]  492,000
+# [[Nsukka]] 483,256
+# [[Shaki, Oyo|Shaki]] 472,000
+# [[Ikeja]] 470,200
+# [[Ado Ekiti]] 469,700
+# [[Gombe, Nigeria|Gombe]] 446,800 
+# [[Sagamu]] 435,200
+# [[Awka]] 430,200
+# [[Lekki]] 420,000
+# [[Mokwa]] 416,600 
+# [[Ilesa]] 416,000
+# [[Asaba]] 403,859 
+# [[Obafemi Owode]] 399,800
+# [[Ijebu Ode]] 394,246
+# [[Otukpo]] 384,600 
+# [[Suleja]] 368,900
+# [[Gboko]] 367,407 
+# [[Iseyin]] 365,300
+# [[Lavun]] 359,800 
+# [[Badagry]] 351,900
+# [[Mubi (town)|Mubi]] 344,599
+# [[Ikare]] 330,941
+# [[Jalingo]] 322,268
+# [[Potiskum]] 322,100
+# [[Bida]] 318,300 
+# [[Ijero Ekiti]] 304,924
+# [[Owo]] 301,931
+# [[Garki, Jigawa|Garki]] 300,000
+# [[Kukawa]] 297,900
+# [[Iwo, Osun|Iwo]] 277,101
+# [[Epe, Lagos State|Epe]] 269,000
+# [[Igboho]] 239,480
+# [[Sapele, Nigeria|Sapele]] 238,800
+# [[Ugep]] 236,897
+# [[Funtua]] 236,087
+# [[Uromi]] 226,433
+# [[Abakaliki]] 223,000
+# [[Ise Ekiti]] 210,000
+# [[Oye, Ekiti|Oye]] 206,300
+# [[Ilawe Ekiti]] 200,000
+# [[Ede, Osun|Ede]] 200,000
+# [[Bama, Nigeria|Bama]] 195,377
+# [[Buguma]] 187,695
+# [[Okigwe]] 184,500
+# [[Ikot Ekpene]] 180,500
+# [[Ila, Osun|Ila]] 179,192
+# [[Kisi, Oyo|Kisi]] 155,510
+# [[Gashua]] 144,012
+# [[Gbongan]] 139,485
+# [[Oron, Nigeria|Oron]] 120,000
+# [[Jebba]] 59,820
+
+==See also==
+*[[List of cities in Nigeria]]
+*[[List of populated places in Nigeria]]
+*[[Lists of villages in Nigeria]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{citation |title=Nigerian Population and Urbanization, 1911-1974: A Bibliography |author= Herbert O. Emezi |publisher=[[University of California, Los Angeles]], Coleman African Studies Center |year=1975 |url= http://www.escholarship.org/uc/item/82w1w85t |via=[[California Digital Library]] }}
+
+==External links==
+*{{commons category-inline|Cities in Nigeria|'''Cities in Nigeria'''}}
+
+{{Cities in Nigeria}}
+{{Nigeria topics}}
+
+[[Category:Lists of cities in Nigeria| ]]
+[[Category:Lists of cities by population|Nigeria]]
