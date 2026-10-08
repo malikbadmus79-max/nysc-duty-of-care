@@ -45,7 +45,7 @@ Coding is AI-assisted: Claude (Anthropic) screens and codes articles under `docs
 
 Salience gap (H1): articles per incident by geopolitical zone, and the correlation between state shares of incidents and state shares of articles.
 
-Travel window (H2): share of incidents within 7 days of official camp-opening and passing-out dates, compared with the share of calendar days those windows cover. Official dates come from NYSC mobilisation timetables reported for each batch.
+Travel window (H2): share of incidents within 7 days of official camp-opening and passing-out dates, compared with the share of calendar days those windows cover. Official dates come from NYSC mobilisation timetables reported for each batch, collected in `data/interim/calendar/nysc_dates.csv` (one row per reported date, with the chosen date marked and superseded or implausible dates kept with a reason) and built into `data/processed/nysc_calendar.csv` by `nysc_safety.camp_calendar` [A11]. For 2010 to 2015 and several later streams, the only sources found are job and education sites that reproduce NYSC timetables, rated Low in the source log; the H2 test is repeated with reported dates only, and with 2016 to 2026 only.
 
 Exposure-adjusted rates (H3): incidents per 10,000 corps members sworn in, by state and period, with exact Poisson confidence intervals [A02]. No published series gives corps members sworn in by state and year, so exposure is modelled (`nysc_safety.exposure`): each state's share is its median reported orientation-course size (208 figures from news reports and official statements, at least 3 per state, in `data/interim/exposure/state_course_figures.csv`) divided by the sum across states, multiplied by the national total for the year (`data/interim/exposure/national_totals.csv`; National Bureau of Statistics series for 2010 to 2014, Director-General statements for 2016, 2017, 2023 and 2025, interpolated between) [A09, A10]. Few course figures predate 2016, so the shares mainly reflect camp sizes from 2016 onwards.
 
@@ -77,6 +77,7 @@ NYSC allocations are taken from the Federal Government appropriation acts for 20
 
 ## 9. Limitations
 
+- The NYSC calendar for 2010 to 2015 rests mainly on job and education sites that reproduce official timetables, and some streams have no recorded camp dates. Missing dates are derived [A11], which can shift the travel windows by a few days.
 - Four of the eight planned outlets (Punch, Vanguard, The Guardian (Nigeria), The Cable) could not be searched systematically, and Sahara Reporters has no archive search interface. Incidents reported only in these outlets are found only through targeted web searches and may be missed.
 - News coverage is incomplete and uneven. Incidents in rural northern states, and incidents in which victims were released quickly, are less likely to be reported. The salience analysis (H1) measures this bias where it can, but unreported incidents cannot be counted.
 - Swearing-in figures are reported inconsistently across states and batches; rates depend on the exposure assumption [A02].

@@ -2,7 +2,7 @@
 
 An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
-Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), with a sensitivity check on borderline scores. Pre-registration frozen (git tag `prereg-v1`). Incident register in progress: 96 incidents from 2011 to 2026 coded and published in `data/processed/incidents.csv` (35 kidnappings, 23 killings, 18 road crashes, 9 physical assaults, 3 robberies, 3 sexual-violence incidents and 5 other harms), from an archive search of 6,364 articles in Premium Times, Daily Trust and Channels Television and targeted searches of other outlets; 9 candidate incidents await verification. Exposure modelled for all 37 states from 208 reported orientation-course figures and national totals (`data/processed/exposure_by_state.csv`) [A09, A10].
+Status, 5 October 2026: repository set up, analysis plan and pre-registration drafted. Policy audit: duty-of-care scores assigned (current framework 12 of 36; with the June 2026 reform 14 of 36), with a sensitivity check on borderline scores. Pre-registration frozen (git tag `prereg-v1`). Incident register in progress: 96 incidents from 2011 to 2026 coded and published in `data/processed/incidents.csv` (35 kidnappings, 23 killings, 18 road crashes, 9 physical assaults, 3 robberies, 3 sexual-violence incidents and 5 other harms), from an archive search of 6,364 articles in Premium Times, Daily Trust and Channels Television and targeted searches of other outlets; 9 candidate incidents await verification. Exposure modelled for all 37 states from 208 reported orientation-course figures and national totals (`data/processed/exposure_by_state.csv`) [A09, A10]. NYSC calendar of camp-opening, camp-closing and passing-out dates for 74 batch-streams, 2010 to 2026 (`data/processed/nysc_calendar.csv`) [A11].
 
 ## Questions
 
@@ -54,9 +54,10 @@ python -m nysc_safety.download
 python -m nysc_safety.news_search
 python -m nysc_safety.register
 python -m nysc_safety.exposure
+python -m nysc_safety.camp_calendar
 ```
 
-`download` saves the primary documents in the source log to `data/raw/pdfs/`. `news_search` runs the logged archive search and writes the article index to `data/interim/`; it takes about 30 minutes. `register` builds `data/processed/incidents.csv` from the working register and the screening files. `exposure` builds `data/processed/exposure_by_state.csv` from the course figures and national totals in `data/interim/exposure/`.
+`download` saves the primary documents in the source log to `data/raw/pdfs/`. `news_search` runs the logged archive search and writes the article index to `data/interim/`; it takes about 30 minutes. `register` builds `data/processed/incidents.csv` from the working register and the screening files. `exposure` builds `data/processed/exposure_by_state.csv` from the course figures and national totals in `data/interim/exposure/`. `camp_calendar` builds `data/processed/nysc_calendar.csv` from the dated reports in `data/interim/calendar/`.
 
 ## Author
 

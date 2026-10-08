@@ -1,0 +1,306 @@
+batch_year,batch,stream,event,date,date_precision,status,reason,source_id,evidence,notes
+2010,A,,camp_opening,2010-03-09,day,use,,S367,"NYSC Batch 'A' 2010 Orientation Course | 9th – 30th March, 2010",Pre-event mobilisation timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2010,A,,camp_closing,2010-03-30,day,use,,S367,"NYSC Batch 'A' 2010 Orientation Course | 9th – 30th March, 2010",Pre-event mobilisation timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2010,B,,camp_opening,2010-07-06,day,use,,S368,"2010 Batch 'B' 2010 Orientation 6th – 27th July, 2010",Pre-event mobilisation timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2010,B,,camp_closing,2010-07-27,day,use,,S368,"2010 Batch 'B' 2010 Orientation 6th – 27th July, 2010",Pre-event mobilisation timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2010,B,,passing_out,2011-07-26,day,use,,S369,on Tuesday 26-07-2011,Osun State only (Ede camp). Article labels batch 'the year 2011 Batch B' (likely meaning passing-out year; service year 2010 Batch B). A second caption on the page says 'Thursday 07-07-2011' - conflicting; treat with caution.
+2010,C,,camp_opening,2010-10-25,day,use,,S370,The 2010 Batch C Orientation Exercise will commence on 25 October – 15 November 2010,Same page's timetable table gives 26 Oct - 16 Nov (see separate row). Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2010,C,,camp_opening,2010-10-26,day,alt,,S370,"26th Oct – 16th Nov,, 2010","From timetable table on same page (row mislabelled ""2010 Batch 'B'""); conflicts with article text (25 Oct). Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2010,C,,camp_closing,2010-11-15,day,alt,,S370,The 2010 Batch C Orientation Exercise will commence on 25 October – 15 November 2010,Conflicts with timetable table on same page (16 Nov). Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2010,C,,camp_closing,2010-11-16,day,use,,S370,"26th Oct – 16th Nov,, 2010","From timetable table on same page (row mislabelled ""2010 Batch 'B'""). Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2010,C,,passing_out,2011-10-04,day,use,,S371,"the passing out ceremony is scheduled to hold on Tuesday October 4, 2011",Sokoto State context (Sokoto corps members blog). Blog source; no mainstream news source found.
+2012,A,,camp_opening,2012-03-06,day,use,,S372,"orientation will commences on Tuesday, March 6, 2012","Corps members posted to Kano, Yobe, Niger and Borno began orientation March 22, 2012 (elsewhere). Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2012,A,,camp_closing,2012-03-27,day,use,,S372,run until March 27,Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2012,B,,camp_opening,2012-07-02,day,use,,S373,"orientation camp will open on Monday, 2nd July 2012",Registration by 4 July; Yobe and Borno postings held in Adamawa 26 July - 15 Aug. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2012,C,,camp_opening,2012-11-06,day,use,,S374,"will commence on the 6th of November, 2012 nationwide","Nationwide except Bayelsa, Borno, Yobe (see separate row)."
+2012,C,,camp_opening,2012-11-28,day,alt,,S374,"from Wednesday, 28th November, 2012 to Wednesday, 19th December, 2012","Bayelsa, Borno and Yobe only (postponed)."
+2012,C,,camp_closing,2012-12-19,day,alt,,S374,"from Wednesday, 28th November, 2012 to Wednesday, 19th December, 2012","Bayelsa, Borno and Yobe only. Nationwide closing date not stated."
+2012,C,,passing_out,2013-10-10,day,use,,S375,"Thursday, 10th October, 2013 ... Passing-out Ceremony",Same date also on MyJobMag (https://www.myjobmag.com/blog/131/nysc-2012-batch-c-winding-up-passing-out-time-table-is-out). Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2013,B,,camp_opening,2013-06-25,day,use,,S376,"Commencement of Registration – Tuesday, 25 June, 2013","Same page lists 'Swearing in Ceremony – Tuesday, July 16, 2013', which matches the closing date in the mobilisation timetable (likely mislabelled). Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2013,B,,camp_opening,2013-06-25,day,alt,,S377,"2013 Batch 'B' Orientation Course 25th June – 16th July, 2013",Pre-event mobilisation timetable. Blog source; no mainstream news source found.
+2013,B,,camp_closing,2013-07-16,day,use,,S377,"2013 Batch 'B' Orientation Course 25th June – 16th July, 2013",Pre-event mobilisation timetable. Blog source; no mainstream news source found.
+2013,B,,passing_out,2014-06-05,day,use,,S378,"Thursday 5th June, 2014 ... Passing-out Ceremony",Winding-up timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2013,C,,camp_opening,2013-11-05,day,use,,S379,"Commencement of Registration: Tuesday, 5th November, 2013","Also in mobilisation timetable 'Orientation Course 5th - 26th November, 2013' (hotnigerianjobs.com/hotjobs/17817, 2013-07-26). Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2013,C,,camp_closing,2013-11-26,day,use,,S379,"Official Closing Ceremony: Tuesday, 26th November, 2013",Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2014,A,,camp_opening,2014-03-11,day,use,,S380,"2014 Batch 'A' Orientation Course 11th March – 1st April, 2014",Pre-event mobilisation timetable. Blog source; no mainstream news source found.
+2014,A,,camp_closing,2014-04-01,day,use,,S380,"2014 Batch 'A' Orientation Course 11th March – 1st April, 2014",Pre-event mobilisation timetable. Blog source; no mainstream news source found.
+2014,A,,passing_out,2015-02-19,day,use,,S381,"POP date has now been scheduled for Thursday, February 19, 2015",Rescheduled date (earlier 'March 2nd' was for collection of discharge certificates). NYSC-focused blog; Blog source; no mainstream news source found.
+2014,B,I,camp_opening,2014-08-05,day,use,,S382,"Commencement of Registration: Tuesday, 5 August, 2014","Stream 1 = all states except Adamawa, Bauchi, Borno, Gombe, Jigawa, Osun, Kano, Yobe. Mobilisation timetable (hotjobs/33491, 2014-06-17) gives '5th - 26th August, 2014'. Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2014,B,I,camp_closing,2014-08-26,day,use,,S382,Official closing ceremony: Tuesday 26th August 2014,Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2014,B,II,camp_opening,2014-09-01,day,use_extra,Camp opened for registration on 1 September 2014 and closed within days (Ebola); a travel date separate from the November course.,S382,"Monday September 1st, 2014 to end Monday September 22nd, 2014","Stream 2 (Adamawa, Bauchi, Borno, Gombe, Jigawa, Osun, Kano, Yobe postings). Per later reports camp was cut to registration only 1-10 Sept 2014 (Ebola) and Stream II attended orientation with Batch C 4-25 Nov 2014. Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2014,B,II,camp_closing,2014-09-22,day,drop,Planned closing; the September 2014 course was cut short (Ebola).,S382,"Monday September 1st, 2014 to end Monday September 22nd, 2014",Planned; superseded (see notes on opening row). Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2014,B,II,camp_opening,2014-11-04,day,use,,S383,attend the orientation exercise with Batch C from November 4th – 25th 2014,Rescheduled orientation for Stream II after Ebola-shortened Sept camp (registration only 1-10 Sept 2014). Blog source; no mainstream news source found.
+2014,B,II,camp_closing,2014-11-25,day,use,,S383,attend the orientation exercise with Batch C from November 4th – 25th 2014,Blog source; no mainstream news source found.
+2014,B,,passing_out,2015-07-02,day,use,,S384,"Thursday 2nd July, 2015: Passing-out Ceremony",Streams not distinguished. Blog source; no mainstream news source found.
+2014,C,,camp_opening,2014-11-04,day,use,,S385,NYSC Camp opens on November 4,"Page last updated 2024-05-05; original date unknown. Also nairaland mobilisation timetable thread (2014-08-22): 'Orientation Course. 4th - 25th November, 2014'. Aggregator/job-listing site (not a news outlet); no mainstream news source found."
+2014,C,,camp_closing,2014-11-25,day,use,,S385,"orientation will run from November 4 to November 25, 2014",Page last updated 2024-05-05. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2014,C,,passing_out,2015-10-15,day,use,,S386,"batch 'C' 2014 corps members, who are due to pass-out on 15 October, 2015",
+2015,A,,camp_opening,2015-05-05,day,use,,S217,"would take place from May 5 to 25, 2015 nationwide","Published date from PressReader URL. Adamawa, Bauchi, Borno, Gombe, Yobe camps rescheduled to June 2015 (Bauchi postings to Mangu, Plateau, June 2). Corpr! timetable (2014-12-23) gives '5th – 26th May, 2015'."
+2015,A,,camp_closing,2015-05-25,day,alt,,S217,"would take place from May 5 to 25, 2015 nationwide",Conflicts with Corpr! timetable (26 May) - separate row.
+2015,A,,camp_closing,2015-05-26,day,use,,S387,"2015 Batch A Orientation Course is now slated for 5th – 26th May, 2015",Pre-event timetable. NYSC-focused blog; Blog source; no mainstream news source found.
+2015,A,,camp_opening,2015-05-05,day,alt,,S387,"2015 Batch A Orientation Course is now slated for 5th – 26th May, 2015",Pre-event timetable. NYSC-focused blog; Blog source; no mainstream news source found.
+2015,A,,passing_out,2016-04-14,day,use,,S388,Today marks the end of national youth service for 2015 batch A corpers,Date inferred from 'today' + post date. Personal blog; weak source.
+2015,B,I,camp_opening,2015-10-28,day,use,,S389,will run from Wednesday 28th October 2015 to Monday 16th,No publication date on page. NYSC-focused blog; Blog source; no mainstream news source found.
+2015,B,I,camp_closing,2015-11-16,day,use,,S389,will run from Wednesday 28th October 2015 to Monday 16th,"Source omits the month ('Monday 16th'); November 16, 2015 is a Monday. Blog source; no mainstream news source found."
+2015,B,II,camp_opening,2015-11-25,day,use,,S389,"from Wednesday November 25 to Monday December 14, 2015 for Stream 2",Blog source; no mainstream news source found.
+2015,B,II,camp_closing,2015-12-14,day,use,,S389,"from Wednesday November 25 to Monday December 14, 2015 for Stream 2",Blog source; no mainstream news source found.
+2015,B,I,passing_out,2016-10-06,day,use,,S390,addressing the 2015 Batch 'B' Stream I ... during their passing out on Thursday,"Article says only 'Thursday'; published Thu 2016-10-06, so date inferred. Reported from FCT (Kubwa camp)."
+2015,B,II,passing_out,2016-11-04,day,use,,S390,"2015 Batch B stream II will pass out on Nov. 4, 2016",Planned date as of publication; FCT context.
+2011,B,,camp_opening,2011-07-05,day,use,,S391,"2011 BATCH 'B' Orientation 5th -26th July,, 2011",Pre-event mobilisation timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2011,B,,camp_closing,2011-07-26,day,use,,S391,"2011 BATCH 'B' Orientation 5th -26th July,, 2011",Pre-event mobilisation timetable. Aggregator/job-listing site (not a news outlet); no mainstream news source found.
+2011,B,,passing_out,2012-06-14,day,alt,,S392,"passing out ceremony ... 2011 Batch B Corps members (Updated June 14, 2012)",Cross River State (Calabar) only. Article does not state the ceremony date; date inferred from article date (ceremony on or shortly before). Corroborated by blog row below.
+2011,B,,passing_out,2012-06-14,day,use,,S393,IT'S MY P.O.P. TODAY!!!!!,Date inferred from 'today' + post date; state not named. Personal blog; weak source.
+2011,A,,passing_out,2012-02-16,day,use,,S394,"Today, I officially passed out of the NYSC Scheme!",Author identifies as Batch A 2011; date inferred from 'today' + post date; state not named (Lagos/Ipaja camp hinted). Personal blog; weak source.
+2011,C,,passing_out,2012-10-18,day,use,,S395,"scheduled to hold on Oct.18, 2012",Bayelsa State; quotes an NYSC official on 2011 Batch 'C' passing-out held without the usual ceremony due to flooding. Blog source; no mainstream news source found.
+2012,B,,camp_closing,2012-07-23,day,use,,S396,July 2nd to 23rd - Orientation,Pre-event timetable (listed under foreign-trained graduates section). Opening 2 July matches existing row. Blog source; no mainstream news source found.
+2012,B,,passing_out,2013-06-06,day,use,,S397,"As you pass out on the 6th of June, 2013",Forum post by a user (not official); state not named. Forum source; no mainstream news source found.
+2012,C,,camp_closing,2012-11-27,day,use,,S398,ORIENTATION HOLDS 6TH To 27TH NOVEMBER 2012,"Nationwide (excl. Bayelsa, Borno, Yobe). Only the page title was readable (page fetch failed); published October 2012 per URL, day unknown. Blog source; no mainstream news source found."
+2013,C,,passing_out,2014-10-16,day,use,,S399,"on the 16th of October, 2014","Federal government agency site. Article inconsistently labels batch ('2012/2014' and 'Batch C 2013/2014'); 2013/2014 fits a 2013 Batch C service year. Search listing also shows allAfrica 'Nigeria: 2013 NYSC Batch C Corps Members Pass Out' (allafrica.com/stories/201410161386.html, 2014-10-16) but page could not be read (403)."
+2016,A,I,camp_opening,2016-03-30,day,drop,"Original schedule, later moved.",S400,"Stream 1: Wednesday, 30th March, 2016 – Monday, 18th April, 2016",Original schedule; later shifted to 27 April 2016 (see TheCable 2016-04-03)
+2016,A,I,camp_opening,2016-04-27,day,use,,S401,"Commencement: Wednesday, 27th April, 2016",Revised schedule (shifted from March 30)
+2016,A,I,camp_closing,2016-04-18,day,drop,"Original schedule, later moved.",S400,"Stream 1: Wednesday, 30th March, 2016 – Monday, 18th April, 2016",Original schedule; superseded
+2016,A,I,camp_closing,2016-05-13,day,use,,S401,"Close of Camp: Friday, 13th May, 2016",Revised schedule
+2016,A,II,camp_opening,2016-04-27,day,drop,"Original schedule, later moved.",S400,"Stream 2: Wednesday, 27th April 2016 – Monday 16th May 2016",Original schedule; superseded
+2016,A,II,camp_opening,2016-05-21,day,drop,"Revised date, postponed indefinitely before it was held.",S401,"Commencement: Saturday, 21st May, 2016",Revised schedule; this date was postponed indefinitely on 2016-05-19 (THEWILL)
+2016,A,II,camp_opening,2016-05-21,day,drop,"Revised date, postponed indefinitely before it was held.",S402,"the Orientation Course will commence on Saturday, 21st May, 2016",THEWILL not on preferred list. Postponed indefinitely 2016-05-19 (same outlet); camp actually opened 13 June 2016
+2016,A,II,camp_opening,2016-06-13,day,use,,S403,commence from Monday 13th JUNE to WEDNESDAY 29th JUNE 2016 nationwide,Final rescheduled date after indefinite postponement
+2016,A,II,camp_closing,2016-05-16,day,drop,"Original schedule, later moved.",S400,"Stream 2: Wednesday, 27th April 2016 – Monday 16th May 2016",Original schedule; superseded
+2016,A,II,camp_closing,2016-06-06,day,drop,"Revised date, later moved again.",S401,"Close of Camp: Monday, 6th June, 2016",Revised schedule; later superseded
+2016,A,II,camp_closing,2016-06-29,day,use,,S403,commence from Monday 13th JUNE to WEDNESDAY 29th JUNE 2016 nationwide,Final rescheduled date
+2016,B,I,camp_opening,2016-11-24,day,use,,S404,"registration in the camp for Stream 1, 2016 Batch 'B' commences on Thursday 24th November",Ondo camp opened 29 Nov 2016 due to governorship election
+2016,B,I,camp_opening,2016-11-24,day,alt,,S405,"Registration in the camp for Stream 1, 2016 Batch 'B' commences on Thursday 24th November",
+2016,B,I,camp_opening,2016-11-24,day,alt,,S406,would commence orientation exercise on Nov. 24.,Stream I
+2016,B,I,camp_opening,2016-11-29,day,alt,,S404,"Ondo NYSC Camp would now open ... as from Tuesday, 29th November",Ondo State only
+2016,B,I,camp_closing,2016-12-19,day,alt,,S404,"to Monday, 19th December 2016",Ondo State only (delayed camp)
+2016,B,I,passing_out,2017-11-02,day,use,,S407,disclosed this on Thursday ... on the passing out of the Batch 'B' stream one,Kano State; date derived: 'Thursday' before Fri 3 Nov 2017 = 2 Nov 2017; batch year (2016) inferred from timing
+2016,B,II,camp_opening,2017-01,month,alt,,S406,The 2016 Batch 'B' stream II are expected to commence orientation in January 2017.,Advance month-only announcement
+2016,B,II,camp_opening,2017-01-24,day,use,,S408,"will commence on Tuesday, 24th January, 2017",Borno camp opened 16 Feb 2017
+2016,B,II,camp_opening,2017-02-16,day,alt,,S409,will take place from the 16th of February,Borno State only
+2016,B,II,camp_closing,2017-02-13,day,use,,S408,"Monday, 13th February, 2017 – Closing ceremony",
+2016,B,II,camp_closing,2017-03-08,day,alt,,S409,will conclude on the 8th of March 2017,Borno State only
+2016,B,II,passing_out,2017-12-21,day,use,,S410,"corps members will be passing out on Thursday, December 21, 2017.",Outlet not on preferred list; cites NYSC Facebook notice; low-keyed
+2017,A,I,camp_closing,2017-06-12,day,use,,S411,"The 2017 Batch A stream 1 concluded June 12, 2017.",Retrospective mention
+2017,A,I,passing_out,2018-04-12,day,use,,S412,"complete their youth service program on Thursday, April 12, 2018",Outlet not on preferred list; exact publication date not shown (April 2018); published date not shown on page (April 2018)
+2017,A,II,camp_opening,2017-07-26,day,use,,S411,"scheduled to take place on Wednesday, July 26, 2017 to Tuesday, August 15, 2017",
+2017,A,II,camp_opening,2017-07-26,day,alt,,S296,"Orientation Camp ... would be opened on July 26, 2017.",Sokoto State camp; consistent with national schedule
+2017,A,II,camp_closing,2017-08-15,day,use,,S411,"Closing ceremony: Tuesday, August 15, 2017",
+2017,A,II,camp_closing,2017-08-15,day,alt,,S296,"the camp closes on Tuesday, August, 15",Sokoto State camp
+2017,A,II,passing_out,2018-07-05,day,use,,S413,2017 Batch A Stream 2 Corp Members Pass Out Today.,Outlet not on preferred list; 'today' = publication date 5 Jul 2018
+2017,B,II,camp_opening,2018-01-16,day,alt,,S414,the orientation course will commence from Jan. 16 to Feb. 5.,Held in only 15 camps; Benue camp suspended (TheCable 2018-01-14)
+2017,B,II,camp_opening,2018-01-16,day,use,,S415,"Commencement and Registration: Tuesday 16th January, 2018",
+2017,B,II,camp_closing,2018-02-05,day,use,,S414,the orientation course will commence from Jan. 16 to Feb. 5.,
+2017,B,II,camp_closing,2018-02-05,day,alt,,S415,"Closing: Monday, 5th February, 2018",
+2017,B,II,passing_out,2018-12-13,day,use,,S416,"passing out ceremony for 2017 Batch 'B' Stream II ... Thursday, December 13, 2018.",Retrospective mention
+2018,A,,passing_out,2019-03-14,day,use,,S417,"on the passing out of 2,682 Batch A corps members on Thursday in Kano.",Kano State; stream not named; Thursday = publication date 14 Mar 2019
+2018,A,I,camp_opening,2018-04-19,day,use,,S418,"""The tentative date set by the scheme is April 19,"" he said.",Described as tentative date for Stream I
+2018,A,I,camp_opening,2018-04-19,day,alt,,S419,has commenced orientation for the 2018 Batch 'A' Stream 1 corps members,"FCT camp; article dated Thursday 19 April 2018 says registration started ""this morning"""
+2018,B,I,camp_opening,2018-07-24,day,use,,S420,will hold in orientation camps nationwide from July 24 to August 13.,Stream I (article says Stream II details to follow)
+2018,B,I,camp_closing,2018-08-13,day,use,,S420,will hold in orientation camps nationwide from July 24 to August 13.,Stream I
+2018,C,I,passing_out,2019-10-03,day,use,,S421,"the corps members passed out on Oct. 3, in a low keyed event",Sokoto State; year inferred from publication (Oct 2019)
+2018,C,II,camp_opening,2018-11-15,day,alt,,S422,"report at the NYSC temporary orientation camp in Amada, starting from Thursday, November 15",Gombe temporary camp (Amada) for Borno/Yobe-posted PCMs only; registration closed midnight Sunday Nov 18
+2019,A,,camp_opening,2019-03-27,day,use,,S423,"Commencement of Registration – Wednesday, 27th March, 2019.","Minor outlet, not on preferred list; stream not named (likely Stream I)"
+2019,A,,camp_closing,2019-04-16,day,use,,S423,"Official Closing Ceremony – Tuesday, 16th April, 2019.","Minor outlet, not on preferred list; stream not named"
+2019,B,I,camp_opening,2019-06-18,day,use,,S424,"2019 Batch""B"" stream 1 orientation course commences on Tuesday 18th June,2019",Outlet not on preferred list
+2019,B,I,passing_out,2020-05-28,day,use,,S425,the event slated for May 28 would not be marked with ceremonial parades,No ceremonial parades (COVID-19); certificate distribution staggered over 10 days
+2019,B,I,passing_out,2020-05-28,day,alt,,S426,"Today, the service year of 2019 Batch B Steam 1 ends",Lagos State; 'today' as quoted on the day before publication (photo caption: 'yesterday') = 28 May 2020
+2019,B,I,passing_out,2020-05-28,day,alt,,S427,"slated nationwide for Thursday 28th, May 2020",Ceremonial parade cancelled (COVID-19)
+2019,B,I,passing_out,2020-05-28,day,alt,,S428,"slated nationwide for Thursday, 28th May 2020",
+2019,B,I,passing_out,2020-05-28,day,alt,,S429,The Corps member of 2019 Batch B stream I are passing out today,Ogun State; 'today' = publication date
+2019,B,II,passing_out,2020-07-16,day,use,,S430,has been fixed nationwide for July 16.,Year not printed; 2020 from publication context; certificate distribution staggered over 10 days
+2019,B,II,passing_out,2020-07-16,day,alt,,S431,"has been fixed nationwide for Thursday, 16th July, 2020.",Outlet not on preferred list; quotes NYSC statement
+2019,C,I,camp_opening,2019-11-05,day,use,,S432,"is to run from Tuesday 5th November to Wednesday 4th December, 2019 Nationwide.",
+2019,C,I,camp_closing,2019-12-04,day,drop,Printed closing implies a 30-day course overlapping Stream II; implausible.,S432,"is to run from Tuesday 5th November to Wednesday 4th December, 2019 Nationwide.","As printed; implausible (30 days, overlaps Stream II camp from 28 Nov); a 21-day course would end ~25 Nov. Treat with caution"
+2019,C,I,passing_out,2020-10-15,day,use,,S433,spoke yesterday during the passing out ceremony of the corps members,Lagos State; date derived from 'yesterday' relative to 16 Oct 2020 publication
+2019,C,II,camp_opening,2019-11-28,day,use,,S434,"Commencement/Registration - Thursday, 28th November, 2019.",Job/aggregator site (not preferred); reproduces NYSC statement
+2019,C,II,camp_closing,2019-12-18,day,use,,S434,"Closing Ceremony: Wednesday, 18th December, 2019.",Job/aggregator site (not preferred)
+2020,A,,passing_out,2021-02-18,day,use,,S435,terminal Passing Out Parade (POP) ... at the Federal Secretariat in Kano,"Kano State; date derived from 'yesterday' relative to 19 Feb 2021 publication; Batch A 2020, stream not named"
+2020,A,I,camp_opening,2020-03-10,day,alt,,S353,the orientation exercise would hold between March 10 and March 30.,Plateau State; stream not named (2020 Batch A Stream I per later reports)
+2020,A,I,camp_opening,2020-03-10,day,use,,S341,would be opened for registration of the prospective corps members on March 10,Kwara State
+2020,A,I,camp_closing,2020-03-18,day,use,,S436,"On March 18, the management of NYSC had temporarily suspended the orientation course",Early closure: COVID-19 suspension of ongoing 2020 Batch A Stream I course
+2020,A,I,camp_closing,2020-03-18,day,alt,,S437,suspension of the ongoing Orientation course for the 2020 Batch 'A' Stream 1,"Date from article publication (press release 'on Wednesday morning', 18 Mar 2020); COVID-19 suspension"
+2020,A,I,camp_closing,2020-03-18,day,alt,,S435,"prepare to leave the orientation camp in Kubwa, Abuja, on March 18, 2020","Photo caption, FCT camp; COVID-19 early closure"
+2020,A,I,camp_closing,2020-03-30,day,drop,Scheduled closing not reached: course suspended on 18 March 2020 (COVID-19).,S353,the orientation exercise would hold between March 10 and March 30.,Scheduled closing; never reached - course suspended 18 March 2020 (COVID-19)
+2020,A,I,camp_closing,2020-03-30,day,drop,Scheduled closing not reached: course suspended on 18 March 2020 (COVID-19).,S341,the 21-day orientation course will come to an end on March 30.,Kwara State; scheduled closing never reached (suspended 18 March 2020)
+2020,A,I,passing_out,2021-02-18,day,use,,S438,"we have 5,720 corps members passing out today in all the local councils",Lagos State; 2020 Batch A (stream not named; Stream I camp was cut short 18 Mar 2020). Date derived: coordinator spoke 'yesterday' (18 Feb 2021) saying 'today'
+2020,A,I,passing_out,2021-02-18,day,alt,,S439,"during the passing out parade of 5,720 corps members on Thursday","Lagos State; 2020 Batch A ('Pandemic Batch', 11 days in camp); Thursday = publication date 18 Feb 2021"
+2020,B,IA,camp_opening,2020-11-10,day,use,,S440,2020 batch B stream 1 corps members resumed at the orientation camp on November 10.,Labelled 'Stream 1A' in Daily Trust photo story (Lagos)
+2020,B,IA,camp_opening,2020-11-10,day,alt,,S441,"orientation camp is set to resume on November 10th, 2020.",Advance announcement of post-COVID reopening; batch not named in this article
+2020,B,IA,camp_opening,2020-11-10,day,alt,,S442,"2020 Batch 'B', Stream 1A ... November 10, 2020.",Lagos camp (Iyana-Ipaja); stream labelled 1A
+2020,B,IA,camp_opening,2020-11-10,day,alt,,S443,"Stream 1a Tuesday, 10th to Monday, 30th November, 2020","Batch B 2020 split into Streams 1a, 1b and 2 for COVID-19 protocols"
+2020,B,IA,camp_opening,2020-11-10,day,alt,,S444,"resuming on Tuesday, November 10",Stream not named (first of three streams)
+2020,B,IA,camp_closing,2020-11-30,day,use,,S440,"ended their 3-week orientation training on Monday, November 30, 2020.",
+2020,B,IA,camp_closing,2020-11-30,day,alt,,S443,"Stream 1a Tuesday, 10th to Monday, 30th November, 2020",
+2020,B,IB,camp_opening,2020-12-03,day,use,,S443,"Stream 1b Thursday, 3rd to Tuesday, 22nd December, 2020",
+2020,B,IB,camp_opening,2020-12-03,day,alt,,S440,will resume at the various orientation camps on Thursday,Article (Tue 1 Dec 2020) calls it 'second stream'; Thursday = 3 Dec 2020; matches Daily Trust Stream 1b
+2020,B,IB,camp_closing,2020-12-22,day,use,,S443,"Stream 1b Thursday, 3rd to Tuesday, 22nd December, 2020",
+2020,B,II,camp_opening,2021-01-05,day,drop,"Initial plan, replaced by 19 January 2021.",S443,"Stream 2 Tuesday, 5th to Monday, 25th January, 2021.",Initial plan; superseded (camps opened 19 Jan 2021)
+2020,B,II,camp_opening,2021-01-18,day,drop,"Earlier announced date, replaced by 19 January 2021.",S445,"earlier announced start date of January 18, 2021","Earlier announced date, superseded by 19 Jan 2021"
+2020,B,II,camp_opening,2021-01-19,day,use,,S446,from January 19,2020 Batch B Stream II
+2020,B,II,camp_opening,2021-01-19,day,alt,,S445,"admitted to approved camps nationwide starting January 19, 2021",Replaces earlier announced 18 Jan 2021
+2020,B,II,camp_opening,2021-01-19,day,alt,,S447,"accessible to corps members from Tuesday, January 19.",
+2020,B,II,camp_opening,2021-01-19,day,alt,,S448,"Commencement / Registration - Tuesday, 19th January, 2021.",Job/aggregator site (not preferred); reproduces NYSC timetable
+2020,B,II,camp_closing,2021-01-25,day,drop,"Initial plan, replaced.",S443,"Stream 2 Tuesday, 5th to Monday, 25th January, 2021.",Initial plan; superseded
+2020,B,II,camp_closing,2021-02-08,day,use,,S448,"Closing Ceremony: Monday, 8th February, 2021.",Job/aggregator site (not preferred); no news-outlet source found
+2019,B,I,passing_out,2020-05-28,day,alt,,S449,"The Passing Out programme, scheduled to hold on Thursday May 28 nation-wide",Kogi State report; low-key (COVID-19); year from publication
+2017,A,II,camp_opening,2017-07-26,day,alt,,S450,"scheduled to commence on Wednesday, 26th July, 2017 nationwide.",
+2017,A,II,camp_closing,2017-08-15,day,alt,,S450,"Closing ceremony: Tuesday, 15th August, 2017",
+2018,B,I,camp_opening,2018-07-24,day,alt,,S451,the course would hold in all orientation camps from July 24 to Aug. 13.,Stream I (Stream II details to follow per article)
+2018,B,I,camp_closing,2018-08-13,day,alt,,S451,the course would hold in all orientation camps from July 24 to Aug. 13.,Stream I
+2018,B,I,passing_out,2019-06-27,day,use,,S452,"has fixed Thursday 27th June, 2019 for the Winding up/Passing out activities",Education aggregator site (not preferred); no news source found; stream not named (Stream I by timing; Stream II passed out 25 Jul 2019)
+2018,B,II,passing_out,2019-07-25,day,use,,S453,"on Thursday ... low-key Passing out Parade (POP) ... 2018 Batch ""B"" Stream II",Nasarawa State; Thursday = publication date 25 Jul 2019
+2018,B,II,passing_out,2019-07-25,day,alt,,S454,the corps members passed out on Thursday in a low keyed parade,Sokoto State; 2018 Batch B Stream II; Thursday before Fri 26 Jul 2019 = 25 Jul 2019 (derived)
+2018,A,,passing_out,2019-03-14,day,alt,,S455,were discharged from their one year service on Thursday.,Kogi State; stream not named; Thursday = publication date 14 Mar 2019
+2020,B,II,camp_opening,2021-01-19,day,alt,,S456,"allowed into approved camps nationwide starting from January 19, 2021",A day later than earlier announced 18 Jan 2021
+2019,B,II,camp_opening,2019-08-20,day,use,,S457,On the 20th August 2019 ... orientation camps were opened for the batch,Student news site (not preferred); retrospective
+2019,B,II,camp_closing,2019-09-09,day,use,,S457,The three-week-long orientation camp finished on the 9th of September 2019.,Student news site (not preferred); retrospective
+2019,B,II,passing_out,2020-07-16,day,alt,,S457,"fixed nationwide for Thursday, 16th July 2020.",Student news site (not preferred); quotes NYSC statement
+2019,B,II,camp_opening,2019-08-20,day,alt,,S458,"Orientation course will commence on Tuesday, 20th August, 2019.",Blog (not preferred); reproduces NYSC timetable
+2019,B,II,camp_closing,2019-09-09,day,alt,,S458,"Closing Ceremony Monday, 9th September, 2019.",Blog (not preferred); reproduces NYSC timetable
+2017,A,I,camp_opening,2017-05-23,day,use,,S459,"The orientation camp course which started on May 23rd, 2017 ends today June 12th.","Blog (not preferred; no news source found); published date inferred from ""ends today June 12"""
+2017,A,I,camp_closing,2017-06-12,day,alt,,S459,"The orientation camp course which started on May 23rd, 2017 ends today June 12th.",Blog (not preferred); consistent with TheCable retrospective
+2017,B,I,camp_opening,2017-11-21,day,use,,S460,"2017 BATCH 'B' ORIENTATION COURSE 21ST NOVEMBER - 8TH DECEMBER, 2017","Institution news page reproducing NYSC mobilisation timetable; stream not named (Stream II ran Jan 2018, so this is Stream I); consistent with Blueprint Nasarawa swearing-in report of 23 Nov 2017"
+2017,B,I,camp_closing,2017-12-08,day,use,,S460,"2017 BATCH 'B' ORIENTATION COURSE 21ST NOVEMBER - 8TH DECEMBER, 2017",Institution page; planned timetable; Stream I by inference
+2018,C,I,camp_opening,2018-10-23,day,use,,S461,"will commence on Tuesday, 23rd October, 2018",Blog (not preferred; no news source found); publication date not shown (Oct 2018 per URL)
+2018,C,I,camp_closing,2018-11-12,day,use,,S461,"end on Monday, 12th November, 2018.",Blog (not preferred); publication date not shown (Oct 2018 per URL)
+2017,B,II,camp_opening,2018-01-16,day,alt,,S462,2017 Batch 'B' Orientation Course (Stream II). 16th January to 5th February 2018,Minor outlet; confirms existing rows
+2016,B,I,camp_opening,2016-11-24,day,alt,,S463,"were in the orientation camp between November 24 to December 14, 2016.",Retrospective
+2016,B,I,camp_closing,2016-12-14,day,use,,S463,"were in the orientation camp between November 24 to December 14, 2016.",Retrospective; national Stream I closing
+2016,B,II,passing_out,2017-11-02,day,drop,"Batch label conflicts with TheCable, which gives this date for Stream I.",S463,"the Batch will be passing out Thursday, November 2.","CONFLICT: Legit labels this 2016 Batch B stream 2, but TheCable (2017-11-03) reports Batch B Stream 1 passing out that Thursday and Nigerian Eye gives 21 Dec 2017 for Stream 2; likely a stream mislabel"
+2016,A,I,passing_out,2017-04-07,day,use,,S464,"2016 Batch A stream I will be passing out on Friday, 7th April 2017.",Blog (not preferred; no news source found); publication date not shown (before 17 Mar 2017)
+2016,A,II,passing_out,2017-05-04,day,use,,S464,"2016 Batch A stream II will be passing out on Thursday, 4th of May 2017.","Blog (not preferred); reader comments cite conflicting rumoured dates (3 May, 24 May) and a circular giving 4 May"
+2018,C,II,camp_opening,2018-11-15,day,use,,S465,"Commencement and Registration: Thursday 15th November, 2018.",Education aggregator (not preferred); old 2018 Batch C Stream II timetable left on an updated page; matches TheCable Gombe date
+2018,C,II,camp_closing,2018-12-05,day,use,,S465,"Closing Ceremony: Wednesday 5th December, 2018.",Education aggregator (not preferred); batch/stream from page context
+2022,B,I,camp_opening,2022-06-15,day,use,,S466,"The 21 day exercise will commence on Wednesday June 15, 2022",Publish date not shown
+2022,B,I,camp_closing,2022-07-05,day,use,,S466,"Closing Ceremony: Tuesday July 5, 2022",Publish date not shown
+2022,C,I,camp_opening,2022-11-02,day,use,,S467,"would commence on Wednesday 2nd November, 2022",Publish date not shown
+2022,C,I,camp_closing,2022-11-22,day,use,,S467,"end on Tuesday 22nd November, 2022",Publish date not shown
+2022,C,I,passing_out,2023-10-12,day,use,,S468,"will be passing out on 12th October, 2023",Publish date not shown
+2023,A,I,camp_opening,2023-01-25,day,alt,,S220,the orientation for the corps members begins on Jan. 25 and ends on Feb. 15,Bauchi State (Wailo camp)
+2023,A,I,camp_opening,2023-01-25,day,use,,S469,"Commencement / Registration: Wednesday, 25th January, 2023",AGGREGATOR; page title says 2022 but dates (Jan 2023) match 2023 Batch A Stream I (cf. Bauchi report)
+2023,A,I,camp_closing,2023-02-14,day,use,,S469,"Closing Ceremony: Tuesday, 14th February, 2023",AGGREGATOR; conflicts with Bauchi report (Feb 15); batch-year label ambiguous
+2023,A,I,camp_closing,2023-02-15,day,alt,,S220,the orientation for the corps members begins on Jan. 25 and ends on Feb. 15,Bauchi State (Wailo camp)
+2023,A,I,passing_out,2023-12-15,day,drop,2023 Batch A Stream I passing-out on 15 Dec 2023 is under a year after camp; batch label unverified,S470,"approved Friday, December 15, 2023, for the Passing Out date","Article says ""this year's Batch 'A' Stream One"" - i.e. 2023 Batch A Stream I"
+2023,A,II,camp_opening,2023-04-26,day,use,,S471,"scheduled to hold from 26th April to 16th May, 2023",
+2023,A,II,camp_closing,2023-05-16,day,use,,S471,"scheduled to hold from 26th April to 16th May, 2023",
+2023,B,I,camp_opening,2023-07-12,day,use,,S472,"Commencement/Registration: Wednesday, 12th July, 2023",Institution site reproducing NYSC timetable. Leadership labels the same Jul 12-Aug 1 dates as Stream II
+2023,B,I,camp_closing,2023-08-01,day,use,,S472,"Closing Ceremony: Tuesday, 1st August, 2023",Institution site reproducing NYSC timetable
+2023,B,I,passing_out,2024-06-13,day,use,,S473,passed out on Thursday,Bayelsa State only; date inferred (Thursday before 2024-06-14 article)
+2023,B,II,camp_opening,2023-07-12,day,drop,Leadership labels the 12 Jul-1 Aug 2023 course Stream II; the NYSC timetable copy labels it Stream I (C15),S474,scheduled to hold nationwide from July 12 to August 1,Publish date not shown; Plateau camp relocation story with nationwide dates
+2023,B,II,camp_opening,2023-08-16,day,use,,S475,"will commence on Wednesday; 16th August, 2023",AGGREGATOR (jobs site). Conflicts with Leadership row giving Jul 12 for Stream II
+2023,B,II,camp_opening,2023-08-18,day,alt,,S476,commencement of the Orientation Course has also been changed to 18th August 2023,Borno State only (changed date); not on preferred list
+2023,B,II,camp_closing,2023-08-01,day,drop,see C15,S474,scheduled to hold nationwide from July 12 to August 1,Publish date not shown
+2023,B,II,camp_closing,2023-09-05,day,use,,S475,"Closing Ceremony: Thursday; 5th September, 2023","AGGREGATOR; 5 Sep 2023 was a Tuesday, weekday in source inconsistent"
+2023,C,I,camp_opening,2023-11-01,day,use,,S477,"Commencement / Registration: Wednesday; 1st November, 2023",AGGREGATOR (jobs site) reproducing NYSC timetable; no news outlet found
+2023,C,I,camp_closing,2023-11-21,day,use,,S477,"Closing Ceremony: Tuesday; 21st November, 2023",AGGREGATOR (jobs site)
+2023,C,II,camp_opening,2023-11-24,day,alt,,S222,the orientation for the corps members will begin on November 24,Bauchi State (Wailo camp); stream II per article. Gazette not on preferred list
+2023,C,II,camp_opening,2023-11-24,day,use,,S478,"Commencement / Registration: Friday; 24th November, 2023",AGGREGATOR (jobs site); consistent with Gazette Bauchi report
+2023,C,II,camp_closing,2023-12-14,day,alt,,S222,will begin on November 24 and end on December 14,Bauchi State (Wailo camp)
+2023,C,II,camp_closing,2023-12-14,day,use,,S478,"Closing Ceremony: Thursday; 14th December, 2023",AGGREGATOR (jobs site)
+2024,A,I,camp_opening,2024-02-15,day,use,,S479,15th February 2024 is fixed for the commencement of the orientation course,"BLOG source - no news outlet found; 15 Feb 2024 was a Thursday, verify"
+2024,A,I,camp_closing,2024-03-06,day,use,,S479,"Closing Ceremony: 6th March, 2024",BLOG source - no news outlet found
+2024,A,I,passing_out,2025-01-23,day,use,,S480,"Thursday, January 23, 2025, will be a day to remember",AGGREGATOR/BLOG source - no news outlet found
+2024,A,II,camp_opening,2024-04-17,day,use,,S481,"the orientation course will commence nationwide on Wednesday, 17th April, 2024",Publish date not shown on page
+2024,A,II,camp_opening,2024-04-17,day,alt,,S482,"the orientation course will commence nationwide on Wednesday, April 17, 2024",Legit.ng (not on preferred list)
+2024,A,II,camp_opening,2024-04-17,day,alt,,S483,"Commencement / Registration: Wednesday; 17th April, 2024",AGGREGATOR (jobs site)
+2024,A,II,camp_closing,2024-05-07,day,use,,S483,"Closing Ceremony: Tuesday; 7th May, 2024",AGGREGATOR (jobs site); no news outlet found for closing
+2024,B,I,camp_opening,2024-06-26,day,alt,,S484,"The program is set to begin on June 26, 2024","Legal news site, not on preferred list"
+2024,B,I,camp_opening,2024-06-26,day,use,,S485,"report to their various orientation camps between Wednesday, 26th and Monday, 1st July, 2024",
+2024,B,I,camp_closing,2024-07-16,day,use,,S484,"Closing Ceremony on July 16, 2024","Legal news site, not on preferred list"
+2024,B,I,passing_out,2025-06-03,day,use,,S486,congratulated the 2024 Batch 'B' Stream 1 corps members for passing-out successfully,"Date inferred: DG statement made Tuesday, article dated 2025-06-03"
+2024,B,I,passing_out,2025-06-03,day,alt,,S487,"will now hold on Tuesday, June 3rd, 2025",Minor outlet; rescheduled from Thursday June 5 (2025)
+2024,B,I,passing_out,2025-06-05,day,drop,"original date, moved to 3 Jun 2025",S487,"instead of the earlier scheduled Thursday, June 5th","ORIGINAL date, superseded by 3 June 2025; minor outlet"
+2024,B,II,camp_opening,2024-08-28,day,alt,,S488,which will take place from August 28 to September 17,Bauchi relocation story; dates appear nationwide schedule. WithinNigeria not on preferred list
+2024,B,II,camp_opening,2024-08-28,day,alt,,S489,"is set to commence on Wednesday, August 28, 2024","SolaceBase (online outlet, not on preferred list)"
+2024,B,II,camp_closing,2024-09-17,day,alt,,S488,which will take place from August 28 to September 17,WithinNigeria not on preferred list
+2024,B,II,camp_closing,2024-09-17,day,alt,,S489,"a closing ceremony on Tuesday, September 17, 2024","SolaceBase (online outlet, not on preferred list)"
+2024,B,II,passing_out,2025-08-07,day,use,,S490,"approved Thursday, August 7, 2025, as the Passing-Out date","Business news site, not on preferred list. Conflicts with VON (Aug 8); 7 Aug 2025 is a Thursday"
+2024,B,II,passing_out,2025-08-08,day,drop,8 Aug 2025 was a Friday; the source's weekday matches 7 Aug (C16),S491,"to hold across all the 36 states and the FCT on Thursday, August 8, 2025","Conflict: 8 Aug 2025 is a Friday; weekday ""Thursday"" matches Aug 7 - likely VON typo"
+2024,C,I,camp_opening,2024-11-27,day,use,,S492,"is scheduled to commence on Wednesday, November 27, 2024","Kwara local news site, not on preferred list; Kwara camp"
+2024,C,I,passing_out,2025-11-06,day,drop,"Original date, moved to 11 November 2025.",S493,"changed from Thursday 6th November to Tuesday 11th November, 2025","Aggregator site (myschool); ORIGINAL date, superseded by 11 Nov 2025"
+2024,C,I,passing_out,2025-11-06,day,drop,"Original date, moved to 11 November 2025.",S494,"has approved Thursday 6th November, 2025, as the date for the Passing-out","ORIGINAL date, later changed to 11 Nov 2025; publish date not shown"
+2024,C,I,passing_out,2025-11-06,day,drop,"Original date, moved to 11 November 2025.",S495,"has approved Thursday, 6th November, 2025, as the date for the Passing-out","ORIGINAL date, later changed to 11 Nov 2025"
+2024,C,I,passing_out,2025-11-11,day,alt,,S493,"changed from Thursday 6th November to Tuesday 11th November, 2025","Aggregator site (myschool); revised date, originally 6 Nov 2025"
+2024,C,I,passing_out,2025-11-11,day,use,,S496,"changed from Thursday 6th November to Tuesday 11th November, 2025","Revised (final) date; minor outlet, not on preferred list"
+2024,C,II,camp_opening,2025-01-22,day,use,,S497,"will officially open today, Wednesday, January 22, 2025",
+2024,C,II,camp_opening,2025-01-22,day,alt,,S498,"The orientation camps, which opens nationwide on Wednesday, January 22",ICIR (investigative outlet); batch year inferred as 2024 C II
+2024,C,II,camp_opening,2025-01-22,day,alt,,S499,"officially opens today, Wednesday, January 22, 2025",
+2024,C,II,passing_out,2025-12-18,day,use,,S500,"will conclude their service year on Thursday, December 18, 2025",
+2024,C,II,passing_out,2025-12-18,day,alt,,S501,"approved Thursday, December 18, 2025, as the passing-out date",Publish date not shown on page
+2024,C,II,passing_out,2025-12-18,day,alt,,S502,"has announced Thursday, December 18, 2025, as the passing-out date",
+2025,A,I,camp_opening,2025-04-23,day,use,,S324,"commenced the 2025 Batch 'A' Stream I Orientation Course on Wednesday, 23rd April, 2025",Edo State camp report; no nationwide announcement found
+2025,A,I,passing_out,2026-03-31,day,use,,S503,"has approved Tuesday, 31st March 2026, as the passing-out date",
+2025,A,I,passing_out,2026-03-31,day,alt,,S504,"approved Tuesday, 31st March, 2026 as the passing-out date",
+2025,A,II,camp_opening,2025-06-11,day,use,,S505,"scheduled to commence on Wednesday, June 11, 2025",
+2025,A,II,passing_out,2026-05-21,day,use,,S506,"Thursday, May 21, 2026 as the passing-out date for the 2025 Batch 'A' Stream Two",
+2025,A,II,passing_out,2026-05-21,day,alt,,S507,"Thursday, May 21, 2026 as the passing-out date",
+2025,B,I,camp_opening,2025-07-30,day,alt,,S325,"commenced the 2025 Batch 'B' Stream I Orientation Course on Wednesday, 30th July 2025",Edo State camp report
+2025,B,I,camp_opening,2025-07-30,day,use,,S508,will commence tomorrow July 30,"Report refers to NYSC Permanent Orientation Camp, Wailo (Bauchi State)"
+2025,B,I,camp_closing,2025-08-19,day,use,,S508,the three weeks orientation exercise would end on August 19,Report refers to Wailo camp (Bauchi State)
+2025,B,I,passing_out,2026-07-09,day,use,,S509,"has announced Thursday, July 9, 2026, as the official passing-out date",
+2025,B,II,camp_opening,2025-09-24,day,use,,S510,"will begin nationwide tomorrow, September 24, across all orientation camps",Kwara State course ran a week later (30 Sep - 20 Oct)
+2025,B,II,camp_opening,2025-09-30,day,alt,,S510,"Kwara State course ... from Tuesday, September 30, to Monday, October 20",Kwara State only (delayed); paraphrased from article
+2025,B,II,camp_closing,2025-10-14,day,use,,S510,"conclude with a closing ceremony on Tuesday, October 14",
+2025,B,II,camp_closing,2025-10-20,day,alt,,S510,"Kwara State course ... from Tuesday, September 30, to Monday, October 20",Kwara State only (delayed); paraphrased from article
+2025,B,II,passing_out,2026-09-03,day,use,,S511,"has announced Thursday, September 3, 2026, as the passing-out date","Smaller outlet, not on preferred list; Myschool News (aggregator, 2026-08-10) reports same date"
+2025,C,I,camp_opening,2025-11-19,day,use,,S512,"fixed Wednesday, November 19, 2025, for the commencement of the 2025 Batch 'C' Orientation Course",Article does not name stream; Stream I by timing
+2025,C,I,camp_closing,2025-12-09,day,use,,S512,"the Closing Ceremony is scheduled for Tuesday, December 9, 2025",Article does not name stream; Stream I by timing
+2026,A,I,camp_opening,2026-01-21,day,use,,S513,"2026 Batch 'A' Stream One Orientation Course will commence nationwide on Wednesday, January 21, 2026",
+2026,A,I,camp_opening,2026-01-21,day,alt,,S514,"from Wednesday, 21st to midnight of Friday 23rd, January, 2026",Headline says 2025 but body/dates refer to 2026 Batch A Stream One
+2026,A,I,camp_closing,2026-02-10,day,use,,S513,"end with a Closing Ceremony on Tuesday, February 10, 2026",
+2026,A,I,camp_closing,2026-02-10,day,alt,,S514,"the closing ceremony will take place on Tuesday, 10th February, 2026",Headline says 2025 but body refers to 2026 Batch A Stream One
+2026,A,II,camp_opening,2026-04-22,day,use,,S515,"reception and registration of Prospective corps members on Wednesday, 22nd April, 2026",
+2026,A,II,camp_opening,2026-04-22,day,alt,,S516,reception and registration of prospective corps members on April 22,
+2026,A,II,camp_opening,2026-04-28,day,alt,,S517,"will commence on Tuesday, 28th April 2026",Enugu and Osun only (rescheduled)
+2026,A,II,camp_closing,2026-05-12,day,use,,S515,"the orientation course will come to an end on Tuesday, 12th May, 2026",
+2026,A,II,camp_closing,2026-05-12,day,alt,,S516,the orientation course would officially end on May 12,
+2026,A,II,camp_closing,2026-05-18,day,alt,,S517,"end on Monday, 18th May, 2026",Enugu and Osun only (rescheduled)
+2026,B,I,camp_opening,2026-06-10,day,use,,S518,"will commence on Wednesday, 10 June 2026",Nationwide date
+2026,B,I,camp_opening,2026-07-07,day,alt,,S519,"the orientation course will now commence on Tuesday, July 7, 2026",Niger State only (rescheduled); publish date not shown (approx late June 2026)
+2026,B,I,camp_closing,2026-06-30,day,use,,S518,"the orientation course will run until Tuesday, 30 June 2026",Nationwide date
+2026,B,I,camp_closing,2026-07-27,day,alt,,S519,"the three-week orientation exercise will end on Monday, July 27",Niger State only (rescheduled); publish date not shown (approx late June 2026)
+2026,B,II,camp_opening,2026-08-05,day,use,,S520,"fixed Wednesday, August 5, 2026, for the commencement",
+2026,B,II,camp_closing,2026-08-25,day,use,,S520,"will end on Tuesday, August 25, 2026",
+2026,C,I,camp_opening,2026-09-30,day,use,,S521,"2026 Batch 'C' Stream One Orientation Course will commence on Wednesday, 30th September",Registration 30 Sep-2 Oct; swearing-in 2 Oct 2026
+2026,C,I,camp_opening,2026-09-30,day,alt,,S522,"will commence on Wednesday, September 30",
+2026,C,I,camp_closing,2026-10-20,day,use,,S521,"closes on Tuesday, 20 October 2026",Scheduled date (future as of 2026-10-07)
+2026,C,I,camp_closing,2026-10-20,day,alt,,S522,"end on Tuesday, October 20, 2026",Scheduled date (future as of 2026-10-07)
+2026,C,II,camp_opening,2026-11-04,day,alt,,S523,"fixed Wednesday, November 4, 2026, as the start date","Legit.ng (Nigerian news site, not on preferred list); scheduled/future date"
+2026,C,II,camp_opening,2026-11-04,day,use,,S524,"will commence on Wednesday, November 4, 2026",Scheduled/future date
+2026,C,II,camp_closing,2026-11-24,day,alt,,S523,"The orientation exercise will close on November 24, 2026","Legit.ng (Nigerian news site, not on preferred list); scheduled/future date"
+2026,C,II,camp_closing,2026-11-24,day,use,,S524,"expected to end on Tuesday, November 24, 2026",Scheduled/future date
+2021,A,I,camp_opening,2021-03-10,day,use,,S525,"Commencement / Registration - Wednesday, 10th March, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,A,I,camp_closing,2021-03-30,day,use,,S525,"Closing Ceremony: Tuesday, 30th March, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,B,II,camp_opening,2021-09-01,day,alt,,S526,"Commencement / Registration - Wednesday, 1st September, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,B,II,camp_closing,2021-09-21,day,use,,S526,"Closing Ceremony - Tuesday, 21st September, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,B,II,camp_opening,2021-09-01,day,use,,S527,2021 Batch 'B' Stream II Orientation Course is scheduled to begin on Wednesday,Date inferred: Wednesday after article dated Tue 2021-08-31
+2021,C,I,camp_opening,2021-10-20,day,alt,,S528,"Commencement / Registration: Wednesday, 20th October, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,C,I,camp_closing,2021-11-09,day,use,,S528,"Closing Ceremony: Tuesday, 9th November, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,C,I,camp_opening,2021-10-20,day,use,,S529,is to commence on Wednesday this week,Date inferred: Wednesday after article dated Tue 2021-10-19; registration till midnight Sun 24 Oct 2021
+2021,C,II,camp_opening,2021-11-24,day,use,,S530,"shall commence nationwide, Wednesday, 24th November, 2021",
+2021,C,II,camp_closing,2021-12-14,day,use,,S530,"terminate Tuesday, 14th December, 2021",
+2021,C,II,camp_opening,2021-11-24,day,alt,,S531,"Commencement / Registration: Wednesday, 24th November, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2021,C,II,camp_closing,2021-12-14,day,alt,,S531,"Closing Ceremony: Tuesday, 14th December, 2021",AGGREGATOR (jobs site) reproducing NYSC timetable
+2022,C,II,camp_opening,2022-11-30,day,use,,S532,"Commencement / Registration: Wednesday, 30th November, 2022",AGGREGATOR (jobs site) reproducing NYSC timetable
+2022,C,II,camp_closing,2022-12-20,day,use,,S532,"Closing Ceremony: Tuesday, 20th December, 2022",AGGREGATOR (jobs site) reproducing NYSC timetable
+2022,A,I,camp_opening,2022-02-23,day,use,,S533,"Commencement / Registration - Wednesday, 23rd February, 2022",AGGREGATOR (jobs site) reproducing NYSC timetable
+2022,A,I,camp_closing,2022-03-15,day,use,,S533,"Closing Ceremony: Tuesday, 15th March, 2022",AGGREGATOR (jobs site) reproducing NYSC timetable
+2024,B,II,camp_opening,2024-08-28,day,use,,S534,"The course will commence on Wednesday, August 28, 2024","Circular quoted as dated Aug 7, 2023 (likely typo)"
+2024,B,II,camp_closing,2024-09-17,day,use,,S534,"conclude with a closing ceremony on Tuesday, September 17, 2024",
+2022,B,II,camp_opening,2022-07-20,day,use,,S535,"will commence on July 20, 2022","Regional online outlet, not on preferred list; schedule also shows ""20th June 2022"" (apparent typo)"
+2022,B,II,camp_closing,2022-08-09,day,use,,S535,"Closing Ceremony - Tuesday, 9th August 2022","Regional online outlet, not on preferred list"
+2022,A,II,camp_opening,2022-03-18,day,use,,S536,"the 2022 Batch 'A' Stream II Orientation course will commence on Friday, 18th March, 2022",AGGREGATOR; publish date not shown; no closing date given
+2021,B,I,passing_out,2022-07-07,day,use,,S537,"Thursday July 7, 2022 as passing-out date for the 2021 Batch 'B' Stream I","Regional online outlet, not on preferred list"
+2021,B,II,passing_out,2022-08-11,day,use,,S538,who disclosed this on Thursday in Damaturu,Yobe State only; date inferred (Thursday = article date 2022-08-11)
+2021,A,I,passing_out,2022-02-17,day,use,,S539,announced this at the Passing-out parade for the 2021 Batch A Stream One,Lagos State only; date NOT stated - inferred from publish date (Thu 2022-02-17); weak
+2022,A,I,passing_out,2023-02-02,day,use,,S540,"has fixed February 2nd 2023, for the Winding up/Passing out activities",AGGREGATOR (education site)
+2022,B,I,passing_out,2023-05-25,day,use,,S541,"Thursday, 25th May, 2023",AGGREGATOR; no publish date (last modified 2023-05-10); URL path stale
+2022,C,I,passing_out,2023-10-12,day,alt,,S542,expected to have exited from the Service today,"Gombe/Sokoto report; ""today"" = article date; corroborates VON 12 Oct 2023"
+2022,C,I,camp_opening,2022-11-02,day,alt,,S543,"the camp shall be opened, as early as 8 am on Wednesday, November 2, 2022",Kwara camp; course runs concurrently nationwide
+2023,A,II,passing_out,2023-12-15,day,drop,same unverified 15 Dec 2023 date; batch label conflicts,S544,the POP is scheduled to take place on the 15th of December 2023,"CONFLICT: same 15 Dec 2023 date Blueprint attributes to Batch A Stream One; minor outlet. Neither label fits camp timing (A I camp Jan 2023, A II Apr 2023) - may actually be 2022 C II; unresolved"
+2023,C,I,passing_out,2024-10-10,day,use,,S545,Passing-Out Parade of 2023 Batch 'C' Stream I corps members,"Gombe State only; held ""on Thursday"", date inferred from article date; blog-style outlet"
+2023,C,II,passing_out,2024-10-31,day,use,,S546,"Stream II Corps members for Thursday, 31st October, 2024",Blog-style outlet quoting NYSC circular; no mainstream source found
+2025,A,I,camp_closing,2025-05-13,day,use,,S547,"comes to an end today May 13, 2025",Refers to Stream I course; minor outlet
+2025,A,I,camp_closing,2025-05-13,day,alt,,S548,"Closing Ceremony: Tuesday, 13th May, 2025",AGGREGATOR (jobs site) reproducing NYSC timetable
+2025,A,I,camp_opening,2025-04-23,day,alt,,S548,"Commencement / Registration: Wednesday, 23rd April, 2025",AGGREGATOR (jobs site) reproducing NYSC timetable; nationwide timetable (earlier row was Edo only)
+2025,A,II,camp_closing,2025-07-01,day,use,,S549,"Closing Ceremony: Tuesday, 1st July, 2025",AGGREGATOR (jobs site) reproducing NYSC timetable
+2024,C,I,camp_closing,2024-12-17,day,use,,S550,"Orientation Course Ends: Tuesday, December 17, 2024",AGGREGATOR/BLOG; no news outlet found
