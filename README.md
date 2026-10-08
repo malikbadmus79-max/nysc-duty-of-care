@@ -55,9 +55,10 @@ python -m nysc_safety.news_search
 python -m nysc_safety.register
 python -m nysc_safety.exposure
 python -m nysc_safety.camp_calendar
+python -m nysc_safety.population
 ```
 
-`download` saves the primary documents in the source log to `data/raw/pdfs/`. `news_search` runs the logged archive search and writes the article index to `data/interim/`; it takes about 30 minutes. `news_search --series general` runs the general kidnapping search used for H4. Each outlet's results are saved to `data/interim/<series>_parts/` as soon as the outlet is finished, and a rerun skips outlets already saved; `--force` searches every outlet again. `register` builds `data/processed/incidents.csv` from the working register and the screening files. `exposure` builds `data/processed/exposure_by_state.csv` from the course figures and national totals in `data/interim/exposure/`. `camp_calendar` builds `data/processed/nysc_calendar.csv` from the dated reports in `data/interim/calendar/`.
+`download` saves the primary documents in the source log to `data/raw/pdfs/`. `news_search` runs the logged archive search and writes the article index to `data/interim/`; it takes about 30 minutes. `news_search --series general` runs the general kidnapping search used for H4. Each outlet's results are saved to `data/interim/<series>_parts/` as soon as the outlet is finished, and a rerun skips outlets already saved; `--force` searches every outlet again. `register` builds `data/processed/incidents.csv` from the working register and the screening files. `exposure` builds `data/processed/exposure_by_state.csv` from the course figures and national totals in `data/interim/exposure/`. `camp_calendar` builds `data/processed/nysc_calendar.csv` from the dated reports in `data/interim/calendar/`. `population` extracts projected population by state, 2007 to 2022, from the National Population Commission projections into `data/interim/population_by_state.csv`, with a cross-check against the National Bureau of Statistics forecasts.
 
 ## Author
 
