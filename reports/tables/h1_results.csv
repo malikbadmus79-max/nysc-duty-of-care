@@ -1,0 +1,4 @@
+test,n_north,n_south,median_north,median_south,mean_north,mean_south,u_north,p_value,rank_biserial,rb_ci_lower,rb_ci_upper,n,rho,ci_lower,ci_upper
+"H1 Mann-Whitney U, north vs south",23.0,46.0,1.0,1.0,1.826086956521739,1.7608695652173914,538.0,0.5529474603468482,0.017013232514177634,-0.25805765595463137,0.29964555765595435,,,,
+H1 Spearman of state shares (states with incidents),,,,,,,,4.446947177640181e-09,,,,32.0,0.8294365876308302,0.6704787072906375,0.9155894128784017
+H1 Spearman of state shares (all 37 states),,,,,,,,2.913713836318656e-13,,,,37.0,0.8864677505425581,0.7853264991770365,0.9415182441433024
