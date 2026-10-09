@@ -48,11 +48,17 @@ Three gaps stand out. No rule gives corps members information about the risks of
 
 Of the 96 incidents, 23 occurred in camp or on journeys to or from camp, and a further 23 on personal journeys. Among the 21 incidents in the camp and travel stages with an exact date, 11 (52%) fell within 7 days of an official camp-opening or passing-out date. Such windows cover 31% of calendar days from 2010 to 2026, so incidents in these stages were about 1.7 times as frequent in the travel windows as their share of days (one-sided exact binomial test, p = 0.030). The result holds when personal journeys are included (18 of 36, p = 0.011). The sample is small, and for 2016 to 2026 alone the excess is similar in size but not statistically significant (p = 0.067).
 
+![Share of camp and travel incidents within 7 days of an official travel date, against the share of calendar days](figures/h2_travel_window_shares.png)
+
 ### 3. Risk differs by state, and only partly follows general kidnapping
 
 Incident rates were calculated per 10,000 corps members deployed to each state, using a model of deployment built from 208 reported orientation-course sizes and national totals [A09, A10]. Rates differ across states (Poisson likelihood-ratio test, p = 0.000002). The highest rates are in Akwa Ibom (0.65 per 10,000), Rivers (0.61), Katsina (0.57), the Federal Capital Territory (0.56) and Bayelsa (0.48). Five states have no recorded incident. Intervals are wide for most states.
 
+![Incident rate per 10,000 corps members by state, with 95% intervals](figures/h3_incident_rate_by_state.png)
+
 State rates for corps members are positively associated with rates of general kidnapping per 100,000 population, measured from a series of 6,440 kidnapping events coded from the same news outlets (Spearman rho = 0.38, 95% interval 0.05 to 0.65, p = 0.010) [S555, A12-A14]. The Federal Capital Territory, Kaduna and Zamfara rank high on both. Akwa Ibom and Rivers rank highest for corps members but low for general kidnapping, while Kwara and Niger show the reverse. Deployment decisions based only on general insecurity indicators would therefore miss part of the risk to corps members.
+
+![Corps member incident rates against general kidnapping rates, by state](figures/h4_nysc_vs_general_kidnapping_by_state.png)
 
 ### 4. Security-related funding per corps member fell in real terms
 
@@ -68,11 +74,15 @@ No 2024 values: the 2024 budget document has no text layer.
 
 Source: federal budget details [S556, S557, S559-S562, S565, S571] [A17]. Figures are appropriations, not releases or spending.
 
+![Security-related NYSC allocations per corps member, 2018 to 2026, in 2024 prices](figures/h5_security_allocation_per_member.png)
+
 In nominal terms these lines tripled, from 13.1 billion naira in 2018 to 40.7 billion naira in 2026, but prices rose about fourfold and the number of corps members by about a third. The corps members' kitting, transport and feeding allowance makes up 81% to 89% of the measure. The lines for security itself are small: a recurrent "security charges" line of 1.1 billion naira in 2026, and capital items such as life jackets, cameras and watch towers worth tens of millions of naira a year. An insurance premium line has stayed at 1.25 billion naira a year since 2021, so its real value per corps member has fallen by about 70%. The security-related share of the NYSC allocation fell from 12.5% in 2018 to 8.4% in 2026.
 
 ### 5. Public attention does not differ by region
 
 Incidents in the North West and North East received the same median number of news articles (one) as incidents in the southern zones (Mann-Whitney test, p = 0.553). The hypothesis of a regional gap in attention was not supported. This test covers only incidents that were reported at all; incidents never reported are outside the register.
+
+![News articles per incident, by zone](figures/h1_articles_per_incident_by_zone.png)
 
 ## Recommendations
 

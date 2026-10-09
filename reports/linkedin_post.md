@@ -14,4 +14,6 @@ The reform approved in June 2026 is the moment to write a duty of care into the 
 
 The policy brief, data, code and an interactive dashboard are published with the project. Victim names are not stored, in line with the Nigeria Data Protection Act 2023.
 
+Code and data: https://github.com/malikbadmus79-max/nysc-duty-of-care
+
 #NYSC #Nigeria #PublicPolicy #DataAnalysis #YouthDevelopment #DutyOfCare

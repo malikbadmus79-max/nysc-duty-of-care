@@ -2,6 +2,8 @@
 
 An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
+Repository: https://github.com/malikbadmus79-max/nysc-duty-of-care
+
 Status, 9 October 2026: policy audit, incident register, the tests of H1 to H4 and the budget audit (H5) are complete.
 
 ## Findings
@@ -18,6 +20,12 @@ The register holds 96 incidents of serious harm to prospective and serving corps
 | H5 Resources | Holds on the eight years covered; 2024 is missing. Security-related NYSC allocations per corps member fell in real terms from 124,917 naira in 2018 to 73,551 naira in 2026 (constant 2024 naira, 41% lower) [S556, S557, S559-S562, S565, S567, S568, S571] [A16-A18]. Most of this measure is the corps members' kitting, transport and feeding allowance; without it the figure is flat (14,045 and 13,846 naira), and the security category alone fell from 8,190 to 2,088 naira. 2024 is reported as missing because its signed Act is a scan without a text layer and no other published 2024 document lists the approved NYSC lines. Figures are appropriations, not spending. | [`notebooks/04_budget.ipynb`](notebooks/04_budget.ipynb) |
 
 The interactive dashboard (`app/streamlit_app.py`) shows the incident map and table, state rates, the scorecard and the travel-window chart.
+
+![Incident rate per 10,000 corps members by state](reports/figures/h3_incident_rate_by_state.png)
+
+![Security-related NYSC allocations per corps member, 2018 to 2026](reports/figures/h5_security_allocation_per_member.png)
+
+All charts: [`reports/figures/`](reports/figures/). Policy brief: [`reports/policy_brief.md`](reports/policy_brief.md).
 
 ## Questions
 
