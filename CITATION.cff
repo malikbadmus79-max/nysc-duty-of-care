@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Duty of Care to NYSC Corps Members in an Era of Insecurity"
+type: software
+authors:
+  - family-names: Badmus
+    given-names: Malik
+    affiliation: "University of Ilorin (BSc Sociology)"
+repository-code: "https://github.com/malikbadmus79-max/nysc-duty-of-care"
+abstract: >-
+  A pre-registered assessment of how far the rules and resources of the
+  National Youth Service Corps (NYSC) protect corps members from kidnapping
+  and other serious harm: a duty-of-care policy audit, an incident register
+  for 2010 to 2026, exposure-adjusted risk by state, and a budget audit for
+  2018 to 2026.
+keywords:
+  - NYSC
+  - Nigeria
+  - duty of care
+  - kidnapping
+  - public policy
+  - insecurity
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-09"
