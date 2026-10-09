@@ -86,8 +86,9 @@ QUERIES: tuple[str, ...] = (
 GENERAL_OUTLETS: tuple[str, ...] = ("Premium Times", "Daily Trust", "Channels Television")
 """Outlets whose archives could be searched in full (`docs/analysis_plan.md`, section 11)."""
 
-GENERAL_QUERIES: tuple[str, ...] = ("kidnapped", "abducted", "kidnappers", "kidnap")
-"""Search words for the general kidnapping series."""
+GENERAL_QUERIES: tuple[str, ...] = ("kidnap", "abducted")
+"""Search words for the general kidnapping series; WordPress search matches substrings, so "kidnap" covers
+"kidnapped", "kidnappers" and "kidnapping" (`docs/analysis_plan.md`, section 6)."""
 
 GENERAL_MAX_PAGES = 400
 """Page limit per query for the general series (40,000 results)."""

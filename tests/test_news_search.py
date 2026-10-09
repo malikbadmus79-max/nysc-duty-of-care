@@ -122,7 +122,7 @@ def test_general_series_writes_its_own_files(tmp_path, monkeypatch) -> None:
         seen.append(outlet)
         assert queries == news_search.GENERAL_QUERIES and max_pages == news_search.GENERAL_MAX_PAGES
         assert retries == news_search.GENERAL_RETRIES
-        return [news_search._log_row(outlet, "kidnapped", 200, 0, 0)], {}
+        return [news_search._log_row(outlet, "kidnap", 200, 0, 0)], {}
 
     monkeypatch.setattr(news_search, "search_outlet", fake_search)
     monkeypatch.setattr(news_search.paths, "DATA_INTERIM", tmp_path)
@@ -131,6 +131,11 @@ def test_general_series_writes_its_own_files(tmp_path, monkeypatch) -> None:
     assert (tmp_path / "general_kidnapping_index.csv").exists()
     assert (tmp_path / "general_kidnapping_search_log.csv").exists()
     assert not (tmp_path / "news_index.csv").exists()
+
+
+def test_general_queries_use_substring_matching() -> None:
+    """The general series uses "kidnap", which the WordPress search also matches inside longer words."""
+    assert news_search.GENERAL_QUERIES == ("kidnap", "abducted")
 
 
 def _counting_search(seen: list[str]):
