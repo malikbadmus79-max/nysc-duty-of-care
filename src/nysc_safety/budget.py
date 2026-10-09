@@ -337,13 +337,25 @@ def measure_lines(lines: pd.DataFrame, measure: str) -> pd.DataFrame:
     return frame
 
 
+MISSING_YEARS: dict[int, str] = {
+    2024: "missing: the signed 2024 Appropriation Act is a scan without a text layer [S563, A17]",
+}
+"""Years of the period without a usable budget document, with the reason."""
+
+
 def measures_table(lines: pd.DataFrame, factors: pd.Series, members: pd.Series) -> pd.DataFrame:
-    """Real security-related allocation per corps member by year, in 2024 naira, for each measure."""
+    """Real security-related allocation per corps member by year, in 2024 naira, for each measure.
+
+    Every year of `YEARS` appears; years in `MISSING_YEARS` have empty values
+    and their reason in `status`.
+    """
     rows = []
     for measure in MEASURES:
         table = summarise(measure_lines(lines, measure), factors, members)
         table.insert(1, "measure", measure)
-        rows.append(table)
+        table["status"] = "covered"
+        missing = pd.DataFrame({"year": list(MISSING_YEARS), "measure": measure, "status": list(MISSING_YEARS.values())})
+        rows.append(pd.concat([table, missing], ignore_index=True).sort_values("year"))
     return pd.concat(rows, ignore_index=True)
 
 

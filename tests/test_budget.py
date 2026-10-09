@@ -209,3 +209,13 @@ def test_zero_amount_projects_end_at_their_type() -> None:
     lines, _ = budget.parse_nysc_block(block)
     assert list(lines["amount_naira"]) == [0, 22_000_000]
     assert budget.classify(lines["description"].iloc[1]) == ""
+
+
+def test_missing_year_is_listed_with_reason() -> None:
+    """2024 appears in the table with empty values and its reason."""
+    lines = pd.DataFrame({"year": [2023], "description": ["SECURITY SERVICES"], "amount_naira": [10.0],
+                          "category": ["security"], "in_total": [True]})
+    table = budget.measures_table(lines, pd.Series({2023: 1.0}), pd.Series({2023: 1})).set_index(["measure", "year"])
+    assert table.loc[("full", 2024), "status"].startswith("missing")
+    assert pd.isna(table.loc[("full", 2024), "real_per_member_2024"])
+    assert table.loc[("full", 2023), "status"] == "covered"

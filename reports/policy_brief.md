@@ -10,7 +10,7 @@ October 2026. Data cutoff: 5 October 2026.
 - Measured against the duty-of-care standard of the Global Interagency Security Forum, current NYSC rules score 12 of 36. The reform approved by the Federal Executive Council in June 2026 raises this to 14 of 36 as announced. Informed consent, incident reporting and crisis and kidnap response score 0 under both.
 - Incidents cluster around official travel dates. Among incidents on journeys to and from camp and in camp, 52% occurred within 7 days of a camp-opening or passing-out date, against 31% of calendar days in such windows.
 - Risk differs by state once the number of corps members deployed is taken into account. States with more kidnapping of the general population tend to have higher incident rates for corps members, but the link is moderate, and several high-risk states for corps members are not high-kidnapping states.
-- Security-related NYSC budget allocations per corps member fell by 41% in real terms between 2018 and 2026. Most of these allocations are the corps members' kitting, transport and feeding allowance; the lines for security itself, such as security services, cameras and life jackets, fell from about 8,200 to 2,100 naira per corps member in 2024 prices.
+- Security-related NYSC budget allocations per corps member fell by 41% in real terms between 2018 and 2026, on the eight years for which the approved budget can be read (2024 is missing). Most of these allocations are the corps members' kitting, transport and feeding allowance; the lines for security itself, such as security services, cameras and life jackets, fell from about 8,200 to 2,100 naira per corps member in 2024 prices.
 
 ## Background
 
@@ -56,13 +56,15 @@ State rates for corps members are positively associated with rates of general ki
 
 ### 4. Security-related funding per corps member fell in real terms
 
-NYSC line items were taken from the federal budget details for 2018 to 2026 and classified as security-related when their description refers to security, orientation camps, transport or insurance [A18]. Amounts were converted to 2024 prices with the National Bureau of Statistics consumer price index [S567, S568] [A16] and divided by the number of corps members in each year [A10]. 2024 is not covered, because the signed 2024 Act is published only as a scan [S563].
+NYSC line items were taken from the federal budget details for 2018 to 2026 and classified as security-related when their description refers to security, orientation camps, transport or insurance [A18]. Amounts were converted to 2024 prices with the National Bureau of Statistics consumer price index [S567, S568] [A16] and divided by the number of corps members in each year [A10]. 2024 is reported as missing, because the signed 2024 Act is published only as a scan without a text layer and no other published 2024 document lists the approved NYSC lines [S563, S572]. The finding below holds on the eight years covered: no covered year exceeds the 2018 value of the main measure.
 
 | Measure, naira per corps member in 2024 prices | 2018 | 2026 | Change |
 |-----------------------------------------------|------|------|--------|
 | Security, camps, transport and insurance lines | 124,917 | 73,551 | -41% |
 | The same, without the kitting, transport and feeding allowance | 14,045 | 13,846 | -1% |
 | Security lines only | 8,190 | 2,088 | -75% |
+
+No 2024 values: the 2024 budget document has no text layer.
 
 Source: federal budget details [S556, S557, S559-S562, S565, S571] [A17]. Figures are appropriations, not releases or spending.
 
