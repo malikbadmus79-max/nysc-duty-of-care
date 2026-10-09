@@ -10,13 +10,13 @@ October 2026. Data cutoff: 5 October 2026.
 - Measured against the duty-of-care standard of the Global Interagency Security Forum, current NYSC rules score 12 of 36. The reform approved by the Federal Executive Council in June 2026 raises this to 14 of 36 as announced. Informed consent, incident reporting and crisis and kidnap response score 0 under both.
 - Incidents cluster around official travel dates. Among incidents on journeys to and from camp and in camp, 52% occurred within 7 days of a camp-opening or passing-out date, against 31% of calendar days in such windows.
 - Risk differs by state once the number of corps members deployed is taken into account. States with more kidnapping of the general population tend to have higher incident rates for corps members, but the link is moderate, and several high-risk states for corps members are not high-kidnapping states.
-- The audit of NYSC security-related budget lines, 2018 to 2026, is in progress and is not reported here.
+- Security-related NYSC budget allocations per corps member fell by 41% in real terms between 2018 and 2026. Most of these allocations are the corps members' kitting, transport and feeding allowance; the lines for security itself, such as security services, cameras and life jackets, fell from about 8,200 to 2,100 naira per corps member in 2024 prices.
 
 ## Background
 
 The NYSC deploys about 400,000 graduates a year to every state [S160]. Corps members travel between states to orientation camps, from camps to places of primary assignment, and home at the end of service. On 26 August 2026, two months after the reform was approved, 16 corps members returning from the Bayelsa orientation camp were abducted in Ofu Local Government Area, Kogi State, and later rescued [S18, S19]. The reform package announces civilian leadership, a six-week orientation, risk-sensitive deployment and the certification of camps [S04, S05, S21]. Its legal text was not available at the time of the audit [S06].
 
-This brief summarises an independent assessment with three parts: an audit of NYSC rules against a recognised duty-of-care standard; a register of incidents of serious harm, 2010 to 2026, coded from news reports; and pre-registered tests of when and where corps members face the highest risk. Methods, data and code are public in the project repository. The analysis plan and tests were fixed and time-stamped before outcome data were analysed.
+This brief summarises an independent assessment with four parts: an audit of NYSC rules against a recognised duty-of-care standard; a register of incidents of serious harm, 2010 to 2026, coded from news reports; pre-registered tests of when and where corps members face the highest risk; and an audit of NYSC budget allocations from 2018 to 2026. Methods, data and code are public in the project repository. The analysis plan and tests were fixed and time-stamped before outcome data were analysed.
 
 ## Findings
 
@@ -54,7 +54,21 @@ Incident rates were calculated per 10,000 corps members deployed to each state, 
 
 State rates for corps members are positively associated with rates of general kidnapping per 100,000 population, measured from a series of 6,440 kidnapping events coded from the same news outlets (Spearman rho = 0.38, 95% interval 0.05 to 0.65, p = 0.010) [S555, A12-A14]. The Federal Capital Territory, Kaduna and Zamfara rank high on both. Akwa Ibom and Rivers rank highest for corps members but low for general kidnapping, while Kwara and Niger show the reverse. Deployment decisions based only on general insecurity indicators would therefore miss part of the risk to corps members.
 
-### 4. Public attention does not differ by region
+### 4. Security-related funding per corps member fell in real terms
+
+NYSC line items were taken from the federal budget details for 2018 to 2026 and classified as security-related when their description refers to security, orientation camps, transport or insurance [A18]. Amounts were converted to 2024 prices with the National Bureau of Statistics consumer price index [S567, S568] [A16] and divided by the number of corps members in each year [A10]. 2024 is not covered, because the signed 2024 Act is published only as a scan [S563].
+
+| Measure, naira per corps member in 2024 prices | 2018 | 2026 | Change |
+|-----------------------------------------------|------|------|--------|
+| Security, camps, transport and insurance lines | 124,917 | 73,551 | -41% |
+| The same, without the kitting, transport and feeding allowance | 14,045 | 13,846 | -1% |
+| Security lines only | 8,190 | 2,088 | -75% |
+
+Source: federal budget details [S556, S557, S559-S562, S565, S571] [A17]. Figures are appropriations, not releases or spending.
+
+In nominal terms these lines tripled, from 13.1 billion naira in 2018 to 40.7 billion naira in 2026, but prices rose about fourfold and the number of corps members by about a third. The corps members' kitting, transport and feeding allowance makes up 81% to 89% of the measure. The lines for security itself are small: a recurrent "security charges" line of 1.1 billion naira in 2026, and capital items such as life jackets, cameras and watch towers worth tens of millions of naira a year. An insurance premium line has stayed at 1.25 billion naira a year since 2021, so its real value per corps member has fallen by about 70%. The security-related share of the NYSC allocation fell from 12.5% in 2018 to 8.4% in 2026.
+
+### 5. Public attention does not differ by region
 
 Incidents in the North West and North East received the same median number of news articles (one) as incidents in the southern zones (Mann-Whitney test, p = 0.553). The hypothesis of a regional gap in attention was not supported. This test covers only incidents that were reported at all; incidents never reported are outside the register.
 
@@ -68,12 +82,12 @@ The recommendations below follow from the gaps found and are addressed to the bo
 4. Give corps members risk information and a route to relocation. A pre-deployment briefing on the risks of the state and route, and a published procedure for relocation on security grounds without penalty, would address the informed consent criterion.
 5. Establish an incident reporting system and remove the penalty for reporting. A confidential channel for corps members to report threats and incidents, and an amendment of Bye-law paragraph 3(18) so that reporting safety concerns is not an offence, would give the Directorate the data it now lacks.
 6. Publish a crisis and kidnap response plan. The plan could set out the roles of the Directorate, state coordinators and security agencies, communication with families, and post-incident support, building on the insurance cover the Directorate already provides [S12].
-7. Report security-related spending. The budget audit in progress will show how NYSC security-related allocations per corps member changed between 2018 and 2026. A separate budget line for corps member safety would make this spending visible.
+7. Fund and report corps member safety. Allocations for security itself fell to about 2,100 naira per corps member in 2026, and the insurance premium has not kept pace with prices. A separate budget line for corps member safety, covering travel escorts, camp security and kidnap response, with spending reported each year, would make the duty of care measurable.
 
 ## Limitations
 
-The incident register is built from national news reports and misses incidents that were not reported. Corps members deployed to each state are modelled, not counted, because no series by state and year is published. The general kidnapping series is coded from headlines, with a screening precision of 85.5% in a check of 200 headlines. The scorecard covers published rules only; internal circulars and security plans could not be assessed. The reform is scored as announced, before its legal text was available. Victim names are not stored, in line with the Nigeria Data Protection Act 2023.
+The incident register is built from national news reports and misses incidents that were not reported. Corps members deployed to each state are modelled, not counted, because no series by state and year is published. The general kidnapping series is coded from headlines, with a screening precision of 85.5% in a check of 200 headlines. The scorecard covers published rules only; internal circulars and security plans could not be assessed. Budget figures are appropriations, not spending, and lines are classified by keywords in their descriptions. The reform is scored as announced, before its legal text was available. Victim names are not stored, in line with the Nigeria Data Protection Act 2023.
 
 ## Sources
 
-Source IDs in square brackets refer to the source log (`docs/sources.md`) and assumption IDs to `docs/assumptions.md` in the project repository. Statistical results are in `notebooks/02_incidents.ipynb` and `notebooks/03_risk.ipynb`.
+Source IDs in square brackets refer to the source log (`docs/sources.md`) and assumption IDs to `docs/assumptions.md` in the project repository. Statistical results are in `notebooks/02_incidents.ipynb`, `notebooks/03_risk.ipynb` and `notebooks/04_budget.ipynb`.
