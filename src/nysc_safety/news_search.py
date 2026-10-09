@@ -11,7 +11,9 @@ result pages are read, and two files are written:
 - `data/interim/news_search_log.csv`: one row per outlet and query, with the
   number of results reported by the outlet and the date of the search.
 - `data/interim/news_index.csv`: one row per article URL found, with date,
-  headline, outlet and the queries that returned it.
+  outlet and the queries that returned it. Headlines are written to the
+  local, uncommitted file `data/interim/headlines/news_index.csv`
+  (`nysc_safety.headlines`), since they can name victims.
 
 Each outlet's log rows and articles are saved to
 `data/interim/<series>_parts/` as soon as the outlet is finished. A rerun
@@ -36,9 +38,10 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
+import pandas as pd
 import requests
 
-from nysc_safety import paths
+from nysc_safety import headlines, paths
 
 USER_AGENT = "nysc-duty-of-care research project (github.com/malikbadmus79-max)"
 DELAY_SECONDS = 2.0
@@ -192,7 +195,8 @@ def _log_row(outlet: str, query: str, status: object, total: int | None, pages_r
     }
 
 
-INDEX_FIELDS = ("outlet", "published", "headline", "url", "queries")
+INDEX_FIELDS = ("outlet", "published", "url", "queries")
+"""Committed index columns; headlines go to a local file (`nysc_safety.headlines`)."""
 LOG_FIELDS = ("outlet", "query", "method", "http_status", "results_reported", "pages_read", "searched_on")
 
 
@@ -201,9 +205,15 @@ def write_csv(path: Path, rows: list[dict[str, object]], fieldnames: Iterable[st
     path.parent.mkdir(parents=True, exist_ok=True)
     header = list(fieldnames) if fieldnames is not None else list(rows[0])
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=header)
+        writer = csv.DictWriter(handle, fieldnames=header, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
+
+
+def write_index(path: Path, rows: list[dict[str, object]]) -> None:
+    """Write the committed index without headlines and the local headline file beside it."""
+    write_csv(path, rows, INDEX_FIELDS)
+    headlines.write_local(path, pd.DataFrame(rows, columns=["url", "headline"]))
 
 
 def outlet_slug(outlet: str) -> str:
@@ -234,7 +244,7 @@ def index_rows(articles: Iterable[Article]) -> list[dict[str, object]]:
 def save_outlet(parts_dir: Path, outlet: str, log: list[dict[str, object]], rows: list[dict[str, object]]) -> None:
     """Save one outlet's results; the log is written last and marks the outlet as finished."""
     log_path, index_path = part_paths(parts_dir, outlet)
-    write_csv(index_path, rows, INDEX_FIELDS)
+    write_index(index_path, rows)
     write_csv(log_path, log, LOG_FIELDS)
 
 
@@ -245,8 +255,8 @@ def load_outlet(parts_dir: Path, outlet: str) -> tuple[list[dict[str, str]], lis
         return None
     with log_path.open(newline="", encoding="utf-8") as handle:
         log = list(csv.DictReader(handle))
-    with index_path.open(newline="", encoding="utf-8") as handle:
-        rows = list(csv.DictReader(handle))
+    index = pd.read_csv(index_path, dtype=str, keep_default_na=False)
+    rows = headlines.attach(index, index_path).to_dict("records")
     return log, rows
 
 
@@ -281,7 +291,7 @@ def main(argv: list[str] | None = None) -> None:
         log_rows.extend(log)
         all_index_rows.extend(rows)
     write_csv(paths.DATA_INTERIM / f"{prefix}search_log.csv", log_rows, LOG_FIELDS)
-    write_csv(paths.DATA_INTERIM / f"{prefix}index.csv", all_index_rows, INDEX_FIELDS)
+    write_index(paths.DATA_INTERIM / f"{prefix}index.csv", all_index_rows)
 
 
 if __name__ == "__main__":

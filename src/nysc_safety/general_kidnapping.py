@@ -4,7 +4,8 @@ Run from the repository root with `python -m nysc_safety.general_kidnapping`.
 
 Reads the article index of the general archive search
 (`data/interim/general_kidnapping_index.csv`, written by
-`python -m nysc_safety.news_search --series general` [S555]) and applies four
+`python -m nysc_safety.news_search --series general` [S555]) with its local,
+uncommitted headline file (`nysc_safety.headlines`) and applies four
 rule-based steps to the headlines:
 
 1. Screening. A headline is kept when it reports a kidnapping or abduction:
@@ -25,9 +26,10 @@ rule-based steps to the headlines:
 
 Outputs:
 
-- `data/interim/general_kidnapping_screened.csv`: every headline with its
-  screening decision, reason, state and event ID.
-- `data/processed/general_kidnapping_events.csv`: one row per event.
+- `data/interim/general_kidnapping_screened.csv`: every article with its
+  screening decision, reason, state and event ID (no headline text).
+- `data/processed/general_kidnapping_events.csv`: one row per event, with
+  its report URLs (no headline text).
 - `data/processed/general_kidnapping_by_state.csv`: events per state and per
   100,000 population.
 - `data/processed/general_kidnapping_by_state_year.csv`: events per state and
@@ -47,7 +49,7 @@ from pathlib import Path
 import pandas as pd
 from scipy import stats
 
-from nysc_safety import coding, gazetteer, paths
+from nysc_safety import coding, gazetteer, headlines, paths
 
 PERIOD: tuple[int, int] = (2010, 2026)
 MERGE_DAYS = 7
@@ -321,7 +323,8 @@ def write_precision_sample(screened: pd.DataFrame, path: Path = PRECISION_PATH) 
 
 def main() -> None:
     """Build the screened headline file and the general kidnapping tables."""
-    index = pd.read_csv(paths.DATA_INTERIM / "general_kidnapping_index.csv", dtype=str)
+    index_path = paths.DATA_INTERIM / "general_kidnapping_index.csv"
+    index = headlines.attach(pd.read_csv(index_path, dtype=str, keep_default_na=False), index_path)
     places = gazetteer.load()
     population = pd.read_csv(paths.DATA_INTERIM / "population_by_state.csv")
     screened = screen_index(index, places)
@@ -329,8 +332,9 @@ def main() -> None:
     events = event_table(kept)
     numbers = dict(zip(range(1, len(events) + 1), events["event_id"]))
     screened["event_id"] = screened["event_number"].map(numbers)
-    screened.drop(columns="event_number").to_csv(paths.DATA_INTERIM / "general_kidnapping_screened.csv", index=False)
-    events.to_csv(paths.DATA_PROCESSED / "general_kidnapping_events.csv", index=False)
+    committed = ["event_number", "headline"]
+    screened.drop(columns=committed).to_csv(paths.DATA_INTERIM / "general_kidnapping_screened.csv", index=False)
+    events.drop(columns="headline").to_csv(paths.DATA_PROCESSED / "general_kidnapping_events.csv", index=False)
     states = by_state(events, population)
     states.to_csv(paths.DATA_PROCESSED / "general_kidnapping_by_state.csv", index=False)
     by_state_year(events).to_csv(paths.DATA_PROCESSED / "general_kidnapping_by_state_year.csv", index=False)

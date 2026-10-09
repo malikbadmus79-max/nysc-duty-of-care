@@ -15,7 +15,10 @@ event listed under a state is assigned to it. An event listed under two
 states counts in both. The last part of the title ("Kidnappers Kill 2,
 Nasarawa") is kept as `title_state` for checking. Outputs:
 
-- `data/interim/nigeria_watch_kidnapped_events.csv`: one row per event.
+- `data/interim/nigeria_watch_kidnapped_events.csv`: one row per event. Event
+  titles, which can name victims, are written to the local, uncommitted file
+  `data/interim/headlines/nigeria_watch_kidnapped_events.csv`
+  (`nysc_safety.headlines`).
 - `data/interim/nigeria_watch_state_check.csv`: counts by state from the
   state filter and from titles.
 - `data/processed/nigeria_watch_kidnapping_by_state.csv`: events and deaths
@@ -32,7 +35,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from nysc_safety import coding, paths
+from nysc_safety import coding, headlines, paths
 from nysc_safety.news_search import DELAY_SECONDS, USER_AGENT
 
 BASE = "https://www.nigeriawatch.org/index.php"
@@ -211,7 +214,9 @@ def main() -> None:
     events = events.merge(states, on="event_id", how="left")
     events["state"] = events["state"].fillna("")
     events["source_id"] = "S10"
-    events.to_csv(paths.DATA_INTERIM / "nigeria_watch_kidnapped_events.csv", index=False)
+    events_path = paths.DATA_INTERIM / "nigeria_watch_kidnapped_events.csv"
+    headlines.write_local(events_path, events, key="event_id", text="title")
+    events.drop(columns="title").to_csv(events_path, index=False)
     check = pd.DataFrame(check)
     check["source_id"] = "S10"
     check.to_csv(paths.DATA_INTERIM / "nigeria_watch_state_check.csv", index=False)

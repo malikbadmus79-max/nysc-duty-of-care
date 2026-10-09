@@ -6,3 +6,7 @@ __pycache__/
 *.egg-info/
 data/raw/news/
 data/raw/pdfs/
+
+# Headline text of article indexes (can name victims; see nysc_safety.headlines)
+data/**/headlines/
+data/raw/nigeria_watch/
