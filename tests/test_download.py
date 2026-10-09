@@ -70,3 +70,15 @@ def test_non_pdf_response_rejected(tmp_path: Path, monkeypatch: pytest.MonkeyPat
     with pytest.raises(ValueError):
         download.download(doc, tmp_path)
     assert list(tmp_path.iterdir()) == []
+
+
+def test_xlsx_document_checked_by_its_own_signature(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """An .xlsx document is accepted with the workbook signature and rejected if it is a PDF."""
+    doc = download.Document("S999", "S999_test.xlsx", "https://example.org/x")
+    workbook = bytes([0x50, 0x4B, 0x03, 0x04]) + b"rest"
+    monkeypatch.setattr(download.requests, "get", lambda *a, **k: FakeResponse(workbook))
+    assert download.download(doc, tmp_path).read_bytes() == workbook
+    other = download.Document("S998", "S998_test.xlsx", "https://example.org/y")
+    monkeypatch.setattr(download.requests, "get", lambda *a, **k: FakeResponse(b"%PDF-1.4"))
+    with pytest.raises(ValueError):
+        download.download(other, tmp_path)

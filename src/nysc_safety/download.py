@@ -1,5 +1,8 @@
 """Download the primary documents listed in the source log to data/raw/pdfs/.
 
+Documents are PDFs, except budget documents published only as Excel workbooks
+(`.xlsx`); each file is checked against the signature of its type.
+
 Run from the repository root with `python -m nysc_safety.download`.
 Existing files are not overwritten, in line with the rule that raw files
 are never changed after download.
@@ -18,6 +21,9 @@ from nysc_safety import paths
 USER_AGENT = "nysc-duty-of-care research project (github.com/malikbadmus79-max)"
 DELAY_SECONDS = 2.0
 PDF_DIR: Path = paths.DATA_RAW / "pdfs"
+SIGNATURES: dict[str, bytes] = {".pdf": b"%PDF", ".xlsx": b"PK\x03\x04"}
+"""First bytes expected for each file type."""
+BUDGET_OFFICE = "https://budgetoffice.gov.ng/index.php"
 
 
 @dataclass(frozen=True)
@@ -57,10 +63,28 @@ DOCUMENTS: tuple[Document, ...] = (
         "https://s3-eu-west-1.amazonaws.com/cfa-openafrica/resources/091db6c5-fdb4-4bce-bdd1-36790ff5269b/"
         "population-forecasts.pdf",
     ),
+    Document("S556", "S556_appropriation_act_2018.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/2018-appropriation-act/download"),
+    Document("S557", "S557_approved_budget_breakdown_2019.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/breakdown-of-2019-fgn-approved-budget/download"),
+    Document("S558", "S558_appropriation_repeal_and_enactment_act_2020.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/appropriation-repeal-and-enactment-act-2020/download"),
+    Document("S559", "S559_revised_appropriation_details_2020.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/revised-2020-appropriation/download"),
+    Document("S560", "S560_appropriation_act_2021.xlsx",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/2021-appropriation-act/download"),
+    Document("S561", "S561_appropriation_act_2022.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/2022-appropriation-act/download"),
+    Document("S562", "S562_appropriation_act_2023_youth_and_sports.pdf",
+             f"{BUDGET_OFFICE}/2023-appropriation-act-by-sector/federal-ministry-of-youth-sports-development-2/download"),
+    Document("S563", "S563_appropriation_act_2024.pdf", f"{BUDGET_OFFICE}/2024-appropriation-act/2024-appropriation-act/download"),
+    Document("S564", "S564_appropriation_act_2025.pdf", f"{BUDGET_OFFICE}/2025-appropriation-act/2025-appropriation-act/download"),
+    Document("S565", "S565_appropriation_act_details_2026.pdf",
+             f"{BUDGET_OFFICE}/2026-appropriation-act-details/2026-appropriation-act-details-pdf/download"),
 )
 
 
-def download(document: Document, folder: Path = PDF_DIR, timeout: int = 60) -> Path:
+def download(document: Document, folder: Path = PDF_DIR, timeout: int = 180) -> Path:
     """Download one document unless the file already exists; return its path.
 
     The file is streamed to a `.part` file and renamed only when complete, so an
@@ -84,11 +108,12 @@ def download(document: Document, folder: Path = PDF_DIR, timeout: int = 60) -> P
                     print(f"\r{document.source_id}: {received / total:6.1%} of {total:,} bytes", end="", flush=True)
         if total:
             print()
+    signature = SIGNATURES[target.suffix.lower()]
     with partial.open("rb") as handle:
-        is_pdf = handle.read(4) == b"%PDF"
-    if not is_pdf:
+        matches = handle.read(len(signature)) == signature
+    if not matches:
         partial.unlink()
-        raise ValueError(f"{document.url} did not return a PDF")
+        raise ValueError(f"{document.url} did not return a {target.suffix} file")
     partial.replace(target)
     return target
 
