@@ -146,3 +146,17 @@ def spearman_one_sided(x: pd.Series, y: pd.Series, n_boot: int = 10_000, seed: i
         "ci_lower": float(np.nanpercentile(boot, 2.5)),
         "ci_upper": float(np.nanpercentile(boot, 97.5)),
     }
+
+
+def h4_frame(nysc_rates: pd.Series, general_rates: pd.Series) -> pd.DataFrame:
+    """State corps-member incident rates beside general kidnapping rates, one row per state of `coding.STATES`.
+
+    States missing from either series are kept with an empty value, so that
+    the correlation drops them and the number of states used can be reported.
+    """
+    frame = pd.DataFrame({"nysc_rate": nysc_rates, "general_rate": general_rates}).reindex(list(coding.STATES))
+    frame.index.name = "state"
+    frame.insert(0, "zone", frame.index.map(coding.zone_of))
+    frame["rank_nysc"] = frame["nysc_rate"].rank(ascending=False, method="average")
+    frame["rank_general"] = frame["general_rate"].rank(ascending=False, method="average")
+    return frame.reset_index()

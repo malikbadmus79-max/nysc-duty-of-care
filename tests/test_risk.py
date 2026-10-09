@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from nysc_safety import risk
+from nysc_safety import coding, risk
 
 
 def _exposure(states=("Abia", "Kano", "Lagos"), years=range(2010, 2027), size=10_000) -> pd.DataFrame:
@@ -110,3 +110,15 @@ def test_exposure_variant_uses_subset_of_figures() -> None:
     assert sworn[sworn["year"] == 2020].set_index("state")["share"].to_dict() == pytest.approx({"Abia": 1 / 3, "Kano": 2 / 3})
     recent = risk.exposure_variant(figures, national, ("sworn_in",), min_batch_year=2019)
     assert set(recent["state"]) == {"Kano"}
+
+
+def test_h4_frame_aligns_states_and_ranks() -> None:
+    """Every state appears once, in the order of coding.STATES, with rank 1 for the highest rate."""
+    nysc = pd.Series({"Kaduna": 0.5, "Lagos": 0.1})
+    general = pd.Series({"Kaduna": 9.0, "Lagos": 2.0, "Kano": 4.0})
+    frame = risk.h4_frame(nysc, general)
+    assert list(frame["state"]) == list(coding.STATES)
+    row = frame.set_index("state")
+    assert row.loc["Kaduna", "rank_nysc"] == 1 and row.loc["Kaduna", "rank_general"] == 1
+    assert pd.isna(row.loc["Kano", "nysc_rate"]) and row.loc["Kano", "rank_general"] == 2
+    assert row.loc["Kaduna", "zone"] == "North West"
