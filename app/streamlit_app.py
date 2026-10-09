@@ -76,10 +76,11 @@ def overview(data: dict[str, object]) -> None:
     if h4 is not None:
         r = h4.iloc[0]
         rows.append(("H4 Relative risk", f"Spearman rho {r['rho']:.2f} (95% interval {r['ci_lower']:.2f} to {r['ci_upper']:.2f}), one-sided p = {r['p_value_one_sided']:.3f}, {r['n_states']:.0f} states", "Supported" if r["rho"] > 0 and r["p_value_one_sided"] < 0.05 else "Not supported"))
-    h5 = dashboard.read_table("h5_budget_summary")
+    h5 = dashboard.read_table("h5_change_2018_2026")
     if h5 is not None:
-        r = h5.iloc[0]
-        rows.append(("H5 Resources", str(r["summary"]), "Descriptive"))
+        r = h5.set_index("measure").loc["full"]
+        rows.append(("H5 Resources", f"Security-related allocation per corps member, constant 2024 naira: {r['per_member_2018']:,.0f} in 2018 and "
+                     f"{r['per_member_2026']:,.0f} in 2026 ({r['change_percent']:+.0f}%)", "Descriptive"))
     st.dataframe(pd.DataFrame(rows, columns=["Hypothesis", "Result", "Decision"]), hide_index=True, width="stretch")
     caption("result tables in reports/tables/, written by notebooks 02 to 04; tests and decision rules in docs/preregistration.md")
 

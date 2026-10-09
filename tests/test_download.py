@@ -82,3 +82,19 @@ def test_xlsx_document_checked_by_its_own_signature(tmp_path: Path, monkeypatch:
     monkeypatch.setattr(download.requests, "get", lambda *a, **k: FakeResponse(b"%PDF-1.4"))
     with pytest.raises(ValueError):
         download.download(other, tmp_path)
+
+
+def test_dropped_connection_is_retried(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """A connection error is retried and the file is saved on the next attempt."""
+    doc = download.Document("S999", "S999_test.pdf", "https://example.org/x")
+    calls = []
+
+    def flaky(*args: object, **kwargs: object) -> FakeResponse:
+        calls.append(1)
+        if len(calls) == 1:
+            raise download.requests.ConnectionError("dropped")
+        return FakeResponse(b"%PDF-1.4 body")
+
+    monkeypatch.setattr(download.requests, "get", flaky)
+    path = download.download_with_retries(doc, tmp_path, attempts=2, wait=0)
+    assert path.read_bytes() == b"%PDF-1.4 body" and len(calls) == 2

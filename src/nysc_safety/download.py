@@ -71,14 +71,18 @@ DOCUMENTS: tuple[Document, ...] = (
              f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/appropriation-repeal-and-enactment-act-2020/download"),
     Document("S559", "S559_revised_appropriation_details_2020.pdf",
              f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/revised-2020-appropriation/download"),
-    Document("S560", "S560_appropriation_act_2021.xlsx",
-             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/2021-appropriation-act/download"),
-    Document("S561", "S561_appropriation_act_2022.pdf",
-             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/2022-appropriation-act/download"),
+    Document("S560", "S560_approved_budget_details_2021.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/2021-fgn-approved-budget-details/download"),
+    Document("S561", "S561_approved_budget_details_2022.pdf",
+             f"{BUDGET_OFFICE}/resources/internal-resources/budget-documents/mdas-approved-2022-budget-details/download"),
     Document("S562", "S562_appropriation_act_2023_youth_and_sports.pdf",
              f"{BUDGET_OFFICE}/2023-appropriation-act-by-sector/federal-ministry-of-youth-sports-development-2/download"),
     Document("S563", "S563_appropriation_act_2024.pdf", f"{BUDGET_OFFICE}/2024-appropriation-act/2024-appropriation-act/download"),
+    Document("S572", "S572_appropriation_repeal_and_reenactment_bill_2024.pdf",
+             f"{BUDGET_OFFICE}/2024-repeal-bill/2024-repeal-bill/download"),
     Document("S564", "S564_appropriation_act_2025.pdf", f"{BUDGET_OFFICE}/2025-appropriation-act/2025-appropriation-act/download"),
+    Document("S571", "S571_appropriation_act_as_passed_2025.pdf",
+             f"{BUDGET_OFFICE}/2025-appropriation-act-as-passed/2025-appropriation-act-as-passed/download"),
     Document("S565", "S565_appropriation_act_details_2026.pdf",
              f"{BUDGET_OFFICE}/2026-appropriation-act-details/2026-appropriation-act-details-pdf/download"),
 )
@@ -118,13 +122,34 @@ def download(document: Document, folder: Path = PDF_DIR, timeout: int = 180) -> 
     return target
 
 
+def download_with_retries(document: Document, folder: Path = PDF_DIR, attempts: int = 3, wait: float = 30.0) -> Path:
+    """Download one document, retrying after a dropped connection or timeout."""
+    for attempt in range(1, attempts + 1):
+        try:
+            return download(document, folder)
+        except (requests.ConnectionError, requests.Timeout, requests.exceptions.ChunkedEncodingError) as error:
+            if attempt == attempts:
+                raise
+            print(f"\n{document.source_id}: attempt {attempt} failed ({type(error).__name__}); retrying in {wait:.0f} s")
+            time.sleep(wait)
+    raise AssertionError("unreachable")
+
+
 def main() -> None:
-    """Download every document in DOCUMENTS, pausing between requests."""
+    """Download every document in DOCUMENTS, pausing between requests; failures are listed at the end."""
+    failed: list[str] = []
     for index, document in enumerate(DOCUMENTS):
         if index:
             time.sleep(DELAY_SECONDS)
-        path = download(document)
+        try:
+            path = download_with_retries(document)
+        except (requests.RequestException, ValueError) as error:
+            print(f"\n{document.source_id}: failed ({error})")
+            failed.append(document.source_id)
+            continue
         print(f"{document.source_id}: {path.name} ({path.stat().st_size:,} bytes)")
+    if failed:
+        raise SystemExit(f"Not downloaded: {', '.join(failed)}")
 
 
 if __name__ == "__main__":
