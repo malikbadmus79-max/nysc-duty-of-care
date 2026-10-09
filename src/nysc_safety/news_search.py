@@ -10,10 +10,11 @@ result pages are read, and two files are written:
 
 - `data/interim/news_search_log.csv`: one row per outlet and query, with the
   number of results reported by the outlet and the date of the search.
-- `data/interim/news_index.csv`: one row per article URL found, with date,
-  outlet and the queries that returned it. Headlines are written to the
-  local, uncommitted file `data/interim/headlines/news_index.csv`
-  (`nysc_safety.headlines`), since they can name victims.
+- `data/interim/news_index.csv`: one row per article found, with date,
+  outlet, article ID and the queries that returned it. URLs and headlines
+  are written to the local, uncommitted file
+  `data/interim/headlines/news_index.csv` (`nysc_safety.headlines`), since
+  they can name victims.
 
 Each outlet's log rows and articles are saved to
 `data/interim/<series>_parts/` as soon as the outlet is finished. A rerun
@@ -195,8 +196,8 @@ def _log_row(outlet: str, query: str, status: object, total: int | None, pages_r
     }
 
 
-INDEX_FIELDS = ("outlet", "published", "url", "queries")
-"""Committed index columns; headlines go to a local file (`nysc_safety.headlines`)."""
+INDEX_FIELDS = ("outlet", "published", "article_id", "queries")
+"""Committed index columns; URLs and headlines go to a local file (`nysc_safety.headlines`)."""
 LOG_FIELDS = ("outlet", "query", "method", "http_status", "results_reported", "pages_read", "searched_on")
 
 
@@ -211,9 +212,11 @@ def write_csv(path: Path, rows: list[dict[str, object]], fieldnames: Iterable[st
 
 
 def write_index(path: Path, rows: list[dict[str, object]]) -> None:
-    """Write the committed index without headlines and the local headline file beside it."""
-    write_csv(path, rows, INDEX_FIELDS)
-    headlines.write_local(path, pd.DataFrame(rows, columns=["url", "headline"]))
+    """Write the committed index (article IDs, no URLs or headlines) and the local file beside it."""
+    frame = pd.DataFrame(rows, columns=["outlet", "published", "headline", "url", "queries"])
+    frame["article_id"] = frame["url"].map(headlines.article_id)
+    write_csv(path, frame.to_dict("records"), INDEX_FIELDS)
+    headlines.write_local(path, frame)
 
 
 def outlet_slug(outlet: str) -> str:

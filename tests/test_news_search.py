@@ -111,7 +111,7 @@ def test_empty_index_is_written_with_header(tmp_path) -> None:
     """An index with no articles is still written, with its header row."""
     path = tmp_path / "index.csv"
     news_search.write_csv(path, [], news_search.INDEX_FIELDS)
-    assert path.read_text(encoding="utf-8").strip() == "outlet,published,url,queries"
+    assert path.read_text(encoding="utf-8").strip() == "outlet,published,article_id,queries"
 
 
 def test_general_series_writes_its_own_files(tmp_path, monkeypatch) -> None:
@@ -178,9 +178,9 @@ def test_rerun_skips_saved_outlets_and_rebuilds_combined_files(tmp_path, monkeyp
     assert seen == ["Daily Trust", "Channels Television"]
     index = (tmp_path / "general_kidnapping_index.csv").read_text(encoding="utf-8").splitlines()
     assert len(index) == 4 and index[1].startswith("Premium Times,2020-05-01")
-    assert "headline" not in index[0]
+    assert "headline" not in index[0] and "url" not in index[0].split(",")
     local = (tmp_path / "headlines" / "general_kidnapping_index.csv").read_text(encoding="utf-8").splitlines()
-    assert local[0] == "url,headline" and local[1] == "u,h"
+    assert local[0] == "article_id,url,headline" and local[1].endswith(",u,h")
     log = (tmp_path / "general_kidnapping_search_log.csv").read_text(encoding="utf-8").splitlines()
     assert len(log) == 4
 

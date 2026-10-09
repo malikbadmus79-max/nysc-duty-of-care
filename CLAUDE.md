@@ -61,9 +61,12 @@ The analysis plan is fixed in `docs/preregistration.md` and committed, with a gi
 
 ## Privacy and legal rules
 
-- The Nigeria Data Protection Act 2023 applies. Names of victims, relatives and witnesses are not stored in any committed file, even where published in news reports.
+- The Nigeria Data Protection Act 2023 applies. No name of a victim, relative or witness appears in any committed data field, note, headline or text, even where published in news reports. In headlines kept in committed files, such names are replaced with "[name withheld]".
+- URLs of published articles cited as evidence are kept as citations: in `docs/sources.md`, the incident register and the screening and checking files that cite specific articles. A URL can contain a name in its slug; the URL is kept unchanged because it is needed to verify the finding.
+- The large article indexes from the archive searches are committed with outlet, date, article ID, queries and coded fields only. Their URLs and headlines are kept in git-ignored local `headlines/` folders (`nysc_safety.headlines`). Nigeria Watch event titles and raw result pages are kept locally in the same way.
 - Each incident carries an anonymous identifier (`INC0001`, ...). Location is kept at local government area level at the finest.
-- Full text of news articles is not committed. The repository keeps URL, headline, date, outlet and coded fields.
+- Full text of news articles is not committed.
+- Tests fail if a committed CSV file other than the reviewed citation files has a headline, title or URL column.
 - Officials are named only when acting in an official capacity and only where a documented public source names them in connection with the specific statement.
 
 ## Code rules

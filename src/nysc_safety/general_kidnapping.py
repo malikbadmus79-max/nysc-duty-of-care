@@ -5,7 +5,7 @@ Run from the repository root with `python -m nysc_safety.general_kidnapping`.
 Reads the article index of the general archive search
 (`data/interim/general_kidnapping_index.csv`, written by
 `python -m nysc_safety.news_search --series general` [S555]) with its local,
-uncommitted headline file (`nysc_safety.headlines`) and applies four
+uncommitted file of URLs and headlines (`nysc_safety.headlines`) and applies four
 rule-based steps to the headlines:
 
 1. Screening. A headline is kept when it reports a kidnapping or abduction:
@@ -26,10 +26,11 @@ rule-based steps to the headlines:
 
 Outputs:
 
-- `data/interim/general_kidnapping_screened.csv`: every article with its
-  screening decision, reason, state and event ID (no headline text).
+- `data/interim/general_kidnapping_screened.csv`: every article, by article
+  ID, with its screening decision, reason, state and event ID (no URL or
+  headline).
 - `data/processed/general_kidnapping_events.csv`: one row per event, with
-  its report URLs (no headline text).
+  the article IDs of its reports (no URLs or headlines).
 - `data/processed/general_kidnapping_by_state.csv`: events per state and per
   100,000 population.
 - `data/processed/general_kidnapping_by_state_year.csv`: events per state and
@@ -332,9 +333,15 @@ def main() -> None:
     events = event_table(kept)
     numbers = dict(zip(range(1, len(events) + 1), events["event_id"]))
     screened["event_id"] = screened["event_number"].map(numbers)
-    committed = ["event_number", "headline"]
-    screened.drop(columns=committed).to_csv(paths.DATA_INTERIM / "general_kidnapping_screened.csv", index=False)
-    events.drop(columns="headline").to_csv(paths.DATA_PROCESSED / "general_kidnapping_events.csv", index=False)
+    local_only = ["event_number", "headline", "url"]
+    columns = [c for c in screened.columns if c not in local_only]
+    columns.insert(columns.index("published") + 1, columns.pop(columns.index("article_id")))
+    screened[columns].to_csv(paths.DATA_INTERIM / "general_kidnapping_screened.csv", index=False)
+    committed_events = events.drop(columns="headline")
+    committed_events["urls"] = committed_events["urls"].map(lambda u: ";".join(headlines.article_id(x) for x in u.split(";")))
+    committed_events.rename(columns={"urls": "article_ids"}).to_csv(
+        paths.DATA_PROCESSED / "general_kidnapping_events.csv", index=False
+    )
     states = by_state(events, population)
     states.to_csv(paths.DATA_PROCESSED / "general_kidnapping_by_state.csv", index=False)
     by_state_year(events).to_csv(paths.DATA_PROCESSED / "general_kidnapping_by_state_year.csv", index=False)
