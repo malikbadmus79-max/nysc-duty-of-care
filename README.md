@@ -1,8 +1,8 @@
 # Duty of Care to NYSC Corps Members in an Era of Insecurity
 
-An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
+![Python 3.12](https://img.shields.io/badge/python-3.12-blue) ![Pre-registered](https://img.shields.io/badge/pre--registered-prereg--v1-6f42c1) ![Code: MIT](https://img.shields.io/badge/code-MIT-green) ![Data: CC BY 4.0](https://img.shields.io/badge/data%20%26%20reports-CC%20BY%204.0-lightgrey)
 
-Repository: https://github.com/malikbadmus79-max/nysc-duty-of-care
+An assessment of how far the rules and resources of the National Youth Service Corps (NYSC) protect corps members from kidnapping and other serious harm, and of where in the service year and in which states the risk is highest.
 
 Status, 9 October 2026: policy audit, incident register, the tests of H1 to H4 and the budget audit (H5) are complete.
 
@@ -58,35 +58,23 @@ Full plan and limitations: [`docs/analysis_plan.md`](docs/analysis_plan.md).
 | `notebooks/` | Numbered analysis notebooks |
 | `reports/` | Figures, result tables, policy brief and maps |
 | `app/` | Streamlit dashboard |
+| `docs/reproduce.md` | Setup and commands to rebuild the results |
 
 ## Standards
 
 Every figure carries a source ID that matches [`docs/sources.md`](docs/sources.md). Disagreements between sources are logged in [`docs/data_conflicts.md`](docs/data_conflicts.md), and assumptions in [`docs/assumptions.md`](docs/assumptions.md). Victim names are not stored, in line with the Nigeria Data Protection Act 2023: URLs and headlines of the article indexes are kept in local, git-ignored `headlines/` folders and rebuilt by the archive search, while URLs of articles cited as evidence are kept as citations (`nysc_safety.headlines`; `docs/analysis_plan.md`, section 10).
 
-## Running the code
+## Reproducing the results
 
-Python 3.12.
+Setup and the commands that rebuild every dataset, table and chart are in [`docs/reproduce.md`](docs/reproduce.md). The test suite runs with `pytest`.
 
-```
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-pip install -e .
-pytest
-python -m nysc_safety.download
-python -m nysc_safety.news_search
-python -m nysc_safety.register
-python -m nysc_safety.exposure
-python -m nysc_safety.camp_calendar
-python -m nysc_safety.population
-python -m nysc_safety.nigeria_watch
-python -m nysc_safety.gazetteer
-python -m nysc_safety.general_kidnapping
-python -m nysc_safety.budget
-streamlit run app/streamlit_app.py
-```
+## Licence
 
-`download` saves the primary documents in the source log to `data/raw/pdfs/`. `news_search` runs the logged archive search and writes the article index to `data/interim/`, with the URLs and headlines in a local `headlines/` folder that is not committed; it takes about 30 minutes. `general_kidnapping` needs these local headline files, so on a fresh copy of the repository `news_search --series general` is run first. `news_search --series general` runs the general kidnapping search used for H4. Each outlet's results are saved to `data/interim/<series>_parts/` as soon as the outlet is finished, and a rerun skips outlets already saved; `--force` searches every outlet again. `register` builds `data/processed/incidents.csv` from the working register and the screening files. `exposure` builds `data/processed/exposure_by_state.csv` from the course figures and national totals in `data/interim/exposure/`. `camp_calendar` builds `data/processed/nysc_calendar.csv` from the dated reports in `data/interim/calendar/`. `population` extracts projected population by state, 2007 to 2022, from the National Population Commission projections into `data/interim/population_by_state.csv`, with a cross-check against the National Bureau of Statistics forecasts. `nigeria_watch` reads the Nigeria Watch event list for "kidnapped" with the state of each event and writes `data/processed/nigeria_watch_kidnapping_by_state.csv`. `gazetteer` builds the place-name list used to assign states to headlines, and `general_kidnapping` builds the general kidnapping series from the archive search. `budget` extracts the NYSC line items from the budget documents in `data/raw/pdfs/`, page by page, checks them against the printed NYSC totals and writes `data/processed/budget_lines.csv`. The last command opens the dashboard.
+Code is released under the [MIT License](LICENSE). Data, the policy brief, charts and other documents are released under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/); reuse is permitted with credit. Primary documents and news articles cited in [`docs/sources.md`](docs/sources.md) remain the property of their publishers.
+
+## Citation
+
+Badmus, M. (2026). *Duty of Care to NYSC Corps Members in an Era of Insecurity*. GitHub repository, https://github.com/malikbadmus79-max/nysc-duty-of-care. Machine-readable citation: [`CITATION.cff`](CITATION.cff).
 
 ## Author
 
