@@ -187,3 +187,51 @@ def test_gazetteer_variants_ambiguity_and_stoplist() -> None:
     assert lookup["Kuje"] == "FCT" and lookup["Jos"] == "Plateau"
     assert "Bassa" not in lookup and "Garki" not in lookup
     assert places.set_index("place").loc["Jos", "source_ids"] == "S553;S554"
+
+
+def test_precision_sample_is_seeded_and_from_kept_headlines() -> None:
+    """The sample is drawn only from kept headlines, is reproducible and has empty check columns."""
+    screened = pd.DataFrame(
+        {
+            "outlet": ["A"] * 10,
+            "published": [f"2020-01-{d:02d}" for d in range(1, 11)],
+            "headline": [f"h{d}" for d in range(10)],
+            "url": [f"u{d}" for d in range(10)],
+            "state": ["Kaduna"] * 10,
+            "state_basis": ["state_name"] * 10,
+            "event_id": [f"GK{d:05d}" for d in range(10)],
+            "keep": [True, False] * 5,
+        }
+    )
+    first = gk.precision_sample(screened, n=3, seed=1)
+    assert first.equals(gk.precision_sample(screened, n=3, seed=1))
+    assert set(first["url"]) <= {"u0", "u2", "u4", "u6", "u8"}
+    assert list(first["check_id"]) == ["PC001", "PC002", "PC003"]
+    assert (first[list(gk.CHECK_FIELDS)] == "").all().all()
+    assert len(gk.precision_sample(screened, n=50)) == 5
+
+
+def test_precision_summary_counts_and_interval() -> None:
+    """Screening precision uses all coded rows; state measures use true reports only."""
+    check = pd.DataFrame(
+        {
+            "state": ["Kaduna", "Kaduna", "", "", "Ogun"],
+            "is_kidnapping_report": ["yes", "yes", "yes", "yes", "no"],
+            "state_correct": ["yes", "no", "", "", ""],
+            "true_state": ["", "", "FCT", "", ""],
+        }
+    )
+    summary = gk.precision_summary(check).set_index("measure")
+    screening, assigned, missed = summary.iloc[0], summary.iloc[1], summary.iloc[2]
+    assert (screening["successes"], screening["trials"]) == (4, 5)
+    assert screening["ci_low"] < 0.8 < screening["ci_high"]
+    assert (assigned["successes"], assigned["trials"]) == (1, 2)
+    assert (missed["successes"], missed["trials"]) == (1, 2)
+
+
+def test_write_precision_sample_never_overwrites(tmp_path) -> None:
+    """An existing check file, which holds manual coding, is left unchanged."""
+    target = tmp_path / "check.csv"
+    target.write_text("coded", encoding="utf-8")
+    assert gk.write_precision_sample(pd.DataFrame(), target) is False
+    assert target.read_text(encoding="utf-8") == "coded"

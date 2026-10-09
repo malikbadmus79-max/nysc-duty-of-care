@@ -32,14 +32,20 @@ Outputs:
   100,000 population.
 - `data/processed/general_kidnapping_by_state_year.csv`: events per state and
   year.
+- `data/interim/general_kidnapping_precision_check.csv`: a random sample of
+  `PRECISION_SAMPLE` kept headlines for manual checking, written once and
+  never overwritten, since the coding columns are filled by hand (see
+  `docs/coding_protocol.md`, general kidnapping series).
 """
 
 from __future__ import annotations
 
 import re
 from collections.abc import Iterable
+from pathlib import Path
 
 import pandas as pd
+from scipy import stats
 
 from nysc_safety import coding, gazetteer, paths
 
@@ -48,6 +54,11 @@ MERGE_DAYS = 7
 MIN_SHARED_KEYWORDS = 2
 PER = 100_000
 SOURCE_IDS = "S555;S551;S553;S554"
+PRECISION_SAMPLE = 200
+PRECISION_SEED = 20261009
+PRECISION_PATH = paths.DATA_INTERIM / "general_kidnapping_precision_check.csv"
+CHECK_FIELDS = ("is_kidnapping_report", "state_correct", "true_state", "check_note")
+"""Columns filled by hand in the precision check."""
 
 EVENT = re.compile(
     r"\b(kidnap|kidnaps|kidnapped|abduct|abducts|abducted|re-abducted|re-kidnapped)\b"
@@ -254,6 +265,60 @@ def screen_index(index: pd.DataFrame, places: pd.DataFrame) -> pd.DataFrame:
     return frame
 
 
+def precision_sample(screened: pd.DataFrame, n: int = PRECISION_SAMPLE, seed: int = PRECISION_SEED) -> pd.DataFrame:
+    """Simple random sample of kept headlines, with empty columns for the manual check."""
+    kept = screened[screened["keep"]]
+    sample = kept.sample(n=min(n, len(kept)), random_state=seed).sort_values(["published", "url"])
+    columns = ["outlet", "published", "headline", "url", "state", "state_basis", "event_id"]
+    table = sample[columns].reset_index(drop=True)
+    table.insert(0, "check_id", [f"PC{n:03d}" for n in range(1, len(table) + 1)])
+    for field in CHECK_FIELDS:
+        table[field] = ""
+    table["source_id"] = "S555"
+    return table
+
+
+def proportion(successes: int, trials: int) -> dict[str, float]:
+    """Proportion with a Wilson 95% interval."""
+    if trials == 0:
+        return {"successes": 0, "trials": 0, "proportion": float("nan"), "ci_low": float("nan"), "ci_high": float("nan")}
+    ci = stats.binomtest(successes, trials).proportion_ci(confidence_level=0.95, method="wilson")
+    return {"successes": successes, "trials": trials, "proportion": successes / trials, "ci_low": ci.low, "ci_high": ci.high}
+
+
+def precision_summary(check: pd.DataFrame) -> pd.DataFrame:
+    """Precision of screening and of state assignment from the coded check sample.
+
+    `is_kidnapping_report` and `state_correct` hold "yes" or "no"; `state_correct`
+    is coded only for headlines with an assigned state. A headline with no
+    assigned state but a state identifiable from the headline is recorded in
+    `true_state`.
+    """
+    yes = lambda column, rows: int((rows[column].str.strip().str.lower() == "yes").sum())
+    reports = check[check["is_kidnapping_report"].str.strip().str.lower().isin(["yes", "no"])]
+    true_reports = reports[reports["is_kidnapping_report"].str.strip().str.lower() == "yes"]
+    with_state = true_reports[true_reports["state"].fillna("") != ""]
+    without_state = true_reports[true_reports["state"].fillna("") == ""]
+    rows = {
+        "screening: headline reports a kidnapping in Nigeria": proportion(yes("is_kidnapping_report", reports), len(reports)),
+        "state: assigned state is correct (true reports with a state)": proportion(
+            yes("state_correct", with_state), len(with_state)
+        ),
+        "state: state identifiable but not assigned (true reports without a state)": proportion(
+            int((without_state["true_state"].fillna("").str.strip() != "").sum()), len(without_state)
+        ),
+    }
+    return pd.DataFrame(rows).T.rename_axis("measure").reset_index()
+
+
+def write_precision_sample(screened: pd.DataFrame, path: Path = PRECISION_PATH) -> bool:
+    """Write the check sample unless it already exists; return True if written."""
+    if path.exists():
+        return False
+    precision_sample(screened).to_csv(path, index=False)
+    return True
+
+
 def main() -> None:
     """Build the screened headline file and the general kidnapping tables."""
     index = pd.read_csv(paths.DATA_INTERIM / "general_kidnapping_index.csv", dtype=str)
@@ -269,6 +334,8 @@ def main() -> None:
     states = by_state(events, population)
     states.to_csv(paths.DATA_PROCESSED / "general_kidnapping_by_state.csv", index=False)
     by_state_year(events).to_csv(paths.DATA_PROCESSED / "general_kidnapping_by_state_year.csv", index=False)
+    if write_precision_sample(screened):
+        print(f"Precision check sample written to {PRECISION_PATH.relative_to(paths.ROOT)}")
     print(f"{len(screened):,} headlines; kept {len(kept):,}")
     print(screened["reason"].value_counts().to_string())
     print(f"State found for {(kept['state'] != '').mean():.1%} of kept headlines")
